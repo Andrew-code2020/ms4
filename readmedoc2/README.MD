@@ -1,9 +1,9 @@
 # Temple Lean Fitness Gym
 
 ## Executive Summary 
-The Temple Lean Recipe website is designed for people who are members of the Temple Lean Gym who are looking to eat the right type of food to back up their fitness routine in the Temple Lean gym.
+The Temple Lean Gym website is designed for people .
 
-The recipe categories on offer are below ;
+The membership categories on offer are below ;
 
 1. Breakfast 
 2. Lunch 
@@ -11,10 +11,10 @@ The recipe categories on offer are below ;
 4. Snacks
 
 
-The problem that we are trying to solve is that current Temple Lean members are trying to eat the right food and drink to back up their work in the gym but they get conflicting advice online when they do research or when they chat with friends and family.
-They lack a social support network to encourage them to eat the best quality recipes in their daily lives. 
-We set out to bring Temple Lean gym members into a community of their peers that contained the best advice on recipes to help them get the most quality from of their gym membership at Temple Lean gym. 
-The above named recipe categories are four strategically valuable markets. They are how people understand recipes at a glance. We have designed the website to offer bitesize information on the best quality recipes in these four categories. 
+The problem that we are trying to solve is that .
+They lack a social support network to encourage them to (gym a social network). 
+We set out to bring Temple Lean gym members into a community of their peers . 
+The above named membership categories are four strategically valuable markets. They are what people want from a gym. We have designed the website to offer bitesize information on the best gym experience. 
 The success of this website is that the user is able to locate the type of recipe they want quickly and easily without having to sift through the large amount of conflicting information in other areas on the web. 
 
 Further success will be measured by the number of Temple Lean members who sign up to the Temple Lean Recipes website, create and share their own recipes, update their recipes and delete recipes they no longer find useful.   
