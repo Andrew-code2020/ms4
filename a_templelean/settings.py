@@ -27,7 +27,7 @@ SECRET_KEY = '0wm3aslkm$6#jr@$d-59mrhzvi8g-50grzg4&r(8=r73^kn14='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['templeleanms4.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -108,16 +108,19 @@ WSGI_APPLICATION = 'a_templelean.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-#DATABASES = {
-#    'default': {
-#       'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': BASE_DIR / 'db.sqlite3',
-#   }
-#}
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
-DATABASES = {
-    'default': dj_database_url.parse('postgres://iyolmxqzcwhcyl:04b5046fddd9735dbaf4bfd22cd7b8ddd94952d3d8c26bd5de6639e56ccae535@ec2-52-213-167-210.eu-west-1.compute.amazonaws.com:5432/d3iutotf3gis13')
-}
+
 
 
 # Password validation
