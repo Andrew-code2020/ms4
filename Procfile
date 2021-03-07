@@ -1,1 +1,1 @@
-web: gunicorn a_templelean. wsgi:application
+web: gunicorn a_templelean.wsgi:application
