@@ -1,6 +1,5 @@
-/*----*/
 
-
+/*--Home page--*/
 
 html {
     height: 100%;
@@ -14,6 +13,18 @@ body {
     font-family: 'RocknRoll One';
 }
 
-.text-lean{
-    
+.text-lean {
+    color:#1a1a1a;
+}
+
+/*--homepage header--*/
+.top-banner{
+    background-color: #80C4FF;
+    color:#1a1a1a;   
+}
+
+/*--Footer--*/
+footer {
+    background-color:#80C4FF;
+    color:#1a1a1a;
 }
