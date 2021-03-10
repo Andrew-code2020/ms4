@@ -1,4 +1,9 @@
 
+
+/*--General--*/
+
+
+
 /*--Home page--*/
 
 html {
@@ -9,7 +14,7 @@ body {
     background: url('/media/homebackground.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #1a1a1a;
     font-family: 'RocknRoll One';
 }
 
@@ -23,8 +28,60 @@ body {
     color:#1a1a1a;   
 }
 
+/* from Bulma */
+i {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    color:#1a1a1a;
+    font-size: 24px;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
 /*--Footer--*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
 footer {
     background-color:#80C4FF;
     color:#1a1a1a;
+}
+
+.social-media i {
+  font-size: 36px;
+  padding-left: 30px;
+  color: #1a1a1a;
+}
+
+
+/*--Media Queries--*/
+
+* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
 }
