@@ -55,6 +55,11 @@ ul {
   border: 1px solid black !important;  
 }
 
+.navbar-toggler{
+    border: 1px solid black !important;
+    color:1px solid black;
+}
+
 
 footer {
     background-color:#80C4FF;

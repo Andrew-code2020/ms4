@@ -30,7 +30,6 @@
             <p class="my-0">My Locker</p>
         </div>
     </a>
-    <div class="dropdown-menu border-0" aria-labelledby="user-options">
         <div class="dropdown-menu border-0" aria-labelledby="user-options">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
@@ -43,7 +42,6 @@
             <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
             {% endif %}
         </div>
-    </div>
 </li>
 
 <li class="list-inline-item">

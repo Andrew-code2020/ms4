@@ -54,7 +54,7 @@
 
 <body>
     <header class="container-fluid fixed-top">
-        <div class="row top-banner">
+        <div id="topnav" class="row top-banner d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-lean my-0"><strong>Temple</strong> Lean</h2>
@@ -119,7 +119,7 @@
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-color w-100">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="main-nav" aria-controls="main-nav" aria-expanded="false"
+                    data-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -163,10 +163,12 @@
                     <h5>Contact Us</h5>
                     <ul>
                         <li>
-                            <strong>Email <i class="fas fa-envelope-square"></i></strong> andrew@templelean.ie
+                            <strong>Email <i class="fas fa-envelope-square"></i></strong> 
+                            <p>andrew@templelean.ie</p>
                         </li>
                         <li>
-                            <strong>Phone <i class="fas fa-phone-square"></i></strong> +353 86 195 7576
+                            <strong>Phone <i class="fas fa-phone-square"></i></strong> 
+                            <p> +353 86 195 7576</p>
                         </li>
 
                     </ul>
