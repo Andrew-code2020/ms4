@@ -683,6 +683,7 @@ Bug - Visual- Pictures
 - Button primary class overwriting hover
 - Home page Picture not rendering quite as effectively on the screen 
 
+Bugs - input data
 
 ### Deployment
 
