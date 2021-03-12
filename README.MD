@@ -679,74 +679,9 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
-Bug - Error in HTML Validator
- - In the validator https://validator.w3.org/
- - Errors related to the jinja template, url_for and parsing kept coming up
- - I checked it versus the mini project and the format was the exact same
- - I will research on what to do here for future development but for now the errors stand when you run the code through the html validator
-
-Bug - Visual
-- The words Go to Breakfast recipes appeared in the profile and recipe pages at first 
-- Unfortunately the words rendered unevenly on a Mobile device
-- We shorten the words to Breakfast Recipes which rendered better
-
-Bug - Placeholder  
- - The placeholder gave the site an unclear orange placeholder where the placeholder should be
- - Despite our attempts to modify the color we were unsuccessful so we removed the placeholder code across the entire site.
- - This had a minimum effect on the site style
- - In future development I would like to reintroduce placeholders with a color that reflects the style of the site. 
-
-Bug - Active Class in Navbar
-- We tried to introduce the active class to help the user navigate our page 
-- As you can see if you click on Breakfast, Lunch, Dinner and Snacks, Log in or register the background color changes to a light blue letting the user know where they are on the website
-- This was not as intuitive to code as in bootstrap
-- A combination of if and else from jinja, a variable in our python code and then some custom css allowed us to render the active class.
-
-
-Bug - Base template code
-- At the beginning of the project our homepage was the base.html template 
-- To create a home page we removed base.html from homepage python view
-- Initially the developer got confused about how to seperate a base template from the homepage view. 
-- Eventually we seperated the two pages and removed some junk code from the base.html which held a card very similar to our hero image on the landing page
-- This simplified the development process
-
-Bug - Heading in Navbar
-- On the any page on a medium size screen you will see Temple Lean Recipes in the top left of the screen. 
-- During development I noticed on a small screen that this text would wrap around the other navigation list items Breakfast, Lunch, Dinner and Snacks
-- The words 'Temple Lean' part would sit on top of the list items and Recipes would sit below the list items
-- I input the class of hide-on-small-only class to avoid the text Temple Lean Recipes rendering above and below the recipe navigation list items 
-- In future development I would like to contain the words Temple Lean Recipes but adjust them to the mobie device rather than remove them for small devices and bring them back on larger devices   
-
-Bug - JS Tabs
-- Initially we deployed js tabs on the recipe pages of our site from https://www.w3schools.com/default.asp as per our milestone 2 project
-- We diverted to a materialize collapsible due to JS tabs rendering same information on each loop which we could not change
-- And because it cut down the amount of code we need in our js.
-- The tabs also continued to slip outside there parent element and overflow onto other areas of the page
-
-
-Bug - Pictures 
-- In initial development we had pictures in our forms 
-- Unfortunately setting the height of the pictures in these forms also triggered a change in picture height for the recipe pages
-- We couldn't find a suitable seperation using conventional css classes so we removed the pictures from the login and register form 
-- We set the picture heights in the css for the remaining picture
-- This isn't perfectly fixed as the heights still don't quite render images perfectly
-- We suspect this might be a flaw in materialize which led us to consider possibly returning to using Bootstrap in future 
-
-Bug - Delete profile (Not logging out)
-- During the development of the delete functionality a bug was recognised whereby a profile could be deleted but the user was not logged out
-- The user could then click the profile button and then get a jinja error message
-- To eradicate this bug we input the pop method into the delete function and redirected the user back to the registeration page
-- This solved the bug and kept the user away from unwanted error screens  
-
-
-Bug - Gitpod 
-- Code beautifer stopped working a few times during the developement of this project
-- This may have been an internal gitpod problem
-- Later I returned to sections to use Shift+alt+F to beautify all code
-
-Bug - Container class in materialise (Be careful !!!)
-- If included in base html and code extended to other html if class container is present on both pages it appears to wrap content twice and shrink size noticeably. 
-- Removed the container class from templates html to solve this. 
+Bug - Visual- Pictures 
+- Button primary class overwriting hover
+- Home page Picture not rendering quite as effectively on the screen 
 
 
 ### Deployment
