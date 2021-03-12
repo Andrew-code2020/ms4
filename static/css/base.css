@@ -1,5 +1,5 @@
 
-
+/*--Color text #1a1a1a --*/
 /*--General--*/
 
 
@@ -55,9 +55,8 @@ ul {
   border: 1px solid black !important;  
 }
 
-.navbar-toggler{
-    border: 1px solid black !important;
-    color:1px solid black;
+.navbar-toggler {
+    border: 2px solid black !important;
 }
 
 
