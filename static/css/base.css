@@ -55,9 +55,6 @@ ul {
   border: 1px solid black !important;  
 }
 
-a {
-  color:#1a1a1a;
-}
 
 footer {
     background-color:#80C4FF;
@@ -91,6 +88,6 @@ footer {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 175px;
     }
 }
