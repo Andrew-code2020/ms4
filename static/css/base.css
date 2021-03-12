@@ -12,7 +12,7 @@ html {
 
 body {
     background: url('/media/homebackground.jpg') no-repeat center center fixed;
-    background-size: contain;
+    background-size: cover;
     height: calc(100vh - 175px);
     color: #1a1a1a;
     font-family: 'RocknRoll One';
