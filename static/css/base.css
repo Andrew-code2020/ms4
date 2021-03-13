@@ -1,5 +1,6 @@
 
 /*--Color text #1a1a1a background color #80C4FF--*/
+
 /*--General--*/
 
 .overlay {
@@ -51,7 +52,8 @@ i {
 }
 
 /*---buttons--*/
-.gym-now-button{
+.gym-now-button, 
+.buy-now-button{
     background: #80C4FF;
     color:#1a1a1a;
     min-width: 260px;
