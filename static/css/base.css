@@ -2,6 +2,15 @@
 /*--Color text #1a1a1a background color #80C4FF--*/
 /*--General--*/
 
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
 
 
 /*--Home page--*/
