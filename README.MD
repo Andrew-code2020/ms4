@@ -5,36 +5,43 @@ The Temple Lean Gym website is designed for people .
 
 The membership categories on offer are below ;
 
-1. Breakfast 
-2. Lunch 
-3. Dinner
-4. Snacks
+1. Online 
+2. Student
+3. Corporate
+4. OAP
 
+The class categories on offer are below ;
+
+1. Kettlebells 
+2. Pilates
+3. Lean Machine
+4. HIIT
 
 The problem that we are trying to solve is that .
+Remodel Business for COVID-19
+
 They lack a social support network to encourage them to (gym a social network). 
 We set out to bring Temple Lean gym members into a community of their peers . 
 The above named membership categories are four strategically valuable markets. They are what people want from a gym. We have designed the website to offer bitesize information on the best gym experience. 
-The success of this website is that the user is able to locate the type of recipe they want quickly and easily without having to sift through the large amount of conflicting information in other areas on the web. 
+The success of this website is that the user is able to locate the type of class/memebership/coach they want quickly and easily without having to sift through the large amount of information on the web. 
 
-Further success will be measured by the number of Temple Lean members who sign up to the Temple Lean Recipes website, create and share their own recipes, update their recipes and delete recipes they no longer find useful.   
+Further success will be measured by the number of Temple Lean members who sign up to the Temple Lean website, create a profile, update their profile and delete a profile they no longer find useful. 
+Purchase Membership and classes   
 
 ### UX
 
 The key reasons for producing the website were to;
 
-- help current gym members get the best quality recipes from their trusted Health and Fitness professionals at Temple Lean Gym
-- help members easily access 4 common recipe categories
+- help current gym members get the best quality coaching from their trusted Health and Fitness professionals at Temple Lean Gym
+- help members easily access 4 common memebership categories
 - help integrate new and current members into a community where they can
-  - support each other on their nutritional journey
-  - add recipes they have used themselves
+  - support each other on their fitness journey
   - read recipes that others have added to the Temple Lean Recipe website
   - update recipes they have used themselves
-  - delete recipes they no longer find useful 
-- help members share recipes they find useful and over time let them build an environment that they feel they have all the nutritional information they need in one place 
-- In the future help Temple Lean Gym attract and retain online subscription members through their recipe website 
+  - delete recipes they no longer find useful  
+- In the future help Temple Lean Gym attract and retain online subscription members through their website 
 
-At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Recipes website add a source of basic information about healthy recipes and begin to build a social support platform amongst members in a nutritional context.
+At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Recipes website add a source of basic information about Temple Lean products and begin to build a social support platform amongst members in a Lifetsyle and Physical Activity context.
 It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or even a high level of knowledge about healthy food recipes. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
@@ -42,7 +49,7 @@ This information was incredibly valuable during the construction of wireframes f
 At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that;
 
-- Delivered basic information that the user could read about healthy food recipes 
+- Delivered basic information that the user could read about Temple Leans online and on site facilities 
 - Allow users to add recipes they feel have benefitted them for others to use
 - Allow users to modify the recipes they created in case they discover new information about a recipe
 - Allow users to delete recipes they created should they feel that they are no longer useful
@@ -56,12 +63,10 @@ Further objectives included;
 
 What are you aiming to achieve? 
 - Users are looking for; 
-  - A place to find guidance on the Nutrition programme they received at the gym or general recipes they can use in their pursuit of a healthy lifestyle
-  - A clear set of instructions to make the recipes
   - A place for users to create, read, update and delete their recipes they have found useful and want to share with others. This was based on research on what will help the user/client feel at home in the Temple Lean Recipes community.
 
 Business wants the client to;
-- Find recipes that support their Health, Lifestyle and Fitness Goals so they stay within the Temple Lean Health and Fitness community
+- 
 
 Review the competition - Is someone else already doing it?
 - A review of the market in Cork Ireland suggested that a platform for members to access recipes within a Health and Fitness Clubs website was a new or under developed idea
@@ -73,33 +78,33 @@ Review the competition - Is someone else already doing it?
    - https://onelifefitness.ie/
 
 Stakeholder interviews
-- conversations with Health and Fitness Club owners and Health and Fitness clients suggested that joining the lifestyle components of exercise and nutrition in an easy to use platform was the correct approach to take.
+- reference SGT studies
 
 Who else is doing this?
-- Very few Health and Fitness providers are known to be providing a web platform for their members to access healthy recipes
+- 
 
 What are the pros of what we're offering?
-- Client benefits from a joined up lifestyle offering
-- Business benefits from increased retention  
+- 
+-   
 
 What are the cons?
-- Unknown how to monetize this area of the business. What do we charge for this service? Market research suggested that we should build this into the Health and Fitness facilities membership packages in some way.
-- Will this be a long term interest for the client
+- 
 
 What are the competition missing?
 - The connectivity this area offers
+- The software development expertise to carry out this functionality
 
 What are they doing, but they could be doing better?
 - They are providing the facility and knowledge to particpate in regular exercise
+- They aren't offering direct sign up and online payments
 
 User interviews (What a user thinks they need may not be exactly what they need?)
-- User interviews suggested they wanted a lot more focused recipe suggestions like muscle building recipes or endurance programme recipes
-- In the same interviews the user would often cite struggling with what they should eat for breakfast or dinner for example.
-- Also the first time user was very unlikely to join the Temple Lean Recipes community if the recipes weren't accessible on a basic level. The user understood that recipes were for breakfast in the breakfast section but when presented with a Muscle Building recipe section most users were unsure if they could use that recipe as a general healthy recipe as well or they felt this was too advanced for them.
+- Niche wanted marathon programmes
+- Majority wanted basic classes and memebership
 - The conclusion the developer drew from these interviews was that we should start basic and progress to more advanced recipe recommendations if a clear market or demand emerged. 
 
 Would you use this and why? 
-- I would use the recipe website because I like the idea of my Health and Wellness resources being in one place provided by people from an organisation I trust.
+- 
 - Clients indicated they would use it because the would finally have vital health resource in place that they knew with information they felt was clear and trustworthy.
 
 Who is our target audience? 
@@ -127,12 +132,8 @@ Features we wanted to include in our design
    - Navbar 
     - Two tiers
    - Includes Navigation for following items
-    - Breakfast (Left revealed after log in)
-    - Lunch (Left revealed after log in)
-    - Dinner (Left revealed after log in)
-    - Snacks (Left revealed after log in)
-    - Search (Right revealed after log in)
-   - Testimonials (Opportunity to Card Flip js)
+    -
+   - Rating (Opportunity to Card Flip js)
    - Register/Login (Right and collapsible) then reveals, profile and log out and recipe navbar
 
 - Section
@@ -358,8 +359,8 @@ Mobile/Tablet Device wireframe
 - jQuery 
     - Used to configure interactive features above 
     - Website https://jquery.com/
-- Materialize
-  - Website https://materializecss.com/
+- Bootstrap
+  - Website https://getbootstrap.com/
   - Used to import generic styling for the entire website
 - Github and Gitpod
   - Website of Github repository https://github.com/Andrew-code2020/ms3onlinecookbook
@@ -683,7 +684,7 @@ Bug - Visual- Pictures
 - Button primary class overwriting hover
 - Home page Picture not rendering quite as effectively on the screen 
 
-Bugs - input data
+Bugs - input data postgres to sqlite
 
 ### Deployment
 
