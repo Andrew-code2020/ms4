@@ -17,9 +17,10 @@ The class categories on offer are below ;
 3. Lean Machine
 4. HIIT
 
-The problem that we are trying to solve is that .
-Remodel Business for COVID-19
+The problem that we are trying to solve for the owner are;  
+1. Remodel the Temple Lean Business for living with COVID-19
 
+The problem that we are trying to solve for the service user are;
 They lack a social support network to encourage them to (gym a social network). 
 We set out to bring Temple Lean gym members into a community of their peers . 
 The above named membership categories are four strategically valuable markets. They are what people want from a gym. We have designed the website to offer bitesize information on the best gym experience. 
@@ -725,11 +726,7 @@ Bugs - input data postgres to sqlite
 
 - I consulted the folowing websites to learn about Recipe Websites and to help construct meaningful content for the Temple Lean Recipes site
    - Recipe Websites
-     - http://www.eatingwell.com/
-     - https://www.safefood.net/recipes
-     - https://thehappypear.ie/recipes/#gs.Wsw8FZU
-     - https://littlegreenspoon.ie/
-     - https://minimalistbaker.com/  
+     -  
 
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
     - https://stackoverflow.com/
@@ -765,9 +762,7 @@ Bugs - input data postgres to sqlite
 
 - I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive. I did not use the materialize icons because they did not look as good as the font awesome icons.
 
-- I copied the collapsible code from Materializecss.com https://materializecss.com/. I then customised it's functionality in my project.
-
-- I copied the initialization code of the collapsible, sidenav and select form from https://materializecss.com/. I referred to jQuery https://jquery.com/ to help me get the interactivity of the site working effectively. I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. 
+- I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. 
 
 - I frequently referred back to the following code institute modules to research how to construct certain features
 
@@ -779,6 +774,7 @@ Bugs - input data postgres to sqlite
   - Python Fundamentals
   - Practical Python
   - Data Centric Development Milestone Project 
+  - Full Stack Frameworks with Django 
 
 - I copied the knowledge of how to implement Materialize CDN and Font awesome CDN links from my mini project during the data centric development. Link to mini project https://github.com/Andrew-code2020/datacentricminiproject
  
@@ -786,7 +782,7 @@ Bugs - input data postgres to sqlite
 ##### Content
 
 - The content was constructed by the student with inspiration from their experience as a Health and Fitness professional for the past 10 years. 
-- The recipes are copied from this website https://www.safefood.net/recipes  
+-   
 
 ##### Media
 
