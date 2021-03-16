@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">Fitness Classes and Memberships</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+    <!--Card Deck to display Temple Lean Products-->
+    <div class="row">
+        {% for product in products %}
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+            <div class="card-deck">
+                <div class="card">
+                    {% if product.image %}
+                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    {% else %}
+                    <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <p class="card-text">{{ product.description }} </p>
+                        <p class="card-text"><strong>€{{ product.price }} </strong></p>
+                        <p class="card-text"><a class="buy-now-button btn-lg">Buy Now</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+{% endblock %}
