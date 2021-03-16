@@ -33,7 +33,7 @@
                         <h5 class="card-title">{{ product.name }}</h5>
                         <p class="card-text">{{ product.description }} </p>
                         <p class="card-text"><strong>€{{ product.price }} </strong></p>
-                        <p class="card-text"><a class="buy-now-button btn-lg">Buy Now</a></p>
+                        <p class="card-text"><a href = "{% url 'product_detail' product.id %}"class="buy-now-button btn-lg">Buy Now</a></p>
                     </div>
                 </div>
             </div>
