@@ -373,15 +373,9 @@ Mobile/Tablet Device wireframe
   - Website https://fonts.google.com/
   - Used to import font
  
-- Flask https://flask.palletsprojects.com/en/1.1.x/
-   - Used to render information from MongoDB to templates
-   - Used to import flash messages render_template,
-    redirect, request, session and url_for)
 - Python https://www.python.org/
   - Used to created roots,view and integrate with flask to deliver functionality to the website 
-- MongoDB https://www.mongodb.com/
- - Used to host data for the Temple Lean Recipes
- - Clusters and Collections to hold data input by the user and pass data to the appropriate page on the Temple Lean Recipe site
+
 - Heroku https://www.heroku.com/  
   - Used to deploy the website
   - Website link to the deployed Heroku app https://lean-temple-recipes.herokuapp.com/ 
@@ -686,6 +680,8 @@ Bug - Visual- Pictures
 - Home page Picture not rendering quite as effectively on the screen 
 
 Bugs - input data postgres to sqlite
+
+Bugs - css for home button changed nav and footer so bottom css was not working at all
 
 ### Deployment
 
