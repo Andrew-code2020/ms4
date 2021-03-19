@@ -1,5 +1,5 @@
 
-/*--Color text #1a1a1a background color #80C4FF--*/
+/*--Color text #1a1a1a background color #80C4FF a:hover #98f2a4--*/
 
 /*--General--*/
 
@@ -59,6 +59,12 @@ i {
 
 .navbar-toggler {
     border: 2px solid black !important;
+}
+
+/*------*/
+a:hover {
+    background: #98f2a4;
+    color:#ff80c7;
 }
 
 /*---buttons--*/
