@@ -15,10 +15,10 @@
           Classes
         </a>
         <div class="dropdown-menu" aria-labelledby="classes">
-          <a class="dropdown-item" href="{% url 'products' %}">Online</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=online_class">Online</a>
           <a class="dropdown-item" href="{% url 'products' %}?category=kettlebell_class">Kettlebells</a>
-          <a class="dropdown-item" href="#">Lean Machine</a>
-          <a class="dropdown-item" href="#">Pilates</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=lean_machine">Lean Machine</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=pilates">Pilates</a>
         </div>
       </li>
       <li class="nav-item dropdown">
@@ -26,9 +26,9 @@
           Membership
         </a>
         <div class="dropdown-menu" aria-labelledby="memebership">
-          <a class="dropdown-item" href="#">Online</a>
-          <a class="dropdown-item" href="#">Public</a>
-          <a class="dropdown-item" href="#">Corporate</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=online_membership">Online</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=public_membership">Public</a>
+          <a class="dropdown-item" href="{% url 'products' %}?category=corporate_membership">Corporate</a>
           <a class="dropdown-item" href="{% url 'products' %}?category=membership_student">Student</a>
         </div>
       </li>
