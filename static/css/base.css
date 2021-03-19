@@ -51,6 +51,16 @@ i {
     text-transform: uppercase;
 }
 
+/*--Main Navbar--*/
+.navbar-color {
+  background-color:#80C4FF;
+  border: 1px solid black !important;  
+}
+
+.navbar-toggler {
+    border: 2px solid black !important;
+}
+
 /*---buttons--*/
 .gym-now-button, 
 .buy-now-button{
@@ -64,6 +74,11 @@ i {
     color:#80C4FF;
 }
 
+.btn-secondary {
+    background: #1a1a1a;
+    color:#80C4FF;
+}
+
 /*--Footer--*/
 
 ul {
@@ -72,15 +87,6 @@ ul {
   padding: 0;
 }
 
-/*--Navbar--*/
-.navbar-color {
-  background-color:#80C4FF;
-  border: 1px solid black !important;  
-}
-
-.navbar-toggler {
-    border: 2px solid black !important;
-}
 
 
 footer {
@@ -99,7 +105,7 @@ footer {
 
 /*--Media Queries--*/
 
-* Slightly larger container on xl screens */
+/* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
     max-width: 80%;
