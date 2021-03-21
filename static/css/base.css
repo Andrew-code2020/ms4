@@ -13,6 +13,10 @@
 	z-index: -1;
 }
 
+.border-black {
+    border: 1px solid black !important;
+}
+
 
 /*--Home page--*/
 
@@ -61,7 +65,7 @@ i {
     border: 2px solid black !important;
 }
 
-/*------*/
+/*---Hover---*/
 a:hover {
     background: #98f2a4;
     color:#ff80c7;
@@ -83,6 +87,18 @@ a:hover {
 .btn-secondary {
     background: #1a1a1a;
     color:#80C4FF;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
 }
 
 /*--Footer--*/
