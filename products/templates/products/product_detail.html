@@ -40,6 +40,20 @@
                                             id="id_qty_{{ product.id }}">
                                     </div>
                                 </div>
+                                <div class="form-row">
+                                {% with product.has_days as s %}
+                                {% if s %}
+                                <div class="col-12">
+                                    <p><strong>Size:</strong></p>
+                                    <select class="form-control rounded-0 w-50" name="product_days" id='id_product_days'>
+                                        <option value="monday">Monday</option>
+                                        <option value="tuesday">Tuesday</option>
+                                        <option value="wednesday" selected>Wednesday</option>
+                                        <option value="thursday">Thursday</option>
+                                        <option value="friday">Friday</option>
+                                    </select>
+                                </div>
+                                {% endif %}
                             </div>
                             <div class="col-12">
                                 <input type="submit" class="buy-now-button btn-lg rounded-0 text-uppercase mt-5"
@@ -53,6 +67,7 @@
                                 </a>
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                            {% endwith %}
                         </div>
                     </form>
                 </div>

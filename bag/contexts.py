@@ -8,11 +8,14 @@ def bag_contents(request):
     bag_items = []
     total = 0
     product_count = 0
+    sub_total = 0
     bag = request.session.get('bag', {}) 
 
     for item_id, quantity in bag.items():
         product = get_object_or_404(Product, pk=item_id)
         total += quantity * product.price
+        #attempting add subtotal for each product line
+        sub_total = quantity * product.price
         product_count += quantity
         bag_items.append({
             'item_id': item_id,
@@ -20,8 +23,11 @@ def bag_contents(request):
             'product': product,
         })   
     
+    
     grand_total = total
     
+    
+
     context = {
         'bag_items': bag_items,
         'total': total,
@@ -30,3 +36,4 @@ def bag_contents(request):
     }
 
     return context
+
