@@ -116,10 +116,15 @@ footer {
     color:#1a1a1a;
 }
 
-.social-media i {
+.social-media a {
   font-size: 36px;
   padding-left: auto;
   color: #1a1a1a;
+}
+
+.social-media a:hover {
+    background: #98f2a4;
+    color:#ff80c7;
 }
 
 
