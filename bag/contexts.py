@@ -8,7 +8,6 @@ def bag_contents(request):
     bag_items = []
     total = 0
     product_count = 0
-    sub_total = 0
     bag = request.session.get('bag', {}) 
 
     for item_id, item_data in bag.items():
@@ -41,7 +40,6 @@ def bag_contents(request):
         'bag_items': bag_items,
         'total': total,
         'product_count': product_count,
-        'sub_total': sub_total,
         'grand_total': grand_total,
     }
 
