@@ -16,7 +16,7 @@ def bag_contents(request):
             product = get_object_or_404(Product, pk=item_id)
             total += item_data * product.price
             #attempting add subtotal for each product line
-            sub_total = item_data * product.price
+            sub_total = quantity * product.price
             product_count += item_data
             bag_items.append({
                 'item_id': item_id,
@@ -37,8 +37,6 @@ def bag_contents(request):
     
     grand_total = total
     
-    
-
     context = {
         'bag_items': bag_items,
         'total': total,

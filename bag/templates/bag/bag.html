@@ -86,7 +86,7 @@
                                                 </button>
                                             </div>
                                             {% if item.product.has_days %}
-                                            <input type="hidden" name="product_size" value="{{ item.days }}">
+                                            <input type="hidden" name="product_days" value="{{ item.days }}">
                                             {% endif %}
                                         </div>
                                     </div>
@@ -155,9 +155,9 @@
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
-        var size = $(this).data('size');
+        var days = $(this).data('days');
         var url = `/bag/remove/${itemId}`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
+        var data = {'csrfmiddlewaretoken': csrfToken, 'days': days};
 
         $.post(url, data)
          .done(function() {
