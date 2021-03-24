@@ -683,6 +683,8 @@ Bugs - input data postgres to sqlite
 
 Bugs - css for home button changed nav and footer so bottom css was not working at all
 
+Bugs - data delay into Toast Header div and not container div
+
 ### Deployment
 
 #### Set up the Repository 

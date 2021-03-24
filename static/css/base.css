@@ -68,7 +68,6 @@ i {
 /*---Hover---*/
 a:hover {
     background: #98f2a4;
-    color:#ff80c7;
 }
 
 /*---buttons--*/
@@ -166,6 +165,7 @@ footer {
 
 .custom-toast {
     overflow: visible;
+    animation-delay: 10s;
 }
 
 .toast-capper {
