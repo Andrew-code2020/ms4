@@ -12,7 +12,7 @@ def view_bag(request):
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
-    product =Product.objects.get(pk=item_id)
+    product = Product.objects.get(pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     days = None
@@ -24,13 +24,17 @@ def add_to_bag(request, item_id):
         if item_id in list(bag.keys()):
             if days in bag[item_id]['items_by_days'].keys():
                 bag[item_id]['items_by_days'][days] += quantity
+                messages.success(request, f'Added day {days.upper()} {product.name} total in {bag[item_id]["item_by_days"][days]}')
             else:
                 bag[item_id]['items_by_days'][days] = quantity
+                messages.success(request, f'Added day {days.upper()} total in {bag[item_id]}')
         else:
             bag[item_id] = {'items_by_days': {days: quantity}}
+            messages.success(request, f'Added day {days.upper()} total in {bag[item_id]}')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
+            messages.success(request, f'Updated {product.name} total in {bag[item_id]}')
         else:
             bag[item_id] = quantity
             messages.success(request, f'Added {product.name} to your bag')
@@ -45,10 +49,10 @@ def adjust_bag(request, item_id):
     quantity = int(request.POST.get('quantity'))
     days = None
     if 'product_days' in request.POST:
-        size = request.POST['product_days']
+        days = request.POST['product_days']
     bag = request.session.get('bag', {})
 
-    if size:
+    if days:
         if quantity > 0:
             bag[item_id]['items_by_days'][days] = quantity
         else:
