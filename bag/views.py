@@ -24,7 +24,7 @@ def add_to_bag(request, item_id):
         if item_id in list(bag.keys()):
             if days in bag[item_id]['items_by_days'].keys():
                 bag[item_id]['items_by_days'][days] += quantity
-                messages.success(request, f'Added day {days.upper()} {product.name} amount to {bag[item_id]["item_by_days"][days]}')
+                messages.success(request, f'Added day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
             else:
                 bag[item_id]['items_by_days'][days] = quantity
                 messages.success(request, f'Added day {days.upper()} {bag[item_id]} to your bag')
@@ -55,7 +55,7 @@ def adjust_bag(request, item_id):
     if days:
         if quantity > 0:
             bag[item_id]['items_by_days'][days] = quantity
-            messages.success(request, f'Updated day {days.upper()} {product.name} amount to {bag[item_id]["item_by_days"][days]}')
+            messages.success(request, f'Updated day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
         else:
             del bag[item_id]['items_by_days'][days]
             if not bag[item_id]['items_by_days']:
