@@ -685,6 +685,10 @@ Bugs - css for home button changed nav and footer so bottom css was not working 
 
 Bugs - data delay into Toast Header div and not container div
 
+Bugs - bag tools in checkout template or template error showed. Forgot to add bag tools at the top
+
+Bugs - checkout app missing div caused footer to loose the outer edge of it's blue. inserted code into validator and found missing div
+
 ### Deployment
 
 #### Set up the Repository 
