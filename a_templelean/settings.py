@@ -44,11 +44,13 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    #project apps
+    #Primary project apps
     'home',
     'products',
     'bag',
     'checkout',
+    #Secondary project apps
+    'crsipy-forms',
     #deployment
     'storages',
 ]
@@ -64,6 +66,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'a_templelean.urls'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 TEMPLATES = [
     {
@@ -82,6 +86,10 @@ TEMPLATES = [
                 #required by shopping bag
                 'bag.contexts.bag_contents',
             ],
+            'builtins':[
+                'crispy-forms.templatetags.crispy_forms_tags',
+                'crispy-forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
