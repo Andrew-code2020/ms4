@@ -82,7 +82,7 @@ def remove_from_bag(request, item_id):
             size = request.POST['product_days']
         bag = request.session.get('bag', {})
 
-        if size:
+        if days:
             del bag[item_id]['items_by_days'][size]
             if not bag[item_id]['items_by_days']:
                 bag.pop(item_id)
