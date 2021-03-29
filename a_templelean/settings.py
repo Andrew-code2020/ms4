@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
+    'profiles',
     #Secondary project apps
     'crispy_forms',
     #deployment
