@@ -689,6 +689,9 @@ Bugs - bag tools in checkout template or template error showed. Forgot to add ba
 
 Bugs - checkout app missing div caused footer to loose the outer edge of it's blue. inserted code into validator and found missing div
 
+Bugs - countries field navigate through model and forms removed the label. Changing the css height in StripeElement,
+.stripe-style-input to 60 px resolved the image problem
+
 ### Deployment
 
 #### Set up the Repository 
