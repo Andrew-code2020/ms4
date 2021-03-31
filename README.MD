@@ -675,6 +675,9 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - Directory Structure wrong in Facilities app
+- facilities on top of template instead of template on top of facilities
+
 Bug - Visual- Pictures 
 - Button primary class overwriting hover
 - Home page Picture not rendering quite as effectively on the screen 
