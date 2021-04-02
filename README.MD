@@ -34,16 +34,16 @@ Purchase Membership and classes
 The key reasons for producing the website were to;
 
 - help current gym members get the best quality coaching from their trusted Health and Fitness professionals at Temple Lean Gym
-- help members easily access 4 common memebership categories
+- help members easily access 4 common membership categories
 - help integrate new and current members into a community where they can
   - support each other on their fitness journey
-  - read recipes that others have added to the Temple Lean Recipe website
-  - update recipes they have used themselves
-  - delete recipes they no longer find useful  
+  - read their profile 
+  - update their profile they have used themselves
+  - delete their profile they no longer find useful  
 - In the future help Temple Lean Gym attract and retain online subscription members through their website 
 
-At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Recipes website add a source of basic information about Temple Lean products and begin to build a social support platform amongst members in a Lifetsyle and Physical Activity context.
-It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or even a high level of knowledge about healthy food recipes. 
+At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website add a source of basic information about Temple Lean products and begin to build a social support platform amongst members in a Lifetsyle and Physical Activity context.
+It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 
