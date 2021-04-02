@@ -22,6 +22,11 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/*--Card image universal height to display each image evenly--*/
+.card-img, .card-img-top{
+ height:250px;
+}
+
 
 /*--Home page--*/
 
