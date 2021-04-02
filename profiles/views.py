@@ -8,6 +8,12 @@ def profile(request):
     """ Display the user's profile. """
 
     profile = get_object_or_404(UserProfile, user=request.user)
+
+    if request.method == 'POST':
+        form = UserProfileForm(request.POST, instance=profile)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Temple Lean Profile update complete')
     
     form = UserProfileForm(request.POST, instance=profile)
     orders = profile.orders.all()
