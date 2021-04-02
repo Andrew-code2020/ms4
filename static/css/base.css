@@ -23,7 +23,7 @@ input[name='q']::placeholder {
 }
 
 /*--Card image universal height to display each image evenly--*/
-.card-img, .card-img-top {
+img {
  height:250px;
 }
 

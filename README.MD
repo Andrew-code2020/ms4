@@ -675,6 +675,9 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - images set to 250 px
+taregtting css classes .card-img, .card-img-top with height 250 px would not render. Targeting the img element did. Did have to change some images as the looked stretched 
+
 Bug - Directory Structure wrong in Facilities app
 - facilities on top of template instead of template on top of facilities
 
