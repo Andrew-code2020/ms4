@@ -1,4 +1,10 @@
 
+/*--Order History--*/
+.order-history {
+    max-height: 416px;
+    overflow-y: auto;
+}
+
 /*--Form input and placholder color--*/
 #profile-update-form .form-control {
     color:#1a1a1a;
