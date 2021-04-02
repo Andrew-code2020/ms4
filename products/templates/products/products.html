@@ -25,9 +25,9 @@
             <div class="card-deck">
                 <div class="card">
                     {% if product.image %}
-                    <img src="{{ product.image.url }}" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
                     {% else %}
-                    <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid" alt="{{ product.name }}">
+                    <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top" alt="{{ product.name }}">
                     {% endif %}
                     <div class="card-body">
                         <h5 class="card-title">{{ product.name }}</h5>
