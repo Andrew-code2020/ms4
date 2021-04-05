@@ -50,29 +50,30 @@ It was an objective of this project to include an intuitive design which would a
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 
-Some of the feedback was conflicting. Some clients wanted more advanced niche products like marathon or triathlon training classes.
+Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon or triathlon training classes. The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. Feedback on pilates came from clients who were now reporting that they were sitting down working from home and their core strength was severely diminshed.
 
 At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that;
 
-- Delivered basic information that the user could read about Temple Leans online and on site facilities 
-- Allow users to add recipes they feel have benefitted them for others to use
-- Allow users to modify the recipes they created in case they discover new information about a recipe
-- Allow users to delete recipes they created should they feel that they are no longer useful
+- Delivered basic information that the user could read about Temple Leans online services and on site facilities 
 - Offer a route to find out more about Temple Lean the fitness facility
 
 Further objectives included;
 - implementing interactive features on the Temple Lean Recipes website to help the user feel they were unlocking short manageable amounts of information about healthy food recipes.
 
 
-##### Strategy Plan - Business Strategy
+##### Strategy Plan - Business Model Strategy
 
-What are you aiming to achieve? 
+What are you the Business aiming to achieve? 
 - Users are looking for; 
-  - A place for users to create, read, update and delete their recipes they have found useful and want to share with others. This was based on research on what will help the user/client feel at home in the Temple Lean Recipes community.
+  - A place to workout in a post COVID-19 era
+  - A place to enjoy a workout in the gym whilst feeling safe or online if in a temporary lockdown
+  - Small Group Training
+  - Online booking, membership purchase
+
 
 Business wants the client to;
-- 
+ - Access Temple Lean services easily 
 
 Review the competition - Is someone else already doing it?
 - A review of the market in Cork Ireland suggested that a platform for members to access recipes within a Health and Fitness Clubs website was a new or under developed idea
