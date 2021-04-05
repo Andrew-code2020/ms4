@@ -1,9 +1,9 @@
 # Temple Lean Fitness Gym
 
 ## Executive Summary 
-The Temple Lean Gym website is designed for people who wish to access physical activity within the context of living with COVID-19. The Temple Lean owners had previously invested in a static website but when they pandemic hit this was deemed to be insufficient to meet the needs of the current business. A new website was needed to supply the members with online bookings for onsite activity and a new online platform to cater for completely online activity.
+The Temple Lean Gym website is designed for people who wish to access physical activity within the context of living with COVID-19. The Temple Lean owners had previously invested in a static website but when they pandemic hit this was deemed to be insufficient to meet the needs of the current business. A new website was needed to supply the members with online bookings for onsite activity and a new online platform to cater for completely online members.
 
-The membership categories on offer are below ;
+The key membership categories the business wish to offer are below ;
 
 1. Online 
 2. Student
