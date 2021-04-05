@@ -260,20 +260,20 @@ Wireframe Pictures
 
 Desktop wireframes
 
-- readmedocs/desktopwireframe/basetemplate.jpg
-- readmedocs/desktopwireframe/landingpage.jpg
-- readmedocs/desktopwireframe/loginpage.jpg
-- readmedocs/desktopwireframe/paintlandingpage.jpg
-- readmedocs/desktopwireframe/recipelooppage.jpg
-- readmedocs/desktopwireframe/registerpage.jpg
-- readmedocs/desktopwireframe/recipespageoutline.jpg
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
+- readmedocs/desktopwireframe/
 
 Mobile/Tablet Device wireframe
-- readmedocs/mobilewireframe/recipeloopmobile.jpg
-- readmedocs/mobilewireframe/loginmobile.jpg
-- readmedocs/mobilewireframe/profilemobile.jpg
-- readmedocs/mobilewireframe/registertemplatemobile.jpg
-- readmedocs/mobilewireframe/editrecipemobile.jpg
+- readmedocs/mobilewireframe/
+- readmedocs/mobilewireframe/
+- readmedocs/mobilewireframe/
+- readmedocs/mobilewireframe/
+- readmedocs/mobilewireframe/
 
 ### Features
 
@@ -288,25 +288,24 @@ Mobile/Tablet Device wireframe
 - Form Select
 - Collapsible
 - Hover
-- Flask
-- Integrated with MongoDB
+- 
+- Integrated with Django
 - Icons
 - Jquery 
     - Collapsible
-    - Sidenav 
     - Form Select
 
 
 
 ##### Existing Features
 
-- Internal links to different parts of the Temple Lean Recipes website
-- External links that open different platforms such as social media, the developers Milestone 1 project website and the developers private blog. The social media accounts, the developers Milestone 1 project website and the developers private blog are linked to this project to demonstrate the skill of adding external links.
+- Internal links to different parts of the Temple Lean website
+- External links that open different platforms such as social media, the developers Milestone 1 project website  The social media accounts and the developers Milestone 1 project website are linked to this project to demonstrate the skill of adding external links.
 - Header - Contains the Navbar design for desktop and mobile devices 
 - Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other recipe pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The top part of the navbar including log in and registeration collapse on a mobile device to a single apple icon which the user can click on. The navbar items Breakfast, Lunch, Dinner and Snacks appear after you register or log in. This was done to avoid overhwleming the user when they land on the page and guide them to log in or register and then more content will be revealed. 
-- Footer - Linked to some pages we used to develop the website and contains direct links to the developers Social Media platforms, Milestone 1 project and private blog. Temple Lean recipes social media specific to this site does not exist but is in future plans.
+- Footer - Linked to some pages we used to develop the website and contains direct links to the developers Social Media platforms, Milestone 1 project and private blog. Temple Lean social media specific to this site do not exist but is in future development plans.
 - Section - The middle section is where the block content Jinja template is injected. The content changes on each page and gives basic information on aspects of the Temple Lean Recipes site.
-- Hero Image - The eye catching landing/homepage page is designed to convey to the user that they have arrived on a Temple Lean Recipes site as distinct from the gym site. 
+- Hero Image - The eye catching landing/homepage page is designed to convey to the user that they have arrived on a Temple Lean site as distinct from other gym sites. 
 - Select - We used select options to allow a better visual experience for the user and to avoid long typed responses on the forms through out the website. 
 - Hover 
    - social media icons all turn blue when the cursor hovers over them
@@ -315,28 +314,22 @@ Mobile/Tablet Device wireframe
    - The hover lets the user know that there is more information they can access here if they click. It draws attention to options which keep the user on the Temple Lean Recipe page. 
 - Icons - font awesome icons were used to add style and an intuitive feel to the user experience. 
 - jQuery & JavaScript 
-    - Collapsible - On each recipes page clicking the on the Ingredients, Method, Tools or Nutitrional Information will open the collapsible revealing more content  
-    - Sidenav - On Mobile devices the Navbar containing Login, Register and Logout collapses to an apple icon which the user can click on to access
-    - Form Select - Forms are used throughout the page to allow users to register, login, update profiles, create recipes and update recipes. The select option is used to avoid long form answers and allow users to progress through the website quickly
+    - Collapsible -   
+    - Sidenav - 
+    - Form Select - 
 - CRUD Functionality
-    - Create - Users can create a profile and create recipes on the Temple Lean Recipe website
-    - Read - Logged in users can read recipes and their profile information on the Temple Lean Recipe site 
-    - Update - Logged in users can update recipes they created and their profile information only on the Temple Lean Recipes site
-    - Delete - Logged in users can delete recipes they created and their profile information only on the Temple Lean Recipes site
+    - Create - 
+    - Read -  
+    - Update - 
+    - Delete - 
 
 
 ##### Features Left to Implement
-- Search function
-- Automatic image upload and rendering to the website
-- Book and pay for a private Nutrition Consultation
+- Book and pay for a private Personal Training Sessions
 - Analytics that show user traffic flow
 - Testimonials from Users
-- Members Subscription
-- Password update & reset your password function
-- Forgot password feature
-- Recipe Videos
-- E-Commerce subscription Business Model 
-- Comments so users can interact with other users
+- Members Subscription 
+- Ratings so users can give feedback to Temple Lean 
 
 
 ### Technologies Used
@@ -372,13 +365,35 @@ Mobile/Tablet Device wireframe
   - Website link to the deployed Heroku app https://lean-temple-recipes.herokuapp.com/ 
   
 - Dependencies (Also listed in requirements.txt file)
-  - click==7.1.2
-  - dnspython==2.0.0
-  - Flask==1.1.2
-  - Flask-PyMongo==2.3.0
-  - itsdangerous==1.1.0
-  - pymongo==3.11.1
-  - Werkzeug==1.0.1
+asgiref==3.3.1
+astroid==2.5.2
+boto3==1.17.22
+botocore==1.20.22
+countries==0.2.0
+dj-database-url==0.5.0
+Django==3.1.7
+django-allauth==0.44.0
+django-countries==7.1
+django-crispy-forms==1.11.2
+django-storages==1.11.1
+gunicorn==20.0.4
+isort==5.8.0
+jmespath==0.10.0
+lazy-object-proxy==1.6.0
+mccabe==0.6.1
+oauthlib==3.1.0
+Pillow==8.1.2
+psycopg2-binary==2.8.6
+PyJWT==2.0.1
+pylint==2.7.4
+python3-openid==3.2.0
+pytz==2021.1
+requests-oauthlib==1.3.0
+s3transfer==0.3.4
+sqlparse==0.4.1
+stripe==2.56.0
+toml==0.10.2
+wrapt==1.12.1
 
 
 ### Testing
@@ -387,95 +402,46 @@ Mobile/Tablet Device wireframe
 
 - Name of Test CRUD Unique to User who created recipe 
 - Outline of Testing
-  - Check that different users could create recipes but they could update or delete recipes they created
+  - 
 - Test planning
-  - Used two profiles and created recipes with them
+  - 
 - Implementation
-  - We created recipes on mutliple profiles and reviewed which options came up for each user
+  - 
 - Fix (if applicable)
-  - first we did have a created_by in our python views so our created recipes intially belonged to no one
-  - we corrected this by adding created_by in our python roots and then manually adding the created_by variable and value to MongoDB
-  - We assigned the variable to the admin or the developers user profile
+  - 
 - Results
-  - We reached a point where admin profile had created half the recipes on the website and could update and delete them
-  - The other half were created and could be update or deleted by the developer who created a user in his own name
+  - 
 - Outcomes
-  - Because we updated our root newly created recipes did not need us to intervene on MongoDB to assign a created_by instead the creator of the recipe was the only one who could modify that recipe
-  - This was verified by getting the developers girlfriend to add a recipe on her profile
+  - 
 
 - Name of Test JS File
 - Outline of Testing
-  - The objective of the test was to check if the directory to the js file was working 
+  -  
 - Test planning
-  - Input code into recipe.js and check the developer tools specifically the console tab to check if the js file is rendering effects across the Temple Lean Recipes website  
+  -   
 - Implementation
-  - In the recipe.js file we input the code console.log('linked properly');
+  - 
 - Fix (if applicable)
-  - A fix was not necessary because the code worked 
+  -  
 - Results
-  - The results are available to view 
   - readmedocs/testing/jsfiletest/jsfiletestresult.jpg
 - Outcomes
-  - Test successful. the words 'linked properly' appeared into console
+  - 
 
 
 - Name of Test - JS file functionality
 - Outline of Testing
-  - Check that js code is producing functionality on the Temple Lean Recipe Website
+  - 
 - Test planning
-  - Check the following js functionality
-  - Collapsible - On each recipes page clicking the on the Ingredients, Method, Tools or Nutritional Information will open the collapsible revealing more content. Does this happen?  
-  - Sidenav - On Mobile devices the Navbar containing Login, Register and Logout collapses to an apple icon. Does this happen?
-  - Form Select - The form select option is used across the site does the menu work and the options appear. Does this happen? 
+  -  
 - Implementation
-  - Collapsible
-    - collapsible class added to brekfast, lunch, dinner and snacks html pages
-    - pertinent initialisation code added to recipe.js
-  - Sidenav
-    - pertinent initialisation code added to recipe.js
-    - check nav elements collapse to an apple on the right on Mobile device
-    - Open deployed site https://lean-temple-recipes.herokuapp.com/
-    - Ctrl+Shift+I on the keyboard
-    - Select mobile device from responsive dropdown menu
-    - Click apple icon
-    - Check nav items are there 
-  - Form Select
-    - Open deployed site https://lean-temple-recipes.herokuapp.com/
-    - Go to the Register page
-    - Check the Preferred Recipe Category
-    - Click the dropdown carrot
-    - See if options come up
-    - Check Form Select occurs on all other forms in the website
+  - 
 - Fix (if applicable)
-  - Collapsible
-    - no fix neccessary
-    - code was copied and extended to add more collapsible sections on the page which also worked
-  -Form Select
-   - We added disabled and selected attributes to ensure the register form was blank at first
-   - We added the relevant value ie value = "breakfast" into the html template to each option to ensure the that the option was passed and documented in MongoDB. 
-  - Sidenav
-    - To render the sidenav bar on the right of the page we added {edge: "right"} to the js code
 
 - Results
-  - Collapsible
-    - Breakfast result image start readmedocs/testing/jsfiletest/jscollapsibleresult1.jpg
-    - Click on Collapsible result image start readmedocs/testing/jsfiletest/jscollapsibleresult2.jpg  
- - Sidenav
-   - Sidenav result image readmedocs/testing/jsfiletest/jssidenavresult1.jpg
-   - Clicked through sidenav apple readmedocs/testing/jsfiletest/jssidenavresult2.jpg
- - Form Select   
-   - Register page results readmedocs/testing/jsfiletest/jsselectformresult.jpg
-   - Edit profile page resultss readmedocs/testing/jsfiletest/jsselectformresult.jpg
-   - Edit recipe page results readmedocs/testing/jsfiletest/jsselectformupdatereciperesult.jpg
+
 - Outcomes
-   - Form Select
-     - The tests lead to bug fixes and helped ad functionality without errors on the site
-   - Collapsible
-     - Checked collapsible  across breakfast, lunch, dinner and snacks and it worked
-   - Sidenav
-     - Side nav functionality worked and revealed sidenav elements
-
-
+   
 
 ### Performance Testing Lighthouse 
 - Name of Test 
@@ -533,12 +499,12 @@ Mobile/Tablet Device wireframe
 ### Testing Browser Screens
 
 ### Chrome Browser
-- I tested the website by copying and pasting the Heroku pages link https://lean-temple-recipes.herokuapp.com/ into the Chrome Browsers
+- I tested the website by copying and pasting the Heroku pages link https://templeleanms4.herokuapp.com/ into the Chrome Browsers
 - I pressed control+shift+I to access developer tools in the Chrome Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
 ### Edge Browser
-- I tested the website by copying and pasting the Heroku pages link https://lean-temple-recipes.herokuapp.com/ into Edge Browser
+- I tested the website by copying and pasting the Heroku pages link https://templeleanms4.herokuapp.com/  into Edge Browser
 - I pressed control+shift+I to access developer tools in the Edge Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
