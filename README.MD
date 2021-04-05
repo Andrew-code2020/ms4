@@ -150,51 +150,37 @@ Features we wanted to include in our design
   - Home/Landing Page Body (Hero image photo options))
   - CRUD Functionality to be available in 
     - Profile
-    - Breakfast 
-    - Lunch 
-    - Dinner 
-    - Snacks
+    - Django Admin
 
 Cards with Photo Gallery
-  - Homepage
   - Profile
-  - Breakfast 
-  - Lunch 
-  - Dinner 
-  - Snacks
+  - 
 
-Card flip - Testimonials
+Card flip - Staff
 
 Footer    
  - Social Media Icons wired up Facebook. Instagram, Twitter(developers social media) (Left) 
  - Gap in Center
- - Blog entries (Right)
+ - 
 
-Data Schema - Database Mongo DB
+Data Schema - Database Django
 
-Collections
+### Apps 
+
+#### Products
+ 
+Categories
+
+Product Details
 
 User information
 - Object Id
 - Username
 - Name
 - Email 
-- Password Werkzeug 
+- Password  
 
-Lean Recipes
-- Object Id
-- Meal Type
-- Meal Name
-- Meal Image
-- Instructions 
-- Ingredients
-- Method
-- Required Tools
-- Nutritional information (Format opportunity to display creativity - Traffic light healthy range of macronutrients)
-  - Kcals
-  - Carbs
-  - Protein
-  - Fats
+ 
 
 Recipe types or Categories
 - Object Id
@@ -206,31 +192,27 @@ Recipe types or Categories
 
 ### User Story 1 (Creating and reading a profile - Registeration)
 
-I am a currently a member of Temple Lean Gym. Following a conversation with a friend about diet and exercise my friend recommends that I check out a new website named "Temple Lean Recipes". I search the web find the Temple Lean Recipes website. 
-I register and I click on the option 'Dinner' because I have always had trouble cooking healthy dinner recipes. I click on a recipe I am interested in through the collapsible buttons on the page and the collapsible feature reveals information in a
-step wise manner that allows me to learn what I need to know about how to make the recipe as well as other information.
+
 
 ### User Story 2 (Editing my profile)
 
-I have registered for Temple Lean Recipes. My email provider has decided to charge me a monthly fee to continue using my email address. I have gone ahead and changed to a new email provider. I want to update my email on the Temple Lean Recipes Website. I log in to the Temple Lean Website. I am brought directly to my profile page. I click on the update profile button. I make my updates to the email section and then click the update profile button. The screen flashes a message updated successfully. I can also see the updates rendered on the form in front of me. I then click profile on the top right of the screen to bring me back to my profile page where I can also review the update I have made.
+
 
 ### User Story 2B (Delete profile)
-I wish to leave the Temple Lean Recipes community. I log in and go to the profile I created in User Story 1 on the Temple Lean Recipes website. On the profile page that I see the Delete Profile button. I click the button and I receive a flash message on the screen telling me my profile has been deleted. I am automatically logged out when I delete my profile. 
+ 
 
 ### User Story 3 (Creating and Reading Recipes)
 
-I am registered and logged in at the Temple Lean Recipes page. I use a recipe that I wish to add to the community. I click create recipe on any recipe page. I am brought to the add recipe form. I select the category (Breakfast, Lunch, Dinner or Snacks). I fill in the rest of the form. When I click the create recipe button I see a flash message stating "Recipe Created Successfully!". I am redirected to my profile where I click on the appropriate category and I scroll down to see the recipe I created and the information I input on the form earlier on the screen. 
-
+ 
 
 ### User Story 3A (Update Recipes)
-I spot an error in the recipe I created (from User Story 3) so I click update recipe. I notice that I can only update the recipes I have created but not any other recipes. I make my edits I need to make in the form hit update recipe and then review my updates as before on the relevant page.
+
 
 ### User Story 3B (Delete Recipes)
-A recipe I created a while ago has stopped being useful to me and the Temple Lean Recipes community. I log into the Temple Lean recipes website. I scroll to the Recipe I created earlier click the Delete Recipe button. I receive a flash message on the screen telling me the recipe has been deleted. 
+ 
 
 ### User Story 4 (Log out)
 
-I am logged into the Temple Lean Recipes page. I have found the recipe I wanted and made the recipe using the Temple Lean Recipes site as a reference. I click on the log out button to log out. I receive a flash message stating that I have been logged out and I am redirected to the log in page. The recipe pages disappear and I am unable to access them until I log in again.
 
 ## Structure Plane
 In development we set out to make sure that our site would be consistent. We used the categories below to describe our efforts
