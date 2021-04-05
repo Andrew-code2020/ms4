@@ -14,27 +14,30 @@ The class categories on offer are below ;
 
 1. Kettlebells 
 2. Pilates
-3. Lean Machine
+3. Lean Machine (Our new bespoke Small Group Training class) 
 4. HIIT
 
-The problem that we are trying to solve for the owner are;  
+The problems that we are trying to solve for the owner are;  
 1. Remodel the Temple Lean Business for living with COVID-19
+2. Connect with members after lockdowns or whilst the lockdown is ongoing 
 
 The problem that we are trying to solve for the service user are;
-They lack a social support network to encourage them to (gym a social network). 
-We set out to bring Temple Lean gym members into a community of their peers . 
-The above named membership categories are four strategically valuable markets. They are what people want from a gym. We have designed the website to offer bitesize information on the best gym experience. 
-The success of this website is that the user is able to locate the type of class/memebership/coach they want quickly and easily without having to sift through the large amount of information on the web. 
+1. Our members have become more health conscious and wish to have less Physical Contacts whilst the Pandemic is ongoing. Offering online physical activity is seen by our members as a short to medium term solution during the pandemic. Allowing Temple Lean members to do more business with virtually is also seen as stress free way to stay active. 
 
-Further success will be measured by the number of Temple Lean members who sign up to the Temple Lean website, create a profile, update their profile and delete a profile they no longer find useful. 
-Purchase Membership and classes   
+
+The above named membership and class categories are strategically valuable markets. They are what people want from a gym in the post COVID-19 21st century. 
+We have designed the website to offer bitesize information on the best gym experience. 
+The success of this website is that the user is able to locate the type of class/memebership/coach they want quickly and easily without having to sift through the large amount of information on the general web. 
+
+Further success will be measured by the number of Temple Lean members who sign up and buy services from the Temple Lean website, create a profile, update their profile and delete a profile they no longer find useful. 
+   
 
 ### UX
 
 The key reasons for producing the website were to;
 
 - help current gym members get the best quality coaching from their trusted Health and Fitness professionals at Temple Lean Gym
-- help members easily access 4 common membership categories
+- help members easily access 4 common membership categories and 4 common class categories
 - help integrate new and current members into a community where they can
   - support each other on their fitness journey
   - read their profile 
@@ -42,10 +45,12 @@ The key reasons for producing the website were to;
   - delete their profile they no longer find useful  
 - In the future help Temple Lean Gym attract and retain online subscription members through their website 
 
-At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website add a source of basic information about Temple Lean products and begin to build a social support platform amongst members in a Lifetsyle and Physical Activity context.
-It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility. 
+At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website add a source of basic information about Temple Lean services and begin to build a social support platform amongst members in a Lifestyle and Physical Activity context.
+It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or it's online services. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
+
+Some of the feedback was conflicting. Some clients wanted more advanced niche products like marathon or triathlon training classes.
 
 At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that;
