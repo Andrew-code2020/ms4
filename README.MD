@@ -50,7 +50,7 @@ It was an objective of this project to include an intuitive design which would a
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 
-Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon or triathlon training classes. The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. Feedback on pilates came from clients who were now reporting that they were sitting down working from home and their core strength was severely diminshed.
+
 
 At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that;
@@ -85,7 +85,7 @@ Review the competition - Is someone else already doing it?
    - https://onelifefitness.ie/
 
 Stakeholder interviews
-- reference SGT studies
+- An emerging trend in Fitness clubs and studios prior to the pandemic was the Small Group Training
 
 Who else is doing this?
 - 
@@ -104,31 +104,34 @@ What are the competition missing?
 What are they doing, but they could be doing better?
 - They are providing the facility and knowledge to particpate in regular exercise
 - They aren't offering direct sign up and online payments
+- They aren't developing their business to serve a growing online user market
+
 
 User interviews (What a user thinks they need may not be exactly what they need?)
 - Niche wanted marathon programmes
 - Majority wanted basic classes and memebership
-- The conclusion the developer drew from these interviews was that we should start basic and progress to more advanced recipe recommendations if a clear market or demand emerged. 
+- Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon or triathlon training classes. 
+- The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. 
+- Feedback which led us to include pilates in our service offer came from clients who were now reporting that they were sitting down working from home and their core strength was severely diminshed.
+- The conclusion the developer drew from these interviews was that we should start basic and progress to more advanced activity recommendations if a clear market or demand emerged later. 
 
 Would you use this and why? 
 - 
-- Clients indicated they would use it because the would finally have vital health resource in place that they knew with information they felt was clear and trustworthy.
+- Clients indicated they would use it because .
 
 Who is our target audience? 
 - This project is primarily a consumer business to customer service (B2C) 
-- We noted the potential for business to business B2B partnerships later but accepted that this was not within the current scope of the business strategy plan because we need a viable live product before opening discussions with another business.
+- We noted the potential for business to business B2B partnerships 
 - Our aim was to access clients we already have but leave the door open for other clients to join us 
 - Our thoughts were that our current clients wouldn't need much justifcation to purchase a new offering from us given our existing relationship and the trust we have built up over many years.
 
-What makes a good recipe website experience?
+What makes a good Fitness Facility website experience?
 - Following reserach we settled on the points below as a good recipe website experience
   - Intuitive design (Simple Navigation)
   - Clean, attractive layout with point and clicks revealing information slowly in an easy to understand readable format
-  - Blog (Users liked to read about recipe experiences or other health and fitness related experiences)
-  - Users can create, read, update and delete their own recipes and interact with other members(future development) 
-  - Pictures of the finished recipe
+  - Users can create, read, update and delete their own profile and interact with Temple Lean 
   - Videos (This was placed in future development plans)
-  - Pricing transparent (3 step purchase - This was placed in future development plans) 
+  - Pricing transparent (3 step purchase) 
 
 
 ## Scope Plane 
