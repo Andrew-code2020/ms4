@@ -2,6 +2,10 @@
 
 {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'facilities/css/facilities.css' %}">
+{% endblock %}
+
 <!--empty header container-->
 {% block page_header %}
 <div class="container header-container">
@@ -15,20 +19,32 @@
 
 {% block content %}
 <div class="container h-100">
-    <div class="overlay"></div>
-    <!--{% for facility in facilties %}-->
+    <div class="overlay">Hello</div>
+    <div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">Facilties</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
+    
+    {% for facility in facilties %}
     <div class="flip-card">
         <div class="flip-card-inner">
             <div class="flip-card-front">
-                <img src="{{ MEDIA_URL }}noimage.jpg}}" alt="Avatar" style="width:300px;height:300px;">
+                {% if facility.image %}
+                    <img src="{{ facility.image.url }}" class="card-img-top" alt="{{ facility.name }}">
+                    {% else %}
+                    <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top" alt="{{ facility.name }}">
+                {% endif %}
             </div>
             <div class="flip-card-back">
-                <h1></h1>
-                <p></p>
-                <p></p>
+                <h1>{{ facility.name }}</h1>
+                <p>{{ facility.description }}</p>
+                <p>{{ facility.testimonial }}</p>
+                <p>{{ facility.rating }}</p>
             </div>
         </div>
-        <!--{% endfor %}-->
+    {% endfor %}
     </div>
 </div>
 
