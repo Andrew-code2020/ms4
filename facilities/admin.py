@@ -1,18 +1,30 @@
 from django.contrib import admin
 
-from django.contrib import admin
 
 
-#from .models import FacilityCategory, facility
+from .models import FacilityCategory, facility
 
 
-#class FacilityCategoryAdmin(admin.ModelAdmin):
+class FacilityAdmin(admin.ModelAdmin):
 
-    #fields = ('',)
+    list_display = (
+        'sku',
+        'name',
+        'category',
+        'description',
+        'rating',
+        'testimonial',
+        'image',
+        )
 
-    #list_display = ('',)
+    ordering = ('name',)
 
-    #ordering = ('',)
+class FacilityCategoryAdmin(admin.ModelAdmin):
+    list_display = (
+        'friendly_name', 
+        'name',
+    )
 
+admin.site.register(FacilityCategory, FacilityCategoryAdmin)
+admin.site.register(facility, FacilityAdmin)
 
-#admin.site.register(, )
