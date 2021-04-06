@@ -32,7 +32,7 @@
     <div class="row">
         {% for facility in facilities %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-            <div class="card-deck">
+            <div class="card-deck mt-3 mb-3">
                 <div class="card">
                         {% if facility.image %}
                         <img src="{{ facility.image.url }}" alt="{{ facility.name }}">
@@ -42,8 +42,8 @@
                     <div class="card-body">
                         <h5>{{ facility.name }}</h5>
                         <p>{{ facility.description }}</p>
-                        <p>Testimonials: {{ facility.testimonial }}</p>
-                        <p>Current Rating: {{ facility.rating }}</p>
+                        <p class="testimonials">Testimonials: {{ facility.testimonial }}</p>
+                        <p>Current Rating: {{ facility.rating }}/5</p>
                         <a href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" class="btn buy-now-button">Buy Membership</a>
                     </div>
                 </div>
