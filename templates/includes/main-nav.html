@@ -6,7 +6,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="facilities">
           <a class="dropdown-item" href="{% url 'facilities' %}?facilitycategory=free_weights_room">Free Weight Gym</a>
-          <a class="dropdown-item" href="#">Cardio Gym</a>
+          <a class="dropdown-item" href="{% url 'facilities' %}?facilitycategory=cardio_gym">Cardio Gym</a>
           <a class="dropdown-item" href="{% url 'facilities' %}?facilitycategory=cafe_coffee">Café</a>
         </div>
       </li>

@@ -42,8 +42,8 @@
                     <div class="card-body">
                         <h5>{{ facility.name }}</h5>
                         <p>{{ facility.description }}</p>
-                        <p>Testimonials {{ facility.testimonial }}</p>
-                        <p>Current Rating out of 5 {{ facility.rating }}</p>
+                        <p>Testimonials: {{ facility.testimonial }}</p>
+                        <p>Current Rating: {{ facility.rating }}</p>
                         <a href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" class="btn buy-now-button">Buy Membership</a>
                     </div>
                 </div>
