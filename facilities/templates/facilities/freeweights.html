@@ -2,6 +2,11 @@
 
 {% load static %}
 
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'facilities/css/facility.css' %}">
+{% endblock %}
+
+
 
 
 <!--empty header container-->
@@ -16,8 +21,8 @@
 {% endblock %}
 
 {% block content %}
-<div class="container h-100">
-    <div class="overlay"></div>
+<div class="overlay"></div>
+<div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
             <h2 class="logo-font">Facilties</h2>
@@ -27,20 +32,19 @@
     <div class="row">
         {% for facility in facilities %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-            <div class="flip-card">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
+            <div class="card-deck">
+                <div class="card">
                         {% if facility.image %}
-                        <img src="{{ facility.image.url }}" class="card-img-top" alt="{{ facility.name }}">
+                        <img src="{{ facility.image.url }}" alt="{{ facility.name }}">
                         {% else %}
-                        <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top" alt="{{ facility.name }}">
+                        <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ facility.name }}">
                         {% endif %}
-                    </div>
-                    <div class="flip-card-back">
+                    <div class="card-body">
                         <h5>{{ facility.name }}</h5>
                         <p>{{ facility.description }}</p>
-                        <p>{{ facility.testimonial }}</p>
+                        <p>Testimonials {{ facility.testimonial }}</p>
                         <p>Current Rating out of 5 {{ facility.rating }}</p>
+                        <a href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" class="btn buy-now-button">Buy Membership</a>
                     </div>
                 </div>
             </div>

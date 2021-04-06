@@ -1,5 +1,9 @@
+.overlay {
+    background-color: black;
+}
+
 /* The flip card code from w3 schools */
-.flip-card {
+.flip-plate {
   background-color: transparent;
   width: 300px;
   height: 200px;
@@ -8,7 +12,7 @@
 }
 
 /* This container is needed to position the front and back side */
-.flip-card-inner {
+.flip-plate-inner {
   position: relative;
   width: 100%;
   height: 100%;
@@ -18,12 +22,12 @@
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-plate:hover .flip-plate-inner {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-plate-front, .flip-plate-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -32,13 +36,13 @@
 }
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
+.flip-plate-front {
   background-color: #bbb;
   color: black;
 }
 
 /* Style the back side */
-.flip-card-back {
+.flip-plate-back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
