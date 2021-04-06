@@ -19,6 +19,7 @@ class FacilityAdmin(admin.ModelAdmin):
 
     ordering = ('name',)
 
+
 class FacilityCategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name', 
