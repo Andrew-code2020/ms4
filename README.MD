@@ -827,36 +827,36 @@ Classes
 -  Kettlebells
     - Link to Kettlebell Class photo
         - Morning https://www.pexels.com/photo/person-using-yellow-kettlebell-4720232/
-        - Afternoon 
-        - Evening  
+        - Afternoon https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/
+        - Evening https://www.pexels.com/photo/kettle-bells-and-dumbbells-on-floor-near-gym-equipment-4608175/ 
     - Credit to Photographer
       - Morning https://www.pexels.com/@ketut-subiyanto
-      - Afternoon
-      - Evening  
+      - Afternoon https://www.pexels.com/@binyaminmellish
+      - Evening https://www.pexels.com/@2926593 
 
 -  Lean Machine
     - Link to Lean Machine Class
-        - Morning
-        - Afternoon
-        - Evening  
+        - Morning https://www.pexels.com/photo/young-determined-sportswoman-doing-exercise-on-weight-machine-in-modern-sports-club-3768913/
+        - Afternoon https://www.pexels.com/photo/fit-male-bodybuilder-exercising-with-metal-machine-in-gym-3837388/
+        - Evening  https://www.pexels.com/photo/muscular-sportsman-training-on-arms-machine-in-gym-4608134/
     - Credit to Photographer
-      - Morning
-      - Afternoon
-      - Evening  
+      - Morning https://www.pexels.com/@olly
+      - Afternoon https://www.pexels.com/@olly
+      - Evening https://www.pexels.com/@2926593 
 
 -  Pilates
     - Link to Pilates Class
-        - Morning
-        - Afternoon
-        - Evening  
+        - Morning https://www.pexels.com/photo/woman-in-purple-shirt-and-gray-pants-bending-her-body-3756527/
+        - Afternoon https://www.pexels.com/photo/graceful-woman-performing-variation-of-setu-bandha-sarvangasana-yoga-pose-5012071/
+        - Evening https://www.pexels.com/photo/woman-in-pink-long-sleeve-shirt-and-gray-leggings-doing-yoga-3756521/ 
     - Credit to Photographer
-      - Morning
-      - Afternoon
-      - Evening
+      - Morning https://www.pexels.com/@alexy-almond
+      - Afternoon https://www.pexels.com/@shvetsa
+      - Evening https://www.pexels.com/@alexy-almond
 
 Membership
 -  Online
-    - Link to Pilates Class
+    - Link to Online Membership
         - Introduction
         - Monthly
         - Yearly  
@@ -864,6 +864,28 @@ Membership
         - Introduction
         - Monthly
         - Yearly 
+
+Membership
+-  Public
+    - Link to Public Membership
+        - 1 Week Pass
+        - Monthly
+        - Yearly  
+    - Credit to Photographer
+        - 1 Week Pass
+        - Monthly
+        - Yearly 
+
+Membership
+-  Public
+    - Link to Public Membership
+        - 1 Week Pass
+        - Monthly
+        - Yearly  
+    - Credit to Photographer
+        - 1 Week Pass
+        - Monthly
+        - Yearly
 
 
 -  No Media Image
