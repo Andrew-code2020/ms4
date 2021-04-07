@@ -6,7 +6,7 @@ def coach(request):
     coaches = Coach.objects.all()
 
     context = {
-        coaches:'coaches',
+        'coaches':coaches,
     }
     return render(request, 'coaches/coach.html', context)
 
