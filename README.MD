@@ -865,8 +865,20 @@ Membership
         - Monthly
         - Yearly 
 
+
 Membership
 -  Public
+    - Link to Public Membership
+        - 1 Week Pass https://www.pexels.com/photo/strong-man-training-biceps-with-dumbbells-4793224/
+        - Monthly https://www.pexels.com/photo/person-holding-black-barbell-703014/
+        - Yearly https://www.pexels.com/photo/several-kettlebells-on-metal-bar-in-gym-3839058/  
+    - Credit to Photographer
+        - 1 Week Pass https://www.pexels.com/@anete-lusina
+        - Monthly https://www.pexels.com/@victorfreitas
+        - Yearly https://www.pexels.com/@olly
+
+Membership
+-  Corporate
     - Link to Public Membership
         - 1 Week Pass
         - Monthly
@@ -875,18 +887,6 @@ Membership
         - 1 Week Pass
         - Monthly
         - Yearly 
-
-Membership
--  Public
-    - Link to Public Membership
-        - 1 Week Pass
-        - Monthly
-        - Yearly  
-    - Credit to Photographer
-        - 1 Week Pass
-        - Monthly
-        - Yearly
-
 
 -  No Media Image
     - Link to coming https://www.pexels.com/photo/love-people-art-sign-4439444/
