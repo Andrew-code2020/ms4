@@ -33,16 +33,16 @@
             {% else %}
             <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ coach.name }}" style="width:100%">
             {% endif %}
-        <h1>{{ coach.name }}</h1>
+        <h4 class ="px-3">{{ coach.name }}</h4>
             <p class="title">{{ coach.role }}</p>
             <p>{{ coach.qualification }}</p>
-                <a href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/andrewdburns/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                <a href="https://www.facebook.com/andrewburnsmoves" target="_blank"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
+                <a class="card-social" href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a class="card-social" href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="card-social" href="https://www.linkedin.com/in/andrewdburns/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="card-social" href="https://www.facebook.com/andrewburnsmoves" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="card-social" href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
                         target="_blank"><i class="fab fa-youtube"></i></a>
-            <p><button>Contact</button></p>
+            <p><button><a href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates,online_membership,public_membership,corporate_membership,membership_student">Buy Class/Membership</a></button></p>
             </div>
         </div>
         {% endfor %}
