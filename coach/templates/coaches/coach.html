@@ -28,7 +28,7 @@
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
 <!---Coach Profile-->
         <div class="card mt-3 mb-3">
-            {% if coaches.image %}
+            {% if coach.image %}
             <img src="{{ coach.image.url }}" alt="{{ coach.name }}" style="width:100%">
             {% else %}
             <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ coach.name }}" style="width:100%">
