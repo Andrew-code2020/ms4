@@ -701,7 +701,7 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 - The live Temple Lean Recipes site may be accessed by following this link https://lean-temple-recipes.herokuapp.com/
 
 
-### Credits
+## Credits
 
 - I consulted the folowing websites to learn about Recipe Websites and to help construct meaningful content for the Temple Lean Recipes site
    - Recipe Websites
@@ -757,21 +757,23 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 
 - I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to mini project repository https://github.com/Andrew-code2020/boutique_ado_v1_ecom
 
- 
+### Code
+Coaches page
+- I copied the profile card idea on the Coaches page from https://www.w3schools.com/howto/howto_css_profile_card.asp. I adapted the code with classes and margins from Bootstrap to help it fit in with our site.
 
-##### Content
+### Content
 
 - The content was constructed by the student with inspiration from their experience as a Health and Fitness professional for the past 10 years. 
 -   
 
-##### Media
+### Media
 
 - The photos used in this site were obtained from pexels.com
   - These photos are placed in the website on the following pages;
     - Home page
     - Registeration page
 
-Facilities images
+#### Facilities Images
 - The Facilities images were taken from pexels.com
 - Weight Rooms
  - Link to guys working with weight rack in gym https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ Credit to Photographer https://www.pexels.com/@brunogobofoto 
@@ -781,22 +783,14 @@ Facilities images
   - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ Credit to Photographer https://www.pexels.com/@pixabay
 - Suspension Room
   - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ Credit to Photographer https://www.pexels.com/@jonathanborba 
-
-- Suspension Room
-  - Link to Kettlebells on floor  Credit to Photographer
-
-
-- Suspension Room
-  - Link to Kettlebells on floor  Credit to Photographer
-
-- Suspension Room
-  - Link to Kettlebells on floor  Credit to Photographer
-
+- Cardio Rooms
+Cardio Gym
+Link to guy on bike in gymhttps://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
 - Cardio Rooms
  - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ Credit to Photographer https://www.pexels.com/@ivan-samkov
 
 
-The Coach images
+#### Coach images
 - The photo of Andrew Burns is a private of the developer of this project
 - The photo of Julie O Leary is a private of the developers collection of this project
 - The photo of Richard is taken from the pexels colection of https://www.pexels.com/@olly. The link to the photo is 
