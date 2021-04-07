@@ -775,26 +775,100 @@ Coaches page
 
 #### Facilities Images
 - The Facilities images were taken from pexels.com
-- Weight Rooms
- - Link to guys working with weight rack in gym https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ Credit to Photographer https://www.pexels.com/@brunogobofoto 
-- Lean Machine Rooms
- - Link to guy on sitting using pec dec gym https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/ Credit to Photographer https://www.pexels.com/@olly
-- Kettlebell Rooms
-  - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ Credit to Photographer https://www.pexels.com/@pixabay
-- Suspension Room
-  - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ Credit to Photographer https://www.pexels.com/@jonathanborba 
 
-- Cardio Rooms
+Weight Rooms
+ - Link to guys working with weight rack in gym https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ 
+ - Credit to Photographer https://www.pexels.com/@brunogobofoto 
+- Lean Machine Rooms
+ - Link to guy on sitting using pec dec gym https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/ 
+ - Credit to Photographer https://www.pexels.com/@olly
+- Kettlebell Rooms
+  - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ 
+  - Credit to Photographer https://www.pexels.com/@pixabay
+- Suspension Room
+  - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ 
+  - Credit to Photographer https://www.pexels.com/@jonathanborba 
+
+Cardio Rooms
   - Cardio Gym
-    - Link to guy on bike in gymhttps://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
+    - Link to guy on bike in gym https://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
+    - Credit to Photographer https://www.pexels.com/@olly
   -  Indoor Cycling Studio
-    - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ Credit to Photographer https://www.pexels.com/@ivan-samkov
-   -  Online Studio
-    - Link to guy on bike in gym  Credit to Photographer
+    - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ 
+    - Credit to Photographer https://www.pexels.com/@ivan-samkov
+  -  Online Studio
+    - Link to studio photo https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/ 
+    - Credit to Photographer https://www.pexels.com/@alexander-dummer-37646
 
 Café
--  Online Studio
-    - Link to guy on bike in gym  Credit to Photographer  
+-  Café
+    - Link to coffee shop https://www.pexels.com/photo/table-in-vintage-restaurant-6267/
+    - Credit to Photographer https://www.pexels.com/@kaboompics
+ 
+-  Salad Bar
+    - Link to salad bar https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/  
+    - Credit to Photographer https://www.pexels.com/@dana-tentis-118658 
+
+-  Smoothie Bar
+    - Link to smoothie bar photo https://www.pexels.com/photo/shake-in-a-glass-990439/ 
+    - Credit to Photographer https://www.pexels.com/@joshsorenson
+
+Classes
+-  Online
+    - Link to Online Class photo
+        - Morning https://www.pexels.com/photo/macbook-pro-beside-white-ipad-4158/
+        - Afternoon https://www.pexels.com/photo/space-grey-ipad-air-with-graph-on-brown-wooden-table-187041/
+        - Evening https://www.pexels.com/photo/smartphone-ipad-tablet-white-40739/ 
+    - Credit to Photographer
+      - Morning https://www.pexels.com/@pixabay
+      - Afternoon https://www.pexels.com/@weekendplayer
+      - Evening https://www.pexels.com/@pixabay 
+
+-  Kettlebells
+    - Link to Kettlebell Class photo
+        - Morning https://www.pexels.com/photo/person-using-yellow-kettlebell-4720232/
+        - Afternoon 
+        - Evening  
+    - Credit to Photographer
+      - Morning https://www.pexels.com/@ketut-subiyanto
+      - Afternoon
+      - Evening  
+
+-  Lean Machine
+    - Link to Lean Machine Class
+        - Morning
+        - Afternoon
+        - Evening  
+    - Credit to Photographer
+      - Morning
+      - Afternoon
+      - Evening  
+
+-  Pilates
+    - Link to Pilates Class
+        - Morning
+        - Afternoon
+        - Evening  
+    - Credit to Photographer
+      - Morning
+      - Afternoon
+      - Evening
+
+Membership
+-  Online
+    - Link to Pilates Class
+        - Introduction
+        - Monthly
+        - Yearly  
+    - Credit to Photographer
+        - Introduction
+        - Monthly
+        - Yearly 
+
+
+-  No Media Image
+    - Link to coming https://www.pexels.com/photo/love-people-art-sign-4439444/
+    - Credit to Photographer https://www.pexels.com/@vie-studio
 
 
 #### Coach images
