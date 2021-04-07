@@ -91,15 +91,16 @@ Who else is doing this?
 - 
 
 What are the pros of what we're offering?
-- 
+- Online exercise and coaching has proliferated since the onset of the pandemic. It will be essential to the survival business that we offer clients the option of online exercise services and the ability to book online for onsite facilities
 -   
 
 What are the cons?
-- 
+- The older generation have found it difficult to navigate the online world.
+- Moving exercise programmes online has very little precedent to follow.
 
 What are the competition missing?
 - The connectivity this area offers
-- The software development expertise to carry out this functionality
+- The software development expertise to carry out this functionality with an intuitive user friendly feel
 
 What are they doing, but they could be doing better?
 - They are providing the facility and knowledge to particpate in regular exercise
@@ -109,7 +110,7 @@ What are they doing, but they could be doing better?
 
 User interviews (What a user thinks they need may not be exactly what they need?)
 - Niche wanted marathon programmes
-- Majority wanted basic classes and memebership
+- Majority wanted basic classes and memebership a return to something familiar
 - Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon or triathlon training classes. 
 - The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. 
 - Feedback which led us to include pilates in our service offer came from clients who were now reporting that they were sitting down working from home and their core strength was severely diminshed.
@@ -117,11 +118,12 @@ User interviews (What a user thinks they need may not be exactly what they need?
 
 Would you use this and why? 
 - 
-- Clients indicated they would use it because .
+- Clients indicated they would use it because they wished to be able to continue their healthy lifestyle even if another lockdown occurs.
+- They welcomed the opportunity to manage their membership and class bookings in a way that suits them
 
 Who is our target audience? 
 - This project is primarily a consumer business to customer service (B2C) 
-- We noted the potential for business to business B2B partnerships 
+- We noted the potential for business to business B2B partnerships and included some corporate team offerings. Rather than opt for a bespoke offering to each potential corporate client we went with a scattergun approach to assess where the corporate wellness is in the COVID-19 era. Feedback will reveal where bespoke offerings maybe included 
 - Our aim was to access clients we already have but leave the door open for other clients to join us 
 - Our thoughts were that our current clients wouldn't need much justifcation to purchase a new offering from us given our existing relationship and the trust we have built up over many years.
 

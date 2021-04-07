@@ -24,17 +24,18 @@
         </div>
     </div>
     <div class="row">
+    {% for coaches in coach %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
 <!---Coach Profile-->
         <div class="card mt-3 mb-3">
-            {% if facility.image %}
-            <img src="{{ facility.image.url }}" alt="{{ facility.name }}" style="width:100%">
+            {% if coaches.image %}
+            <img src="{{ facility.image.url }}" alt="{{ coaches.name }}" style="width:100%">
             {% else %}
-            <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ facility.name }}" style="width:100%">
+            <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ coaches.name }}" style="width:100%">
             {% endif %}
-        <h1>John Doe</h1>
-            <p class="title">Owner</p>
-            <p>Harvard University</p>
+        <h1>{{ coaches.name }}</h1>
+            <p class="title">{{ coaches.role }}</p>
+            <p>{{ coaches.qualification }}</p>
                 <a href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                 <a href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
                 <a href="https://www.linkedin.com/in/andrewdburns/" target="_blank"><i class="fa fa-linkedin"></i></a>
@@ -44,6 +45,7 @@
             <p><button>Contact</button></p>
             </div>
         </div>
+        {% endfor %}
     </div>
 </div>
 
