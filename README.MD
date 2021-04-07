@@ -783,11 +783,18 @@ Coaches page
   - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ Credit to Photographer https://www.pexels.com/@pixabay
 - Suspension Room
   - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ Credit to Photographer https://www.pexels.com/@jonathanborba 
+
 - Cardio Rooms
-Cardio Gym
-Link to guy on bike in gymhttps://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
-- Cardio Rooms
- - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ Credit to Photographer https://www.pexels.com/@ivan-samkov
+  - Cardio Gym
+    - Link to guy on bike in gymhttps://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
+  -  Indoor Cycling Studio
+    - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ Credit to Photographer https://www.pexels.com/@ivan-samkov
+   -  Online Studio
+    - Link to guy on bike in gym  Credit to Photographer
+
+Café
+-  Online Studio
+    - Link to guy on bike in gym  Credit to Photographer  
 
 
 #### Coach images
