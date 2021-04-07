@@ -718,8 +718,8 @@ Bugs - countries field navigate through model and forms removed the label. Chang
             - Hover
             - Overflow
             - Card custom css
-- I used Materialize through out the project to deploy a mobile first design principle.
-  - Website https://materializecss.com/
+- I used Bootstrap through out the project to deploy a mobile first design principle.
+  - Website https://getbootstrap.com/
   - Features influenced
     - Navbar
     - Header
@@ -755,7 +755,8 @@ Bugs - countries field navigate through model and forms removed the label. Chang
   - Data Centric Development Milestone Project 
   - Full Stack Frameworks with Django 
 
-- I copied the knowledge of how to implement Materialize CDN and Font awesome CDN links from my mini project during the data centric development. Link to mini project https://github.com/Andrew-code2020/datacentricminiproject
+- I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to mini project repository https://github.com/Andrew-code2020/boutique_ado_v1_ecom
+
  
 
 ##### Content
@@ -765,14 +766,41 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 
 ##### Media
 
-- The photos used in this site were obtained from pexels.com and https://unsplash.com/
+- The photos used in this site were obtained from pexels.com
   - These photos are placed in the website on the following pages;
     - Home page
     - Registeration page
-    - Breakfast page
-    - Lunch page
-    - Dinner page
-    - Snacks page
+
+Facilities images
+- The Facilities images were taken from pexels.com
+- Weight Rooms
+ - Link to guys working with weight rack in gym https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ Credit to Photographer https://www.pexels.com/@brunogobofoto 
+- Lean Machine Rooms
+ - Link to guy on sitting using pec dec gym https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/ Credit to Photographer https://www.pexels.com/@olly
+- Kettlebell Rooms
+  - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ Credit to Photographer https://www.pexels.com/@pixabay
+- Suspension Room
+  - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ Credit to Photographer https://www.pexels.com/@jonathanborba 
+
+- Suspension Room
+  - Link to Kettlebells on floor  Credit to Photographer
+
+
+- Suspension Room
+  - Link to Kettlebells on floor  Credit to Photographer
+
+- Suspension Room
+  - Link to Kettlebells on floor  Credit to Photographer
+
+- Cardio Rooms
+ - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ Credit to Photographer https://www.pexels.com/@ivan-samkov
+
+
+The Coach images
+- The photo of Andrew Burns is a private of the developer of this project
+- The photo of Julie O Leary is a private of the developers collection of this project
+- The photo of Richard is taken from the pexels colection of https://www.pexels.com/@olly. The link to the photo is 
+ https://www.pexels.com/photo/cheerful-ethnic-guy-toothy-smiling-at-camera-3799717/
 
 
 ##### Acknowledgements
