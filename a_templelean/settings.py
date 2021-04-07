@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'facilities',
+    'coach',
     #Secondary project apps
     'crispy_forms',
     #deployment
