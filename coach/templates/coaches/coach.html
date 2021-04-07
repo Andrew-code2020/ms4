@@ -17,24 +17,32 @@
 <div class="overlay"></div>
 <!--Card from W3 school profile card-->
 <div class="container-fluid">
+<div class="row">
+        <div class="col text-center mt-3">
+            <h2 class="logo-font">Coaches</h2>
+            <hr class="w-50 mb-1">
+        </div>
+    </div>
     <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
 <!---Coach Profile-->
-        <div class="card">
+        <div class="card mt-3 mb-3">
             {% if facility.image %}
             <img src="{{ facility.image.url }}" alt="{{ facility.name }}" style="width:100%">
             {% else %}
             <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ facility.name }}" style="width:100%">
             {% endif %}
         <h1>John Doe</h1>
-            <p class="title">CEO & Founder, Example</p>
+            <p class="title">Owner</p>
             <p>Harvard University</p>
-                <a href="#"><i class="fa fa-dribbble"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-linkedin"></i></a>
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/andrew_burns_moves/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/andrewdburns/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/andrewburnsmoves" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
+                        target="_blank"><i class="fab fa-youtube"></i></a>
             <p><button>Contact</button></p>
+            </div>
         </div>
     </div>
 </div>
