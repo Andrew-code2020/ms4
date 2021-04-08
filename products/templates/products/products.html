@@ -35,6 +35,12 @@
                         <p class="card-text"><strong>€{{ product.price }} </strong></p>
                         <p class="card-text"><a href="{% url 'product_detail' product.id %}"
                                 class="buy-now-button btn-lg">Buy Now</a></p>
+                        {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a class="buy-now-button btn-sm" href="{% url 'edit_product' product.id %}">Edit</a> |
+                            <a class="text-danger btn-sm" href="{% url 'delete_product' product.id %}">Delete</a>
+                        </small>
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -52,11 +58,11 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript">
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-	</script>
-    
+{{ block.super }}
+<script type="text/javascript">
+    $('.btt-link').click(function (e) {
+        window.scrollTo(0, 0)
+    })
+</script>
+
 {% endblock %}
