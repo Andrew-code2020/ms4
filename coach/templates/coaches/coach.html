@@ -27,14 +27,14 @@
     {% for coach in coaches %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
 <!---Coach Profile-->
-        <div class="card mt-3 mb-3">
+        <div class="coach-card mt-3 mb-3">
             {% if coach.image %}
             <img src="{{ coach.image.url }}" alt="{{ coach.name }}" style="width:100%">
             {% else %}
             <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ coach.name }}" style="width:100%">
             {% endif %}
         <h4 class ="px-3">{{ coach.name }}</h4>
-            <p class="title">{{ coach.role }}</p>
+            <p class="coach-title">{{ coach.role }}</p>
             <p>{{ coach.qualification }}</p>
                 <a class="card-social" href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
                 <a class="card-social" href="https://twitter.com/aburnsmoves" target="_blank"><i class="fa fa-twitter"></i></a>
