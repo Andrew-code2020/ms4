@@ -634,6 +634,13 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - Add product urls
+
+Correct code 
+  path('<int:product_id>/', views.product_detail, name='product_detail'),
+Developer wrote by accident 
+   path('<int:product_id/, views.product_detail, name='product_detail'),
+
 Bug - Coaches view
 - context = {
         'coaches':coaches,
