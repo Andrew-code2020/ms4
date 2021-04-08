@@ -27,7 +27,7 @@
     {% for coach in coaches %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
 <!---Coach Profile-->
-        <div class="card text-center mt-3 mb-3">
+        <div class="card text-center mt-3 mb-3 px-4">
             {% if coach.image %}
             <img src="{{ coach.image.url }}" alt="{{ coach.name }}" style="width:100%">
             {% else %}
