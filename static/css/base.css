@@ -114,12 +114,12 @@ a:hover {
 }
 
 /*--Add class or membership button--*/
-.btn, .add-class {
+.add-class {
     background-color: #80ffa9;
     color:#1a1a1a;
 }
 
-.btn, .cancel-button {
+.cancel-button {
     background-color: #f73668;
     color:#1a1a1a;
 }
