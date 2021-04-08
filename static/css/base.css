@@ -287,13 +287,13 @@ p .testimonials{
   font-size: 18px;
 }
 
-button {
+.btn-block {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
-  background-color:#1a1a1a ;
+  color: #1a1a1a;
+  background-color:#80C4FF;
   text-align: center;
   cursor: pointer;
   width: 100%;
