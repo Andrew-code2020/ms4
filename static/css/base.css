@@ -113,6 +113,17 @@ a:hover {
     cursor: pointer;
 }
 
+/*--Add class or membership button--*/
+.btn, .add-class {
+    background-color: #80ffa9;
+    color:#1a1a1a;
+}
+
+.btn, .cancel-button {
+    background-color: #f73668;
+    color:#1a1a1a;
+}
+
 /*--Footer--*/
 
 ul {
