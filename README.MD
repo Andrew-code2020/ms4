@@ -746,7 +746,7 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 - I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I copied a Materialize card code to mimic a jumbotron. 
   - Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
 
-- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive. I did not use the materialize icons because they did not look as good as the font awesome icons.
+- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
 
 - I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. 
 
@@ -864,13 +864,13 @@ Classes
 Membership
 -  Online
     - Link to Online Membership
-        - Introduction
-        - Monthly
-        - Yearly  
+        - Introduction https://www.pexels.com/photo/woman-doing-online-yoga-class-6697222/
+        - Monthly https://www.pexels.com/photo/crop-woman-with-laptop-and-dumbbell-on-sports-mat-4498362/
+        - Yearly  https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/
     - Credit to Photographer
-        - Introduction
-        - Monthly
-        - Yearly 
+        - Introduction https://www.pexels.com/@tim-samuel
+        - Monthly https://www.pexels.com/@karolina-grabowska
+        - Yearly https://www.pexels.com/@pixabay
 
 
 Membership
@@ -885,6 +885,18 @@ Membership
         - Yearly https://www.pexels.com/@olly
 
 Membership
+-  Corporate
+    - Link to Public Membership
+        - 1 Week Pass
+        - Monthly
+        - Yearly  
+    - Credit to Photographer
+        - 1 Week Pass
+        - Monthly
+        - Yearly 
+
+
+Student
 -  Corporate
     - Link to Public Membership
         - 1 Week Pass
