@@ -16,8 +16,11 @@ def profile(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Temple Lean Profile update complete')
+        else:
+            messages.error(request, 'Profile update failed. Please ensure the form is valid.')
     
-    form = UserProfileForm(request.POST, instance=profile)
+    else: 
+        form = UserProfileForm(request.POST, instance=profile)
     orders = profile.orders.all()
 
     template = 'profiles/profile.html'
