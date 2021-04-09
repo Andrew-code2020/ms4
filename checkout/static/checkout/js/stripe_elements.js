@@ -1,4 +1,5 @@
-/*--Stripe Docs js with style refinement code copied from stripe docs adapted using boutique ado project as a guide and adapted for this project--*/
+/*--Stripe Docs js with style refinement code copied from stripe docs
+adapted using boutique ado project as a guide and adapted for this project--*/
 
 var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
