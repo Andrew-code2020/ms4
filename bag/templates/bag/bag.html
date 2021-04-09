@@ -45,14 +45,16 @@
                                 <th scope="col">Subtotal</th>
                             </tr>
                         </thead>
-<!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
+                        <!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
                         {% for item in bag_items %}
                         <tr>
                             <td class="p-3 w-25">
                                 {% if item.product.image %}
-                                <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                <img class="img-fluid rounded" src="{{ item.product.image.url }}"
+                                    alt="{{ item.product.name }}">
                                 {% else %}
-                                <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png"
+                                    alt="{{ item.product.name }}">
                                 {% endif %}
                             </td>
                             <td class="py-3">
@@ -99,13 +101,15 @@
                                             </div>
                                             <hr>
                                             {% if item.product.has_days %}
-                                            <input class="text-center"type="hidden" name="product_days" value="{{ item.days }}">
+                                            <input class="text-center" type="hidden" name="product_days"
+                                                value="{{ item.days }}">
                                             {% endif %}
                                         </div>
                                     </div>
+                                    <!--links to allow update of product quantity. code taken from Boutique Ado project and adapted to this project-->
                                     <a class="update-link text-info"><small>Update</small></a>
-                                                <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
-                                                    data-product_days="{{ item.days }}"><small>Remove</small></a>
+                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
+                                        data-product_days="{{ item.days }}"><small>Remove</small></a>
                                 </form>
                             </td>
                             <td class="py-3">

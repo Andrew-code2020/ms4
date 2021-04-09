@@ -634,6 +634,10 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - Product Detail page
+- In the product detail page the has days feature was visibly too close to the Quantity incrementor. To push to down we inserted a top margin or mt-2 in Day column which pushed it down. This made the product details page more visibly appealing.
+- The column in the select box went from this code <div class="col-12"> to this code <div class="col-12 mt-3"> to solve the problem
+
 Bug - Home page
 - Get Lean Now button
 - On the home page the GET LEAN NOW Button would wrap around itself and look terrible on mobile devices
