@@ -113,7 +113,7 @@
                             </td>
                         </tr>
                         {% endfor %}
-                        <!---Pop shopping bag notification-->
+                        <!--shopping bag grand total-->
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
                                 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
@@ -153,7 +153,7 @@
 
 
 {% endblock %}
-
+<!--Update and Remove Javascript with link to product apps-->
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}

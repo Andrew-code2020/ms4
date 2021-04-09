@@ -42,7 +42,7 @@
                                 <div class="form-group w-100">
                                     <div class="input-group">
                                         <div class="input-group-prepend w-75">
-                                            <button class="decrement-qty btn .buy-now-button rounded-0"
+                                            <button class="decrement-qty btn small-buy-now-button rounded-0"
                                                 data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
                                                 <span class="icon">
                                                     <i class="fas fa-minus"></i>
@@ -52,7 +52,7 @@
                                                 name="quantity" value="1" min="1" max="99"
                                                 data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
                                             <div class="input-group-append">
-                                                <button class="increment-qty btn .buy-now-button rounded-0"
+                                                <button class="increment-qty btn small-buy-now-button rounded-0"
                                                     data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
                                                     <span class="icon">
                                                         <i class="fas fa-plus"></i>
@@ -60,12 +60,14 @@
                                                 </button>
                                             </div>
                                         </div>
+                                        <!--Day select for classes only-->
                                         <div class="form-row">
                                             {% with product.has_days as s %}
                                             {% if s %}
                                             <div class="col-12">
+                                                <hr>
                                                 <p><strong>Day:</strong></p>
-                                                <select class="form-control rounded-0 w-100" name="product_days"
+                                                <select class="form-control rounded-0 w-100 justify-content-center" name="product_days"
                                                     id="id_product_days">
                                                     <option value="monday">Monday</option>
                                                     <option value="tuesday">Tuesday</option>
