@@ -14,18 +14,19 @@
 {% endblock %}
 
 {% block content %}
+<!--white background overlay-->
 <div class="overlay"></div>
-
+<!--Top header for updating classes or membership-->
 <div class="container mb-2">
     <div class="row">
         <div class="col-12 col-md-6">
             <hr>
             <h2 class="logo-font mb-4">Temple Lean Class and Membership Management</h2>
-            <h5 class="text-muted">Edit Class or Membership</h5>
+            <h5 class="text-muted">Update Class or Membership</h5>
             <hr>
         </div>
     </div>
-
+<!--update class or membership form-->
     <div class="row">
         <div class="col-12 col-md-6">
             <form method="POST" action="{% url 'edit_product' product.id %}" class="form mb-2"
@@ -38,7 +39,8 @@
                     {{ field }}
                 {% endif %}
                 {% endfor %}
-                <div class="text-right">
+                <!--confirm update action or retreat buttons-->
+                <div class="text-left">
                     <a class="btn cancel-button rounded-0" href="{% url 'products' %}">Cancel <i
                             class="fas fa-window-close"></i></a>
                     <button class="btn add-class rounded-0" type="submit">Update Product <i
