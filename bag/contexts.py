@@ -3,6 +3,8 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+# logic for adding content to bag
+# calculating price
 def bag_contents(request):
 
     bag_items = []

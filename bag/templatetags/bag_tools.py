@@ -1,5 +1,8 @@
 from django import template
 
+# to calculate subtotal in bag
+# for each line item
+# code taken from Boutique Ado project and adapted to this project
 
 register = template.Library()
 

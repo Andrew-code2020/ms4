@@ -117,7 +117,7 @@
                             </td>
                         </tr>
                         {% endfor %}
-                        <!--shopping bag grand total-->
+                        <!--shopping bag grand total code taken from Boutique Ado project and adapted to this project-->
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
                                 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
@@ -142,6 +142,7 @@
                     </table>
                 </div>
             </div>
+            <!--Notice in case bag becomes empty. code taken from Boutique Ado project and adapted to this project-->
             {% else %}
             <p class="lead mb-5">Your bag is empty.</p>
             <a href="{% url 'products' %}" class="btn-secondary rounded-0 btn-lg">
