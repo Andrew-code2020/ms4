@@ -2,7 +2,7 @@ from django.contrib import admin
 
 from .models import Coach
 
-# Register your models here.
+# Registering coach model to the admin.
 
 class CoachAdmin(admin.ModelAdmin):
     list_display = (
