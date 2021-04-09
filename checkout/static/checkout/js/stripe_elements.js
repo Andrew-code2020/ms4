@@ -1,4 +1,4 @@
-/*--Stripe Docs js with style refinement--*/
+/*--Stripe Docs js with style refinement code copied from stripe docs adapted using boutique ado project as a guide and adapted for this project--*/
 
 var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
 var clientSecret = $('#id_client_secret').text().slice(1, -1);
@@ -7,7 +7,7 @@ var elements = stripe.elements();
 var card = elements.create('card', { style: style });
 var style = {
     base: {
-        color: '#000',
+        color: '#1a1a1a',
         fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
