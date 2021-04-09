@@ -1,5 +1,6 @@
 from django.db import models
 
+# models for Facilties app
 
 class FacilityCategory(models.Model):
 

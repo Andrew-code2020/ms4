@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.db.models import Q
 from .models import facility, FacilityCategory
 
+#facilties app display on template and logic for filtering
 
 def free_weights(request):
     """function to render freeweights facilities page"""

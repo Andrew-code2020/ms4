@@ -18,7 +18,9 @@
 {% endblock %}
 
 {% block content %}
+<!--White Overlay to landing page header picture-->
 <div class="overlay"></div>
+<!--Top Header of facilities page-->
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
@@ -26,6 +28,7 @@
             <hr class="w-50 mb-1">
         </div>
     </div>
+    <!--loop to render facilities and includes option to purchase membership-->
     <div class="row">
         {% for facility in facilities %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
@@ -40,9 +43,9 @@
                         <h5>{{ facility.name }}</h5>
                         <p>{{ facility.description }}</p>
                         <h7>Testimonial:</h7>
-                        <p class="testimonials">{{ facility.testimonial }}</p>
+                        <p class="font-italic">"{{ facility.testimonial }}"</p>
                         <p>Current Rating: {{ facility.rating }}/5</p>
-                        <a href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" class="btn buy-now-button">Buy Membership</a>
+                        <a href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" class="btn buy-now-button">Buy Membership <i class="fas fa-credit-card"></i></a>
                     </div>
                 </div>
             </div>

@@ -4,6 +4,7 @@ from django.contrib import admin
 
 from .models import FacilityCategory, facility
 
+#register FacilityCategory & facility to Django admin
 
 class FacilityAdmin(admin.ModelAdmin):
 
