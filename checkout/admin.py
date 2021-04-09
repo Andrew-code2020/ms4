@@ -4,6 +4,7 @@ from django.contrib import admin
 
 from .models import Order, OrderLineItem
 
+# registering order and OrderLineItem model to Django admin 
 
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem

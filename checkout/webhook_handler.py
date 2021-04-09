@@ -10,6 +10,9 @@ from profiles.models import UserProfile
 import json
 import time
 
+# if payment made but maybe user shuts
+# the browser before success notification appears
+# taken from Boutique Ado project and stripe documents
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""

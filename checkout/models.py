@@ -12,6 +12,7 @@ from django_countries.fields import CountryField
 from products.models import Product
 from profiles.models import UserProfile
 
+# order models and logic
 
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
