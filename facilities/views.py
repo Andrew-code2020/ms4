@@ -15,6 +15,7 @@ def free_weights(request):
             facilities = facilities.filter(category__name__in=facilitycategories)
             facilitycategories = FacilityCategory.objects.filter(
                 name__in=facilitycategories)
+        
 
     context = {
         'facilities': facilities,

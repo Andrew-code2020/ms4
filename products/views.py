@@ -19,7 +19,7 @@ def all_products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)    
-
+        # products search field
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -38,7 +38,7 @@ def all_products(request):
     return render(request, 'products/products.html', context)
 
 
-
+#product detail page
 def product_detail(request, product_id):
     """ A view to show individual Temple Lean Class or product details """
 
@@ -50,6 +50,8 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
+
+#CRUD functionality locked to superuser only
 @login_required
 def add_product(request):
     """ Add a class or membership to the gym """
@@ -76,6 +78,8 @@ def add_product(request):
 
     return render(request, template, context)
 
+
+#CRUD functionality locked to superuser only
 @login_required
 def edit_product(request, product_id):
     """ Edit a product in the store """
@@ -104,6 +108,8 @@ def edit_product(request, product_id):
 
     return render(request, template, context)
 
+
+#CRUD functionality locked to superuser only
 @login_required
 def delete_product(request, product_id):
     """ Delete a class or membership from the store """
