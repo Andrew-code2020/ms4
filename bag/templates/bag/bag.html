@@ -16,9 +16,11 @@
 {% endblock %}
 
 {% block content %}
+<!--white background overlay div-->
 <div class="overlay"></div>
 
 <div class="container mb-2">
+    <!--Top header of bag content page-->
     <div class="row">
         <div class="col">
             <hr>
@@ -26,7 +28,7 @@
             <hr>
         </div>
     </div>
-
+    <!--bag content table for ease of display table taken from Boutique Ado project and adapated for this project-->
     <div class="row">
         <div class="col">
             {% if bag_items %}
@@ -67,13 +69,14 @@
                                 <p class="my-0">€{{ item.product.price }}</p>
                             </td>
                             <td class="py-3 w-25">
+                                <!--update bag content input taken from Boutique Ado project and adapated for this project-->
                                 <form class="form update-form" method="POST"
                                     action="{% url 'adjust_bag' item.item_id %}">
                                     {% csrf_token %}
                                     <div class="form-group">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                <button class="decrement-qty btn btn-sm btn-black rounded-0"
+                                                <button class="decrement-qty btn btn-sm small-buy-now-button rounded-0"
                                                     data-item_id="{{ item.item_id }}"
                                                     id="decrement-qty_{{ item.item_id }}">
                                                     <span>
@@ -86,7 +89,7 @@
                                                 max="99" data-item_id="{{ item.item_id }}"
                                                 id="id_qty_{{ item.item_id }}">
                                             <div class="input-group-append">
-                                                <button class="increment-qty btn btn-sm btn-black rounded-0"
+                                                <button class="increment-qty btn btn-sm small-buy-now-button rounded-0"
                                                     data-item_id="{{ item.item_id }}"
                                                     id="increment-qty_{{ item.item_id }}">
                                                     <span>

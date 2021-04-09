@@ -634,6 +634,16 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - Home page
+- Get Lean Now button
+- On the home page the GET LEAN NOW Button would wrap around itself and look terrible on mobile devices
+- sample photo of the problem can be seen here readmedoc2/bugphotos/getleanbuttonerror.jpg
+- To fix the error the wrapping div column was changed from col-7 to col-12. The fix can be seen here readmedoc2/bugphotos/getleanbuttonfixed.jpg
+- The div code before
+    - <div class="col-7 col-md-6 my-auto">
+- The div code after 
+    -  <div class="col-12 col-md-6 my-auto">
+
 Bug - Add product urls
 
 Correct code 
