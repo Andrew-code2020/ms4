@@ -1,4 +1,4 @@
-/*--Stripe CSS--*/
+/*--Stripe CSS code taken directly from Stripe and Boutique Ado project. small modificatons made to color to fit project--*/
 
 .StripeElement,
 .stripe-style-input {
@@ -43,7 +43,7 @@
 }
 
 
-/*----*/
+/*-- loading overlay--*/
 
 #loading-overlay {
 	display: none;
