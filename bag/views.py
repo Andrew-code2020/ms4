@@ -5,10 +5,12 @@ from products.models import Product
 
 
 def view_bag(request):
-    """function to render shopping bag"""
+    """function to render gym bag"""
     return render(request, 'bag/bag.html')
 
 
+# add item to the gym bag
+# code taken from Boutique Ado project and adapted to this project
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -30,7 +32,7 @@ def add_to_bag(request, item_id):
                 messages.success(request, f'Added day {days.upper()} {bag[item_id]} to your bag')
         else:
             bag[item_id] = {'items_by_days': {days: quantity}}
-            messages.success(request, f'Added day {days.upper()} total in {bag[item_id]}')
+            messages.success(request, f'Added day {days.upper()} to {product.name} in your bag')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
@@ -43,6 +45,8 @@ def add_to_bag(request, item_id):
     return redirect(redirect_url)
 
 
+# adjust item in gym bag
+# code taken from Boutique Ado project and adapted to this project
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
     product = get_object_or_404(Product, pk=item_id)
@@ -72,7 +76,8 @@ def adjust_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
 
-
+# remove item from gym bag
+# code taken from Boutique Ado project and adapted to this project
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
     product = get_object_or_404(Product, pk=item_id)
