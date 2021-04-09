@@ -2,7 +2,7 @@
 
 {% load static %}
 
-
+<!--code below copied from boutique ado project as a guide and adapted for this project-->
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
@@ -42,7 +42,7 @@
                         <small class="text-muted">Order Info:</small>
                     </div>
                 </div>
-
+                <!--Row and columns setting up the order breakdown-->
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-lean font-weight-bold">Order Number</p>
@@ -65,7 +65,7 @@
                         <small class="text-muted">Order Details:</small>
                     </div>
                 </div>
-
+                <!--Details of order-->
                 {% for item in order.lineitems.all %}
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -87,7 +87,7 @@
                         <small class="text-muted">Personal Details of Order:</small>
                     </div>
                 </div>
-
+                <!--Short personal information check for user-->
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <p class="mb-0 text-black font-weight-bold">Full Name</p>
@@ -107,25 +107,26 @@
     </div>
 </div>
 <div class="row">
+    <!--If user comes from profile they receive a button directing them back to there profile-->
     <div class="col-12 col-lg-7 text-right">
         {% if from_profile %}
         <a href="{% url 'profile' %}" class="btn btn-secondary rounded-0 my-2">
             <span class="icon mr-2">
-                <i class="fas fa-angle-left"></i>
+                <i class="fas fa-angle-left btn-secondary"></i>
             </span>
             <span class="text-uppercase">Back to Profile</span>
         </a>
         {% else %}
-        <a href="{% url 'products' %}?category=public_membership" class="btn btn-secondary rounded-0 my-2">
-            <span class="icon mr-2">
-                <i class="fas fa-gifts"></i>
-            </span>
-            <span class="text-uppercase">Checkout our Membership Offers</span>
+        <!--Invite the user to continue purchasing from Temple Lean-->
+        <a href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates,online_membership,public_membership,corporate_membership,membership_student" class="btn btn-secondary rounded-0 my-2 text-uppercase">
+            Checkout other Activities
+            <i class="fas fa-walking btn-secondary"></i>
         </a>
         {% endif %}
     </div>
 </div>
 
+<!--Loading Spinner-->
 <div id="loading-overlay">
     <button class="btn btn-primary" type="button" disabled>
         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>

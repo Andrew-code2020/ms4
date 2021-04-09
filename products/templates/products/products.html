@@ -10,7 +10,9 @@
 {% endblock %}
 
 {% block content %}
+<!--white background overlay div-->
 <div class="overlay"></div>
+<!--Top of Activity Offers Page-->
 <div class="container-fluid">
     <div class="row">
         <div class="col text-center mt-3">
@@ -24,6 +26,7 @@
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <div class="card-deck mt-3 mb-3">
                 <div class="card">
+                    <!--Template logic to render placeholder image for product which has no image-->
                     {% if product.image %}
                     <img src="{{ product.image.url }}" class="card-img-top" alt="{{ product.name }}">
                     {% else %}
@@ -33,13 +36,18 @@
                         <h5 class="card-title">{{ product.name }}</h5>
                         <p class="card-text">{{ product.description }} </p>
                         <p class="card-text"><strong>€{{ product.price }} </strong></p>
-                        <p class="card-text"><a href="{% url 'product_detail' product.id %}"
-                                class="buy-now-button btn-lg">Buy Now</a></p>
+                        <p class="card-text text-left"><a href="{% url 'product_detail' product.id %}"
+                                class="buy-now-button btn-lg">Buy Now <i class="fas fa-credit-card"></i></a></p>
+                        <!--If super user edit and delete products functionality-->
                         {% if request.user.is_superuser %}
-                        <small class="ml-3">
-                            <a class="buy-now-button btn-sm" href="{% url 'edit_product' product.id %}">Edit <i class="fas fa-edit fa-sm"></i></a> |
-                            <a class="cancel-button btn-sm" href="{% url 'delete_product' product.id %}">Delete <i class="fas fa-trash-alt fa-sm"></i></a>
-                        </small>
+                        <p class="card-text text-left">
+                            <small class="ml-0">
+                                <a class="buy-now-button btn-sm" href="{% url 'edit_product' product.id %}">Update <i
+                                        class="fas fa-edit fa-sm"></i></a> |
+                                <a class="cancel-button btn-sm" href="{% url 'delete_product' product.id %}">Delete <i
+                                        class="fas fa-trash-alt fa-sm"></i></a>
+                            </small>
+                        </p>
                         {% endif %}
                     </div>
                 </div>
@@ -48,6 +56,7 @@
         {% endfor %}
     </div>
 </div>
+<!--Back top arrow in case user needs to scroll up rapidly-->
 <div class="btt-button shadow-sm rounded-0 border border-black">
     <a class="btt-link d-flex h-100">
         <i class="far fa-arrow-alt-circle-up text-lean mx-auto my-auto"></i>
