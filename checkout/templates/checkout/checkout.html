@@ -77,6 +77,7 @@
         </div>
         <div class="col-12 col-lg-6">
             <p class="text-muted">Please fill out the form below to complete your order</p>
+            <!--Form to checkout and complete purchase-->
             <form action="{% url 'checkout' %}" method="POST" id="payment-form">
                 {% csrf_token %}
                 <fieldset class="rounded px-3 mb-5">
@@ -117,7 +118,7 @@
                     <!-- Pass the client secret to the view so we can get the payment intent id -->
                     <input type="hidden" value="{{ client_secret }}" name="client_secret">
                 </fieldset>
-
+                <!--Field for users to submit card information or return and adjust bag-->
                 <div class="submit-button text-right mt-5 mb-2">
                     <a href="{% url 'view_bag' %}" class="btn btn-secondary rounded-0 font-weight-bold">
                     <i class="fas fa-chevron-left fa-sm btn-secondary"></i> Adjust Bag
