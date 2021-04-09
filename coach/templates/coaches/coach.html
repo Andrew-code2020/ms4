@@ -15,25 +15,28 @@
 
 {% block content %}
 <div class="overlay"></div>
-<!--Card from W3 school profile card-->
+<!--Card from W3 school profile card https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_profile_card-->
 <div class="container-fluid">
-<div class="row">
+<!--Top Header of Coach page-->
+    <div class="row">
         <div class="col text-center mt-3">
             <h2 class="logo-font">Coaches</h2>
             <hr class="w-50 mb-1">
         </div>
     </div>
     <div class="row">
+    <!---for loop of Coach profile-->   
     {% for coach in coaches %}
         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4">
-<!---Coach Profile-->
+<!--Coach Profile image-->
         <div class="card text-center mt-3 mb-3 px-4">
             {% if coach.image %}
             <img src="{{ coach.image.url }}" alt="{{ coach.name }}" style="width:100%">
             {% else %}
             <img src="{{ MEDIA_URL }}noimage.jpg"  alt="{{ coach.name }}" style="width:100%">
             {% endif %}
-        <h4 class ="px-3">{{ coach.name }}</h4>
+        <!--Coach Profile-->
+            <h4 class ="px-3">{{ coach.name }}</h4>
             <p class="role">{{ coach.role }}</p>
             <p>{{ coach.qualification }}</p>
                 <a class="card-social" href="https://www.instagram.com/andrew_burns_moves/" target="_blank"><i class="fab fa-instagram-square"></i></a>
@@ -42,7 +45,7 @@
                 <a class="card-social" href="https://www.facebook.com/andrewburnsmoves" target="_blank"><i class="fa fa-facebook"></i></a>
                 <a class="card-social" href="https://www.youtube.com/channel/UCRAIA8-iy_A7460Ix0PjTYg?view_as=subscriber"
                         target="_blank"><i class="fab fa-youtube"></i></a>
-            <p><a class ="coach-profile-button btn btn-block" href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates,online_membership,public_membership,corporate_membership,membership_student">Buy Class/Membership</a></p>
+            <p><a class ="coach-profile-button btn btn-block" href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates,online_membership,public_membership,corporate_membership,membership_student">Buy Class/Membership <i class="fas fa-credit-card"></i></a></p>
             </div>
         </div>
         {% endfor %}
