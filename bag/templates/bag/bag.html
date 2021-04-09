@@ -24,7 +24,7 @@
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="logo-font mb-4">Gym Bag</h2>
+            <h2 class="logo-font mb-4 text-center">Gym Bag</h2>
             <hr>
         </div>
     </div>
@@ -45,7 +45,7 @@
                                 <th scope="col">Subtotal</th>
                             </tr>
                         </thead>
-
+<!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
                         {% for item in bag_items %}
                         <tr>
                             <td class="p-3 w-25">
@@ -97,22 +97,23 @@
                                                     </span>
                                                 </button>
                                             </div>
+                                            <hr>
                                             {% if item.product.has_days %}
-                                            <input type="hidden" name="product_days" value="{{ item.days }}">
+                                            <input class="text-center"type="hidden" name="product_days" value="{{ item.days }}">
                                             {% endif %}
                                         </div>
                                     </div>
+                                    <a class="update-link text-info"><small>Update</small></a>
+                                                <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
+                                                    data-product_days="{{ item.days }}"><small>Remove</small></a>
                                 </form>
-                                <a class="update-link text-info"><small>Update</small></a>
-                                <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
-                                    data-product_days="{{ item.days }}"><small>Remove</small></a>
                             </td>
-
                             <td class="py-3">
                                 <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                             </td>
                         </tr>
                         {% endfor %}
+                        <!---Pop shopping bag notification-->
                         <tr>
                             <td colspan="5" class="pt-5 text-right">
                                 <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
