@@ -354,27 +354,155 @@ Faciltiies
 7. products for user to browser product and for developer to add products
 8. profiles to store user information
 
+## User Stories - Theme | Registeration and CRUD
+
+### User Story No. 1 
+As a Temple Lean Website User
+- I want to be able to
+   - Easily register for an account on the Temple Lean Website
+- So that I can
+ - Have a personal account and be able to view my profile and order history
+
+### User Story No. 2
+As a Temple Lean Website User
+- I want to be able to
+   - Easily login and logout of my profile
+- So that I can
+   - Access my personal account information and that I feel my data is secure
+
+### User Story No. 3 
+As a Temple Lean Website User
+- I want to be able to
+   - Easily create read update and delete my profile
+- So that I can
+   - update personal account information or remove it if I need too
+
+### User Story No. 4 
+As a Temple Lean Website User
+- I want to be able to
+   - Easily recover password
+- So that I can
+   - Access my account if I forget my password
+
+### User Story No. 5
+As a Temple Lean Website User
+- I want to be able to
+   - recieve confirmation email after registering
+- So that I can
+   - so that when the user is sent an email from the Temple Lean website they will know that they successfully completed registeration
+
+### User Story No. 6 
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+## User Stories - Theme | Viewing and Navigation
+### User Story  No. 1
+As a Temple Lean Website User
+- I want to be able to
+   - View a list of memberships options and Fitness services
+- So that I can
+   - select some memberships options and fitness services to purchase singly or together if I choose to do so
+
+### User Story  No. 2
+As a Temple Lean Website User
+- I want to be able to
+   - View Individual memberships options and Fitness services
+- So that I can
+   - Identify key pieces of information such price and description (Access information and built in features ie classes) of the membership
+
+### User Story  No. 3
+As a Temple Lean Website User
+- I want to be able to
+   - 
+- So that I can
+
+## User Stories - Theme | Sorting and Searching
+### User Story  No. 1
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+### User Story  No. 2
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+### User Story  No. 3
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+### User Story  No. 4
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
 
 
+## User Stories - Theme | Purchasing and Checkout
+### User Story No. 1 
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
 
-### User Story 1 (Creating and reading a profile - Registeration)
+### User Story No. 2
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
 
-### User Story 2 (Editing my profile)
-
-## User Story 3 (Delete profile)
+### User Story No. 3
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
  
+### User Story No. 4
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
 
-## User Story 4 (Creating and Reading Recipes)
+### User Story No. 5
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+
+### User Story No. 6 
+As a Temple Lean Website User
+- I want to be able to
+   -
+- So that I can
+
+
+## User Stories - Theme | Admin and store management
+### User Story No. 1
+As a Temple Lean Website Owner
+- I want to be able to
+   -
+- So that I can
+
+### User Story No. 2
+As a Temple Lean Website Owner
+- I want to be able to
+   -
+- So that I can
+
+### User Story No. 3
+As a Temple Lean Website Owner
+- I want to be able to
+   -
+- So that I can
 
  
-
-### User Story 5 (Update Recipes)
-
-
-### User Story 6 (Delete Recipes)
- 
-
-### User Story 7 (Log out)
 
 
 ## Structure Plane
