@@ -20,8 +20,11 @@
 {% endblock %}
 
 {% block content %}
+
+<!--White background overlay-->
 <div class="overlay"></div>
 
+<!--Profile Header helping the user know they are on the profile page-->
 <div class="container mb-2">
     <div class="row">
         <div class="col">
@@ -31,6 +34,8 @@
         </div>
     </div>
 </div>
+
+<!--Profile form information-->
 <div class="row">
     <div class="col-12 col-lg-6">
         <div class="card-deck">
@@ -41,7 +46,10 @@
                     <form class="mt-3" action="{% url 'profile' %}" method="POST" id="profile-update-form">
                         {% csrf_token %}
                         {{ form|crispy }}
-                        <button class=" gym-now-button text-uppercase float-right">Update profile</button>
+                        <a class="btn cancel-button text-uppercase rounded-0 float-left" href="{% url 'delete_profile' user.id %}">Delete profile <i
+                            class="fas fa-window-close"></i></a>
+                        <button class="btn add-class text-uppercase rounded-0 float-left">Update profile <i
+                            class="fas fa-edit"></i></button>
                     </form>
                     </p>
                 </div>

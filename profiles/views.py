@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
@@ -51,3 +51,13 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+
+
+@login_required
+def delete_profile(request, user_id):
+    """ Delete a class or membership from the store """
+    profile = get_object_or_404(UserProfile, pk=user_id)
+    profile.delete()
+    messages.success(request, 'Profile deleted and you have been logged out')
+    return redirect(reverse('account_logout'))
