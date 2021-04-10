@@ -184,7 +184,7 @@ Color Scheme
   - https://www.revolutionpersonaltraining.com.au/ 
     - Review notes color scheme great
 
-Basic Observations on what works well for a gym websites
+Basic Observations on what works well for a gym websites and features we plan to implement
    - Navbar 
     - Two tiers
     - Collapsible
@@ -202,23 +202,26 @@ Basic Observations on what works well for a gym websites
 
 - Section
   - Home/Landing Page Body 
-     -Hero image on home page
+     - Hero image on home page
+     - Overlay hero image with white background
   - CRUD Functionality to be available in 
     - Profile
     - Django Admin
-
-Cards with Photo Gallery
-  - Profile
-  - 
-
-Card flip - Staff
+  - Cards with Photo Gallery
+    - Profile
+    - Facilities
+    - Classes
+    - Membership
+    - Coaches
+    - Profile
 
 Footer    
  - Social Media Icons wired up Facebook. Instagram, Twitter(developers social media) (Left) 
- - Gap in Center
- - 
+ - Gap in Center later became contact information
+ - Right opening hours
 
 Data Schema - Database Django
+
 
 ### Apps 
 
