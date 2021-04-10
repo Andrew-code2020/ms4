@@ -51,29 +51,39 @@ The key reasons for producing the website were to;
 
 At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website 
  - add a source of basic information about Temple Lean services
- - begin to build a digital support platform for members in a Lifestyle and Physical Activity context.
- - begin to build a digital support platform for members in a Lifestyle and Physical Activity context.
+ - begin to build a digital support platform for Temple Lean members in a Lifestyle and Physical Activity context.
+ - begin to build a digital support platform to help Temple Lean owners run their Business effectively with respect to the challenges of today.
+
 It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or it's online services. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 
 
+At the outset conventional web design features such Navbar, Footer, shopping bag and checkout were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 
-At the outset conventional web design features were favoured because we wanted everyone from the novice to the accompolished web user to feel like they were still in a familiar place on the web. 
 The vision for the project was to have a website that;
 
 - Delivered basic information that the user could read about Temple Leans online services and on site facilities 
-- Offer a route to find out more about Temple Lean the fitness facility
+- Offer a route to purchase access to the services
 
 Further objectives included;
-- implementing interactive features on the Temple Lean Recipes website to help the user feel they were unlocking short manageable amounts of information about healthy food recipes.
+- implementing interactive features on the Temple Lean website to help the user feel they were receiving a comprehensive service.
+
+It was determined that the Minimum Viable Product will contain the essential features below;
+- Register
+- Log in Log Out
+- CRUD a profile
+- Allow the owner the CRUD to manage products
+- Buy Class Pass
+- Buy Membership
+- Find information about Facilities and Coaches
 
 
 ##### Strategy Plan - Business Model Strategy
 
 What are you the Business aiming to achieve? 
 - Users are looking for; 
-  - A place to workout in a post COVID-19 era
+  - A place to workout in a post/living with COVID-19 era
   - A place to enjoy a workout in the gym whilst feeling safe or online if in a temporary lockdown
   - Small Group Training
   - Online booking, membership purchase
