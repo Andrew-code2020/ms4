@@ -57,8 +57,9 @@
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row top-banner d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-lean my-0"><strong>Temple</strong> Lean</h2>
+                <a href="{% url 'home' %}" {% if request.path == 'home' %} class="active"{% endif %}
+                    class="nav-link main-logo-link">
+                    <h2 class="logo-font text-lean my-0"><strong>Temple Lean</strong></h2>
                 </a>
             </div>
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">

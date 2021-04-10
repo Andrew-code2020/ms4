@@ -223,74 +223,177 @@ Footer
 Data Schema - Database Django
 
 
-### Apps 
-
-#### Products
- 
 Categories
 
-Product Details
+1. Online Memberships 
+2. Student Memberships
+3. Corporate Memberships
+4. Public Memberships
+5. Kettlebells 
+6. Pilates
+7. Lean Machine (Our new bespoke Small Group Training class) 
+8. HIIT (evolved into Online Class to be clear what the customer was receiving)
 
-User information
-- Object Id
-- Username
-- Name
-- Email 
-- Password  
 
- 
+Faciltiies Categories
+1. Cardio Gym
+2. Weights Room
+3. Café
 
-Recipe types or Categories
-- Object Id
-- Breakfast 
-- Lunch 
-- Dinner 
-- Snacks
+
+Products
+1. Online Memberships
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days False
+      - Price
+      - Image
+2. Student Memberships
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days False
+      - Price
+      - Image
+3. Corporate Memberships
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days False
+      - Price
+      - Image
+4. Public Memberships
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days - False
+      - Price
+      - Image
+5. Kettlebells 
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days True
+      - Price
+      - Image
+6. Pilates
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days True
+      - Price
+      - Image
+7. Lean Machine (Our new bespoke Small Group Training class)
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days True
+      - Price
+      - Image
+8. HIIT (evolved into Online Class to be clear what the customer was receiving)
+    - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Has days True
+      - Price
+      - Image
+
+Faciltiies 
+1. Cardio Gym, Indoor Cycling Studio, Online Studio
+  - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Testimonials
+      - Rating
+      - Image
+2. Barbell Room, Lean Machine Room, Kettlebell Room, Suspension Training Room
+  - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Testimonials
+      - Rating
+      - Image
+3. Café, Salad Bar, Smoothie Bar
+ - Details
+      - Category
+      - Name
+      - Sku
+      - Description
+      - Testimonials
+      - Rating
+      - Image
+
+### Apps
+1. a_templelean the project level app
+2. bag for user to place items into
+3. chekcout for user to buy items into
+4. coach for users to research their coaches
+5. facilties for users research facilities and facility categories
+6. Home for landing page and anchor point for users to navigate the site
+7. products for user to browser product and for developer to add products
+8. profiles to store user information
+
+
 
 
 ### User Story 1 (Creating and reading a profile - Registeration)
 
-
-
 ### User Story 2 (Editing my profile)
 
-
-
-### User Story 2B (Delete profile)
+## User Story 3 (Delete profile)
  
 
-### User Story 3 (Creating and Reading Recipes)
+## User Story 4 (Creating and Reading Recipes)
 
  
 
-### User Story 3A (Update Recipes)
+### User Story 5 (Update Recipes)
 
 
-### User Story 3B (Delete Recipes)
+### User Story 6 (Delete Recipes)
  
 
-### User Story 4 (Log out)
+### User Story 7 (Log out)
 
 
 ## Structure Plane
 In development we set out to make sure that our site would be consistent. We used the categories below to describe our efforts
  - Predictable
-   - To make the website predictable we used the same materialize cards and collapsibles for Breakfast, Lunch, Dinner and Snacks
-   - We used similar forms to register, to log in, create profile information, create recipe information, update profile information and update recipe information.  
+   - 
+   - We used similar forms to register, to log in, create profile information, create recipe information, update profile information and product information if you're a super user.  
  - Learnable
-   - We used collapsible to reveal information slowly to the user
-   - We repeated the collapsible to make the website easily learnable no matter what recipe page we are on
-   - Flash messages tell the user that have successfully complete a task or entered any invalid information 
+   - We used buttons and links reveal information to the user and guide user to the next step if they wished to make a purchase
+   - Toast messages tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do 
  - Visible 
    - A user can easily review updates they have made on the site immediately after they have been made
  - Clear and intuitive feedback
-   - Flash messages give clear and intuituve feedback to the user
-   - Collapsibles reveal and close off information with one click
+   - Toast messages give clear and intuitive feedback to the user. Automatic emails also reassure thuser that they have proceeded with their desired intention
 
 ### User Questions
 
 - Where am I?
-  - On each page the Navbar highlights text in light blue of the relevant page. This helps you locate where you are on the Temple Lean Recipes site
+  - On each page the Navbar highlights text in light of the relevant page. This helps you locate where you are on the Temple Lean Recipes site
 
 - How did I get here?
   - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms and the monthly blog links. The platforms are currently connected to the developers social media accounts and private website because the social media accounts for this website do not exist 
