@@ -105,6 +105,8 @@ Review the competition - Is someone else already doing it?
    - https://www.energiefitness.com/midleton
    - https://onelifefitness.ie/
    - https://gymplus.ie/locations/cork/
+- Businesses reviewed online
+  - https://www.gymbox.com/404
 
 Stakeholder interviews
 - An emerging trend in Fitness clubs and studios prior to the pandemic was the Small Group Training
@@ -168,10 +170,22 @@ What makes a good Fitness Facility website experience?
 ### Scope Plane 
 Features we wanted to include in our design
 
+Color Scheme
 - Colour light background generally white then strong font and color
 - The color scheme that was used in this website came from the followin recommendations on this website https://colors.muz.li/
 - The developer searched for the color light blue in the website above. We then implemented that color into the project home page as a test to see how it looked. We reviewed with friends and family and relative to other gyms. We then serached for a color palette that went with #80C4FF. This guided us colors through out the site such as button colors for the CRUD features. All colors were associated with the recommendations of this color palette
- - Basic Observations
+- We reviewed the following websites to help us determine a color and scheme and what to avoid in design
+  - http://www.kabu-kitamura.com/colon/en/ 
+    - Review notes what not to do annoying music and no intuitive way to get to gym information
+  - https://mountainsoulyoga.com/classes/ 
+    - Review notes grey color not great
+  - https://yogabuzz.org/ 
+    - Review notes color blue Navbar #0000ff Alert #ff0000 Body #bfcfff Writing #ffffff
+  - https://www.revolutionpersonaltraining.com.au/ 
+    - Review notes color scheme great
+
+
+Basic Observations
    - Navbar 
     - Two tiers
     - Collapsible
@@ -188,7 +202,8 @@ Features we wanted to include in our design
    - Register/Login (Right and collapsible) then reveals, profile and log out and recipe navbar
 
 - Section
-  - Home/Landing Page Body (Hero image photo options))
+  - Home/Landing Page Body 
+     -Hero image on home page
   - CRUD Functionality to be available in 
     - Profile
     - Django Admin
