@@ -169,13 +169,22 @@ What makes a good Fitness Facility website experience?
 Features we wanted to include in our design
 
 - Colour light background generally white then strong font and color
-- The color scheme that was used in this website came from the followin recommendations on this website 
-- Basic Observations
+- The color scheme that was used in this website came from the followin recommendations on this website https://colors.muz.li/
+- The developer searched for the color light blue in the website above. We then implemented that color into the project home page as a test to see how it looked. We reviewed with friends and family and relative to other gyms. We then serached for a color palette that went with #80C4FF. This guided us colors through out the site such as button colors for the CRUD features. All colors were associated with the recommendations of this color palette
+ - Basic Observations
    - Navbar 
     - Two tiers
+    - Collapsible
    - Includes Navigation for following items
-    -
-   - Rating (Opportunity to Card Flip js)
+    - Search
+    - Facilities
+    - Classes
+    - Membership
+    - Coaches
+    - Profile
+    - Home
+    - Shopping Cart
+   - Rating (of facility)
    - Register/Login (Right and collapsible) then reveals, profile and log out and recipe navbar
 
 - Section
