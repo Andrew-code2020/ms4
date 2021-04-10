@@ -8,7 +8,7 @@ The key membership categories the business wished to offer are below ;
 1. Online 
 2. Student
 3. Corporate
-4. OAP
+4. Public
 
 The class categories on offer are below ;
 
@@ -80,7 +80,7 @@ It was determined that the Minimum Viable Product will contain the essential fea
 
 ## Business Model
 
-##### Strategy Plan
+### Strategy Plan
 
 What are you the Business aiming to achieve? 
 - Users are looking for; 
@@ -93,72 +93,83 @@ What are you the Business aiming to achieve?
 
 Business wants the client to;
  - Access Temple Lean services easily 
+ - Build an effective relationship with our clients online
 
 Review the competition - Is someone else already doing it?
-- A review of the market in Cork Ireland suggested that a platform for members to access recipes within a Health and Fitness Clubs website was a new or under developed idea
-- A review of the businesses below showed little or no area for members to find the correct recipe advice from their trusted health and fitness provider
+- A review of the market in Cork Ireland suggested that a platform for members to access physical activity services within a Health and Fitness Clubs website was a new or under developed idea
+- A review of the businesses below showed that many fitness providers had an app to manage classes but that membership and classes appeared to be seperated between the app and the website.
+- We looked towards everything in one place to avoid user frustration with looking for membership on an app exclusively designed for classes or worse no information at all telling the users that membership was only available via the front desk
 - Businesses reviewed
    - https://www.mardykearena.com/
    - https://www.dennehys.ie/
    - https://www.energiefitness.com/midleton
    - https://onelifefitness.ie/
+   - https://gymplus.ie/locations/cork/
 
 Stakeholder interviews
 - An emerging trend in Fitness clubs and studios prior to the pandemic was the Small Group Training
 
 Who else is doing this?
-- 
+- Small Group Training hadn't caught on as yet in Ireland though the market elsewhere indicated a willingness to access and pay a high premium for this service. Reference https://www.ihrsa.org/improve-your-club/why-personal-small-group-training-is-for-everyone/
+- Few studios were offering this class and thus this was identified as a unique selling point in our Business Strategy. 
+- Our classes were thus capped at a maximum of 12 members
+- An online class service was developed as a route for the potential overflow of members
+- It was forecast that the demand for these small group training environments would rise as people continue to seek out opportunities to minimise contacts after COVID-19 subsided 
 
 What are the pros of what we're offering?
 - Online exercise and coaching has proliferated since the onset of the pandemic. It will be essential to the survival business that we offer clients the option of online exercise services and the ability to book online for onsite facilities
--   
+- The business through small group training offers the user the opportunity for a safer and more personalised physical activity service
 
 What are the cons?
 - The older generation have found it difficult to navigate the online world.
 - Moving exercise programmes online has very little precedent to follow.
+- Although small group training is forecast as the way to go high quality is also expected. Upskilling staff will be neccessary
 
 What are the competition missing?
 - The connectivity this area offers
 - The software development expertise to carry out this functionality with an intuitive user friendly feel
+- They also appear to be reluctant to offer small group training favouring the traditional model of large class numbers at a low cost. This maybe prohibited for some time into the future
 
-What are they doing, but they could be doing better?
-- They are providing the facility and knowledge to particpate in regular exercise
-- They aren't offering direct sign up and online payments
+What are they (the competition) doing, but they could be doing better?
+- They are providing the facility and knowledge to particpate in regular exercise relative to COVID-19 health and safety expectations
+- They aren't offering direct sign up and online payments in a lot of cases. The offering is fragmented and spread across multiple systems
 - They aren't developing their business to serve a growing online user market
 
 
-User interviews (What a user thinks they need may not be exactly what they need?)
-- Niche wanted marathon programmes
-- Majority wanted basic classes and memebership a return to something familiar
-- Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon or triathlon training classes. 
+User interviews and Surveys (What a user thinks they need may not be exactly what they need?)
+- Majority wanted basic classes and membership to return to something familiar. If we offered something online the user wanted it to feel familiar. In others words if they had public or student membership before they wanted to be offered public membership again but online
+- Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon, triathlon and nutrition training classes.
+- We reduced our offering to a basic physical activity offering to avoid cluttering our initial move into the online world for the user. Also with no competitive sport on the horizon we felt the Strength and Conditioning, marathon, triathlon and nutrition training classes might be unsuccessful and fail. They were placed in future development 
 - The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. 
 - Feedback which led us to include pilates in our service offer came from clients who were now reporting that they were sitting down working from home and their core strength was severely diminshed.
+- Pilates was seen as an essential rehab route for our clients and possibly a way to build them back up to Strength and Conditioning, marathon and triathlon training classes
 - The conclusion the developer drew from these interviews was that we should start basic and progress to more advanced activity recommendations if a clear market or demand emerged later. 
 
 Would you use this and why? 
-- 
+- Yes I as the developer would use it because it offers me a way to manage my physical activity online
 - Clients indicated they would use it because they wished to be able to continue their healthy lifestyle even if another lockdown occurs.
 - They welcomed the opportunity to manage their membership and class bookings in a way that suits them
 
 Who is our target audience? 
 - This project is primarily a consumer business to customer service (B2C) 
-- We noted the potential for business to business B2B partnerships and included some corporate team offerings. Rather than opt for a bespoke offering to each potential corporate client we went with a scattergun approach to assess where the corporate wellness is in the COVID-19 era. Feedback will reveal where bespoke offerings maybe included 
+- We noted the potential for business to business B2B partnerships and included some corporate team offerings. Rather than opt for a bespoke offering to each potential corporate client we went with a scattergun approach to assess where the corporate wellness market is in the COVID-19 era. Feedback will reveal where bespoke offerings maybe included 
 - Our aim was to access clients we already have but leave the door open for other clients to join us 
-- Our thoughts were that our current clients wouldn't need much justifcation to purchase a new offering from us given our existing relationship and the trust we have built up over many years.
+- Our thoughts were that our current clients wouldn't need much justifcation to purchase a their previous offering online from us given our existing relationship and the trust we have built up over many years.
 
 What makes a good Fitness Facility website experience?
-- Following reserach we settled on the points below as a good recipe website experience
+- Following reserach we settled on the points below as a good Gym website experience
   - Intuitive design (Simple Navigation)
   - Clean, attractive layout with point and clicks revealing information slowly in an easy to understand readable format
   - Users can create, read, update and delete their own profile and interact with Temple Lean 
   - Videos (This was placed in future development plans)
-  - Pricing transparent (3 step purchase) 
+  - Pricing transparent (3 step purchase preferable) 
 
 
-## Scope Plane 
+### Scope Plane 
 Features we wanted to include in our design
 
 - Colour light background generally white then strong font and color
+- The color scheme that was used in this website came from the followin recommendations on this website 
 - Basic Observations
    - Navbar 
     - Two tiers
