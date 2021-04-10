@@ -36,7 +36,7 @@ The success of this website is that the user is able to locate the type of class
 Further success will be measured by the number of Temple Lean members who sign up and buy services from the Temple Lean website, create a profile, update their profile and delete a profile they no longer find useful. 
    
 
-### UX
+## UX
 
 The key reasons for producing the website were to;
 
@@ -78,15 +78,17 @@ It was determined that the Minimum Viable Product will contain the essential fea
 - Buy Membership
 - Find information about Facilities and Coaches
 
+## Business Model
 
-##### Strategy Plan - Business Model Strategy
+##### Strategy Plan
 
 What are you the Business aiming to achieve? 
 - Users are looking for; 
   - A place to workout in a post/living with COVID-19 era
   - A place to enjoy a workout in the gym whilst feeling safe or online if in a temporary lockdown
-  - Small Group Training
-  - Online booking, membership purchase
+  - Access to Small Group Training
+  - A place they can book a class or purchase membership online
+- As a business we are looking to provide the above to our members
 
 
 Business wants the client to;
