@@ -415,92 +415,105 @@ As a Temple Lean Website User
 ### User Story  No. 3
 As a Temple Lean Website User
 - I want to be able to
-   - 
+   - Identify special offers at the gym
 - So that I can
+   - Take advantage of special offers ie summer memebrship
 
 ## User Stories - Theme | Sorting and Searching
 ### User Story  No. 1
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Sort list of available products
 - So that I can
+   - identify best price memebrship or best rated fitness class
 
 ### User Story  No. 2
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Sort categories ie Fitness class types
 - So that I can
+   - sort products in category name
 
 ### User Story  No. 3
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Search for a specific product ie public membership
 - So that I can
+   - without knowing anything about Temple or doing nothing but find the landing type into the search engine and see if they have a class I'm looking for
 
 ### User Story  No. 4
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Easily see what I've searched for
 - So that I can
-
+   - go directly to what I want and purchase it
 
 ## User Stories - Theme | Purchasing and Checkout
 ### User Story No. 1 
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Receive confirmation email when I complete an order
 - So that I can
+   - keep confirmation email confirming I have purchased a service
 
 ### User Story No. 2
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Select a membership or fitness class
 - So that I can
+   - ensure I don't accidentally select the wrong product
 
 ### User Story No. 3
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - View items in my gym bag
 - So that I can
+  - see total cost of purchase and all items I am buying
  
 ### User Story No. 4
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Adjust quantity of items in bag
 - So that I can
+  - easily change items before completing purchase
 
 ### User Story No. 5
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - Easily enter payment information
 - So that I can
+   - Check out quickly andd with no hassles
 
 
 ### User Story No. 6 
 As a Temple Lean Website User
 - I want to be able to
-   -
+   - View order confirmation
 - So that I can
+   - verify that I haven't made any mistakes and that I have completed an order
 
 
 ## User Stories - Theme | Admin and store management
 ### User Story No. 1
 As a Temple Lean Website Owner
 - I want to be able to
-   -
+   - Add product
 - So that I can
+   - add new offers to the Temple Lean Gym Website
 
 ### User Story No. 2
 As a Temple Lean Website Owner
 - I want to be able to
-   -
+   - Edit/update a product
 - So that I can
+   - change product prices descriptions images and other criteria
 
 ### User Story No. 3
 As a Temple Lean Website Owner
 - I want to be able to
-   -
+   - Delete a product
 - So that I can
+   - remove items that are no longer for sale
 
  
 
