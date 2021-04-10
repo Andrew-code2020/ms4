@@ -1,7 +1,8 @@
+{% load active_link_tags %}
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-lean" href="#" id="facilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle text-lean {% active_link 'facilities' 'active' %}" href="{% url 'facilities' %}?facilitycategory=weights_room,cardio_gym,cafe_coffee" id="facilities" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Facilities
         </a>
         <div class="dropdown-menu" aria-labelledby="facilities">
@@ -11,7 +12,7 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-lean" href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates" id="classes" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle text-lean {% active_link 'products' 'active' %}" href="{% url 'products' %}?category=online_class,kettlebell_class,lean_machine,pilates" id="classes" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Classes
         </a>
         <div class="dropdown-menu" aria-labelledby="classes">
@@ -33,7 +34,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-lean" href="{% url 'coach' %}">Coaches</a>
+        <a class="nav-link text-lean {% active_link 'coach' 'active' %}" href="{% url 'coach' %}">Coaches</a>
       </li>
     </ul>
     

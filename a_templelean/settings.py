@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'coach',
     #Secondary project apps
     'crispy_forms',
+    'active_link',
     #deployment
     'storages',
 ]

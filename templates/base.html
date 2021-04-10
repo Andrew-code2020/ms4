@@ -1,5 +1,8 @@
 {% load static %}
 
+{% load active_link_tags %}
+
+
 <!doctype html>
 <html lang="en">
 
@@ -57,8 +60,7 @@
     <header class="container-fluid fixed-top">
         <div id="topnav" class="row top-banner d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
-                <a href="{% url 'home' %}" {% if request.path == 'home' %} class="active"{% endif %}
-                    class="nav-link main-logo-link">
+                <a href="{% url 'home' %}" class="nav-link main-logo-link">
                     <h2 class="logo-font text-lean my-0"><strong>Temple Lean</strong></h2>
                 </a>
             </div>
@@ -80,7 +82,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
-                        <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown"
+                        <a class="text-lean nav-link" href="#" id="user-options" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
                                 <div><i class="fas fa-running"></i></div>

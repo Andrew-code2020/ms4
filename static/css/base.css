@@ -49,7 +49,7 @@ body {
 
 /*--homepage header--*/
 
-.active{
+.dropdown-item.active, .dropdown-item:active{
     background-color: #80ffa9;
 }
 
