@@ -184,8 +184,7 @@ Color Scheme
   - https://www.revolutionpersonaltraining.com.au/ 
     - Review notes color scheme great
 
-
-Basic Observations
+Basic Observations on what works well for a gym websites
    - Navbar 
     - Two tiers
     - Collapsible
