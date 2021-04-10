@@ -666,6 +666,10 @@ Mobile/Tablet Device wireframe
   - Used to deploy the website
   - Website link to the deployed Heroku app https://lean-temple-recipes.herokuapp.com/ 
   
+Stripe 
+User profile main site
+Stripe Developer Docs
+
 - Dependencies (Also listed in requirements.txt file)
 asgiref==3.3.1
 astroid==2.5.2
