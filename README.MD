@@ -1,9 +1,9 @@
 # Temple Lean Fitness Gym
 
 ## Executive Summary 
-The Temple Lean Gym website is designed for people who wish to access physical activity within the context of living with COVID-19. The Temple Lean owners had previously invested in a static website but when they pandemic hit this was deemed to be insufficient to meet the needs of the current business. A new website was needed to supply the members with online bookings for onsite activity and a new online platform to cater for completely online members.
+The Temple Lean Gym website is designed for people who wish to access physical activity within the context of living with COVID-19. The Temple Lean owners had previously invested in a static website but when the pandemic hit this was deemed to be insufficient to meet the needs of the current business. A new website was needed to supply the members with online bookings for onsite activity and a new online platform to cater for completely online members.
 
-The key membership categories the business wish to offer are below ;
+The key membership categories the business wished to offer are below ;
 
 1. Online 
 2. Student
@@ -20,13 +20,17 @@ The class categories on offer are below ;
 The problems that we are trying to solve for the owner are;  
 1. Remodel the Temple Lean Business for living with COVID-19
 2. Connect with members after lockdowns or whilst the lockdown is ongoing 
+3. Provide the business with and effective means to conduct a large proportion of their business online
 
 The problem that we are trying to solve for the service user are;
-1. Our members have become more health conscious and wish to have less Physical Contacts whilst the Pandemic is ongoing. Offering online physical activity is seen by our members as a short to medium term solution during the pandemic. Allowing Temple Lean members to do more business with virtually is also seen as stress free way to stay active. 
+1. Our members have become more health conscious and wish to maintain the physical activity they enjoyed during lockdown. 
+2. Our members wish to have less physical contacts whilst the Pandemic is ongoing. Offering online physical activity is seen by our members as a short to medium term solution during the pandemic. Allowing Temple Lean members to do more business with us virtually is also seen as stress free way to stay active.
+3. Some of our service users are now exclusively online. We need to develop an initial offering for them into a consistent business. We will need to develop this over time possibly as an adjunct to main membership 
 
 
 The above named membership and class categories are strategically valuable markets. They are what people want from a gym in the post COVID-19 21st century. 
 We have designed the website to offer bitesize information on the best gym experience. 
+
 The success of this website is that the user is able to locate the type of class/memebership/coach they want quickly and easily without having to sift through the large amount of information on the general web. 
 
 Further success will be measured by the number of Temple Lean members who sign up and buy services from the Temple Lean website, create a profile, update their profile and delete a profile they no longer find useful. 
@@ -36,16 +40,19 @@ Further success will be measured by the number of Temple Lean members who sign u
 
 The key reasons for producing the website were to;
 
-- help current gym members get the best quality coaching from their trusted Health and Fitness professionals at Temple Lean Gym
+- help current gym members get the best quality physical activity experience from their trusted Health and Fitness professionals at Temple Lean Gym
 - help members easily access 4 common membership categories and 4 common class categories
 - help integrate new and current members into a community where they can
-  - support each other on their fitness journey
-  - read their profile 
+  - book services they use on their fitness journey
+  - read their Temple Lean profile 
   - update their profile they have used themselves
   - delete their profile they no longer find useful  
 - In the future help Temple Lean Gym attract and retain online subscription members through their website 
 
-At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website add a source of basic information about Temple Lean services and begin to build a social support platform amongst members in a Lifestyle and Physical Activity context.
+At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website 
+ - add a source of basic information about Temple Lean services
+ - begin to build a digital support platform for members in a Lifestyle and Physical Activity context.
+ - begin to build a digital support platform for members in a Lifestyle and Physical Activity context.
 It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or it's online services. 
 Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
