@@ -706,6 +706,23 @@ wrapt==1.12.1
 
 - We carried out the procedures below to test the Temple Lean Recipe Website
 
+- Name of Test Check Django installed 
+- Outline of Testing
+  - Check that DJango was installed succesfully before proceeding with the rest of the project
+- Test planning
+  - Install Django
+  - Run server with python3 manage.py runserver 
+- Implementation
+  - Entered pip3 install django into the command line
+  - Seen load screens in command line
+- Fix (if applicable)
+  - not applicable in this test
+- Results
+  -Command line indicated Django installed successfull
+- Outcomes
+  - The following  picture message appeared in the server readmedoc2/installingdjango/djangosuccessstep1.jpg
+  - Django was successfully installed
+
 - Name of Test CRUD Unique to User who created recipe 
 - Outline of Testing
   - 
