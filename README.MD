@@ -718,7 +718,7 @@ wrapt==1.12.1
 - Fix (if applicable)
   - not applicable in this test
 - Results
-  -Command line indicated Django installed successfull
+  -Command line indicated Django installed successfully
 - Outcomes
   - The following  picture message appeared in the server readmedoc2/installingdjango/djangosuccessstep1.jpg
   - Django was successfully installed
