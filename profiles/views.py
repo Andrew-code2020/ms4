@@ -56,8 +56,10 @@ def order_history(request, order_number):
 
 @login_required
 def delete_profile(request, user_id):
-    """ Delete a class or membership from the store """
+    """ Delete profile from Temple Lean """
     profile = get_object_or_404(UserProfile, pk=user_id)
     profile.delete()
     messages.success(request, 'Profile deleted and you have been logged out')
     return redirect(reverse('account_logout'))
+
+    
