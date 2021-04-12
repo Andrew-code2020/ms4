@@ -534,20 +534,22 @@ In development we set out to make sure that our site would be consistent. We use
 ### User Questions
 
 - Where am I?
-  - On each page the Navbar highlights text in light of the relevant page. This helps you locate where you are on the Temple Lean Recipes site
+  - On each page the main Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean Recipes site. 
+  - Subheaders on each page tell the user they are on a certain page ie Coaches which has information about coaches
+  - 
 
 - How did I get here?
-  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms and the monthly blog links. The platforms are currently connected to the developers social media accounts and private website because the social media accounts for this website do not exist 
-  - The navbar and footer are the exact same on each page and with the current page highlighted in light blue in the navbar so that the user may easily identify where they are on the Temple Lean website
+  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms. The platforms are currently connected to the developers social media accounts because the social media accounts for this website and it's staff do not exist. Rather than leave any empty link the developer opted for his own social media pages to demonstrate in the skill of linking pages and to show the user a full web experience even whilst the site is undergoing business development. 
+  - The navbar and footer are the exact same on each page and with the current page highlighted in light green in the main navbar so that the user may easily identify where they are on the Temple Lean website
   
 - What can I do here?
   - The user is invited clearly to click on and then access various features of the Temple Lean Recipes website. 
   - This occurs in the following places;
      - Navbar with the hover feature
-     - Footer via the social media icons (Hover feature turns them light blue when the cursor is over the icons)
-     - The Create, Update and Delete buttons
-     - On click the collapsible feature reveals basic information 
-     - The user is also invited to type information on forms throughout the site
+     - Footer via the social media icons (Hover feature turns them light green when the cursor is over the icons)
+     - The Update and Delete buttons with their icons clearly represent a function the user may undertake
+     - On click the dropdown feature in the main navbar reveals subnavigation 
+     - The user is also invited to type information on forms and into the search bar throughout the site
 
 - Where can I go from here?
   - The navbar and footer are the exact same on each page. In the navbar the user is able to easily identify where they are using the light blue active feature and where they can go from here is not highlighted letting the user know that they can go here if they wish. 
@@ -581,7 +583,13 @@ Mobile/Tablet Device wireframe
 
 Mobile Device wireframe
 
--
+- readmedoc2/wireframes/tablet/classestablet.JPG
+- readmedoc2/wireframes/tablet/facilitiestablet.JPG
+- readmedoc2/wireframes/tablet/homepagetablet.JPG
+- readmedoc2/wireframes/tablet/logintablet.JPG
+- readmedoc2/wireframes/tablet/membershiptablet.JPG
+- readmedoc2/wireframes/tablet/registerationtablet.JPG
+- readmedoc2/wireframes/tablet/stafftablet.JPG
 
 ### Features
 
@@ -600,8 +608,8 @@ Mobile Device wireframe
 - Integrated with Django
 - Icons
 - Jquery 
-    - Stripe
-    - Toasts
+- Stripe
+- Toasts
 
 
 
