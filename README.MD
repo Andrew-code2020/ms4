@@ -562,20 +562,20 @@ Wireframe Pictures
 
 Desktop wireframes
 
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
-- readmedocs/desktopwireframe/
+- readmedoc2/wireframes/classesdesktop.JPG
+- readmedoc2/wireframes/Facilitiesdesktop.JPG
+- readmedoc2/wireframes/homepagedesktop.JPG
+- readmedoc2/wireframes/logindesktop.JPG
+- readmedoc2/wireframes/membershipdesktop.JPG
+- readmedoc2/wireframes/registerationdesktop.JPG
+- readmedoc2/wireframes/Staffdesktop.JPG
 
 Mobile/Tablet Device wireframe
-- readmedocs/mobilewireframe/
-- readmedocs/mobilewireframe/
-- readmedocs/mobilewireframe/
-- readmedocs/mobilewireframe/
-- readmedocs/mobilewireframe/
+- 
+- 
+- 
+- 
+- 
 
 ### Features
 
@@ -586,16 +586,16 @@ Mobile/Tablet Device wireframe
 - Header
 - Navbar
 - Footer
-- Section
+- Form
 - Form Select
-- Collapsible
+- 
 - Hover
 - 
 - Integrated with Django
 - Icons
 - Jquery 
-    - Collapsible
-    - Form Select
+    - Stripe
+    - Toasts
 
 
 
