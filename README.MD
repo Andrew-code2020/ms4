@@ -571,11 +571,15 @@ Desktop wireframes
 - readmedoc2/wireframes/Staffdesktop.JPG
 
 Mobile/Tablet Device wireframe
-- 
-- 
-- 
-- 
-- 
+- readmedoc2/wireframes/tablet/classestablet.JPG
+- readmedoc2/wireframes/tablet/facilitiestablet.JPG
+- readmedoc2/wireframes/tablet/homepagetablet.JPG
+- readmedoc2/wireframes/tablet/logintablet.JPG
+- readmedoc2/wireframes/tablet/membershiptablet.JPG
+- readmedoc2/wireframes/tablet/registerationtablet.JPG
+- readmedoc2/wireframes/tablet/stafftablet.JPG
+
+Mobile Device wireframe
 
 ### Features
 
