@@ -196,17 +196,17 @@ Basic Observations on what works well for a gym websites and features we plan to
     - Coaches
     - Profile
     - Home
-    - Shopping Cart
+    - Shopping Cart for quick purchase
    - Rating (of facility)
    - Register/Login (Right and collapsible) then reveals, profile and log out and recipe navbar
 
-- Section
+- Section or Main Body of page
   - Home/Landing Page Body 
      - Hero image on home page
      - Overlay hero image with white background
   - CRUD Functionality to be available in 
     - Profile
-    - Django Admin
+  - Django Admin page with appropriate models
   - Cards with Photo Gallery
     - Profile
     - Facilities
@@ -216,7 +216,7 @@ Basic Observations on what works well for a gym websites and features we plan to
     - Profile
 
 Footer    
- - Social Media Icons wired up Facebook. Instagram, Twitter(developers social media) (Left) 
+ - Social Media Icons linked up with Facebook. Instagram, Twitter(developers social media) (Left) 
  - Gap in Center later became contact information
  - Right opening hours
 
@@ -521,35 +521,40 @@ As a Temple Lean Website Owner
 ## Structure Plane
 In development we set out to make sure that our site would be consistent. We used the categories below to describe our efforts
  - Predictable
-   - 
-   - We used similar forms to register, to log in, create profile information, create recipe information, update profile information and product information if you're a super user.  
+   - We used a base template for the header and footer and a white overlay to cover the background image of the body
+   - We used similar forms to register, to log in, create and update profile information, take payment information, create, update and delete information and product information if you're a super user.
+   We used similar cards for each section of the site to help the user intuitively move around the site no matter what page they accessed
+   - We used clear intuitive call to action buttons throughout the site to help user make a purchase easily  
+   - We used Toast messages to tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do. The user will be able to rely on the site for feedback if they complete an action
  - Learnable
-   - We used buttons and links reveal information to the user and guide user to the next step if they wished to make a purchase
+   - We used buttons and links reveal information to the user and guide user to the next step if they wished to make a purchase or visit another part of the site
    - Toast messages tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do 
  - Visible 
    - A user can easily review updates they have made on the site immediately after they have been made
+   - In so far as we could we used photos and icons to give the user visible feedback like pictures, buttons, hover effect and icons about where they are on the site and what they can.   
  - Clear and intuitive feedback
-   - Toast messages give clear and intuitive feedback to the user. Automatic emails also reassure thuser that they have proceeded with their desired intention
+   - Toast messages give clear and intuitive feedback to the user. Automatic emails sent from the developers gmail on sign up or purchase also reassure the user that they have proceeded with their desired intention.
 
 ### User Questions
 
 - Where am I?
   - On each page the main Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean Recipes site. 
-  - Subheaders on each page tell the user they are on a certain page ie Coaches which has information about coaches
+  - Subheaders on each page tell the user they are on a certain page ie Coaches which has information about , Membership and class has Activity Offers written on it and the Shopping Bag is called the Gym Bag and Checkout is also labelled. All of these are designed to give the user the experience of moving through a process.
   - 
 
 - How did I get here?
-  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms. The platforms are currently connected to the developers social media accounts because the social media accounts for this website and it's staff do not exist. Rather than leave any empty link the developer opted for his own social media pages to demonstrate in the skill of linking pages and to show the user a full web experience even whilst the site is undergoing business development. 
+  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms. The platforms are currently connected to the developers social media accounts because the social media accounts for this website and it's staff do not exist. Rather than leave any empty link the developer opted for his own social media pages to demonstrate in the skill of linking pages to thei site and to show the user a full web experience even whilst the site is undergoing business development. 
   - The navbar and footer are the exact same on each page and with the current page highlighted in light green in the main navbar so that the user may easily identify where they are on the Temple Lean website
+  - The keeping shopping and cancel buttons act as a way for the user go back a step if they need too amend something or if they go forward by mistake without pressing the back button. The user can also press click on Temple lean which acts as a home button on large screens. A door icon acts as a dropdown menu on a small screen to help users see which page they are on in light green and will help reveal how they arrived on the page from another place on the site
   
 - What can I do here?
-  - The user is invited clearly to click on and then access various features of the Temple Lean Recipes website. 
+  - The user is invited clearly to click on and then access various features of the Temple Lean  website. 
   - This occurs in the following places;
      - Navbar with the hover feature
      - Footer via the social media icons (Hover feature turns them light green when the cursor is over the icons)
      - The Update and Delete buttons with their icons clearly represent a function the user may undertake
-     - On click the dropdown feature in the main navbar reveals subnavigation 
-     - The user is also invited to type information on forms and into the search bar throughout the site
+     - On click the dropdown feature in the main navbar reveals subnavigation for that particular section 
+     - The user is also invited to type information on forms and into the search bar throughout the site. This form information is requested via placeholder and single clear words for example update or sign in or logout let the user know what they can do here or what will happen here.
 
 - Where can I go from here?
   - The navbar and footer are the exact same on each page. In the navbar the user is able to easily identify where they are using the light blue active feature and where they can go from here is not highlighted letting the user know that they can go here if they wish. 
