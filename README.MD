@@ -728,6 +728,21 @@ Mobile Device wireframe
 - We carried out the procedures below to test the Temple Lean Gym Website
 
 
+- Name of Test 
+- Outline of Testing Sign Up Form
+  -  
+- Test planning
+  -   
+- Implementation
+  - 
+- Fix (if applicable)
+  -  
+- Results
+  - 
+- Outcomes
+  - 
+
+
 - Name of Test Sign in Form
 - Outline of Testing 
   -  Navigate to Sign In page
