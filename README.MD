@@ -687,40 +687,40 @@ Mobile Device wireframe
   - Used to deploy the website
   - Website link to the deployed Heroku app https://lean-temple-recipes.herokuapp.com/ 
   
-Stripe 
-User profile main site
-Stripe Developer Docs
+- Stripe 
+  - User profile main site [link to Stripe Sign In!](https://stripe.com/en-ie)
+  - Stripe Developer Docs
 
 - Dependencies (Also listed in requirements.txt file)
-asgiref==3.3.1
-astroid==2.5.2
-boto3==1.17.22
-botocore==1.20.22
-countries==0.2.0
-dj-database-url==0.5.0
-Django==3.1.7
-django-allauth==0.44.0
-django-countries==7.1
-django-crispy-forms==1.11.2
-django-storages==1.11.1
-gunicorn==20.0.4
-isort==5.8.0
-jmespath==0.10.0
-lazy-object-proxy==1.6.0
-mccabe==0.6.1
-oauthlib==3.1.0
-Pillow==8.1.2
-psycopg2-binary==2.8.6
-PyJWT==2.0.1
-pylint==2.7.4
-python3-openid==3.2.0
-pytz==2021.1
-requests-oauthlib==1.3.0
-s3transfer==0.3.4
-sqlparse==0.4.1
-stripe==2.56.0
-toml==0.10.2
-wrapt==1.12.1
+  - asgiref==3.3.1
+  - astroid==2.5.2
+  - boto3==1.17.22
+  - botocore==1.20.22
+  - countries==0.2.0
+  - dj-database-url==0.5.0
+  - Django==3.1.7
+  - django-allauth==0.44.0
+  - django-countries==7.1
+  - django-crispy-forms==1.11.2
+  - django-storages==1.11.1
+  - gunicorn==20.0.4
+  - isort==5.8.0
+  - jmespath==0.10.0
+  - lazy-object-proxy==1.6.0
+  - mccabe==0.6.1
+  - oauthlib==3.1.0
+  - Pillow==8.1.2
+  - psycopg2-binary==2.8.6
+  - PyJWT==2.0.1
+  - pylint==2.7.4
+  - python3-openid==3.2.0
+  - pytz==2021.1
+  - requests-oauthlib==1.3.0
+  - s3transfer==0.3.4
+  - sqlparse==0.4.1
+  - stripe==2.56.0
+  - toml==0.10.2
+  - wrapt==1.12.1
 
 
 ### Testing
@@ -870,7 +870,7 @@ wrapt==1.12.1
 - Test planning 
   - Check the Temple Lean site for performance, best practices and accessibility. 
 - Implementation
-  - access the deployed site via https://lean-temple-recipes.herokuapp.com/
+  - access the deployed site via
   - Use Ctrl+Shift+I on your keyboard to access the developer tools
   - Click genereate report refer to image for visual detail 
   - Sample result image readmedocs/testing/lighthouse/generatereportlighthouse.jpg
