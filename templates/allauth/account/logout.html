@@ -10,15 +10,18 @@
 <hr>
 
 <p>{% trans 'Are you sure you want to sign out?' %}</p>
-
+<div class="container-fluid mb-3">
 <form method="post" action="{% url 'account_logout' %}">
   {% csrf_token %}
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
   {% endif %}
-  <button type="submit">{% trans 'Sign Out' %}</button>
-  <a href="{% url 'home' %}" class="btn btn-secondary">Home</a>
+  <a href="{% url 'home' %}" class="btn cancel-button rounded-0 text-left">Cancel <i
+    class="fas fa-window-close"></i></a>
+  <button class="rounded-0 text-left" type="submit">{% trans 'Sign Out' %} <i class="fas fa-sign-out-alt"></i></button>
+  
 </form>
+</div>
 
 
 {% endblock %}

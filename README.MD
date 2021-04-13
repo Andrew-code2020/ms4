@@ -565,7 +565,7 @@ In development we set out to make sure that our site would be consistent. We use
 
 ### Skeleton Plane
 
-Wireframe Pictures 
+The wireframe pictures below were constructed
 
 Desktop wireframes
 
@@ -724,6 +724,30 @@ wrapt==1.12.1
 ### Testing
 
 - We carried out the procedures below to test the Temple Lean Gym Website
+
+
+- Name of Test Sign in Form
+- Outline of Testing 
+  -  Navigate to Sign In page
+  -  Check page renders
+- Test planning
+  - Set up a pre existing user
+  - Click on Sign In button whilst form is empty
+  - Check response from empty asks user to input required fields
+  - Enter required fields and verify the user can sign in
+- Implementation
+  - Set up a pre existing user (completed through sign up form)
+  - Click on Sign In button whilst form is empty
+    - received response of "please fill out this field"
+  - Enter required fields and verify the user can sign in
+    - received sign in succesful message via toasts
+- Fix (if applicable)
+  -  no fix required
+- Results
+  - Sign in form appears functional on both preview from Gitpod work space and Heroku deployment
+- Outcomes
+  - Sign Form renders on page and allows pre existing user to sign in.
+  - Sign Form renders correct feedback on page when user signs in.
 
 
 - Name of Test 
