@@ -558,7 +558,7 @@ In development we set out to make sure that our site would be consistent. We use
 
 - Where can I go from here?
   - The navbar and footer are the exact same on each page. In the navbar the user is able to easily identify where they are using the light blue active feature and where they can go from here is not highlighted letting the user know that they can go here if they wish. 
-  - Buttons also tell the user intuitively where they can go from here ie update profile or create recipe
+  - Buttons also tell the user intuitively where they can go from here ie update profile or Buy membership, Secure Checkout or complete Order
   - The blue hover feature is also designed to indicate to the user that they can click on this icon in the footer and access further content.
   - On the home page in the cards (under the main hero image) the Log In and Register Page buttons invite the user to click on them and log in or register.
  
