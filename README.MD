@@ -729,18 +729,27 @@ Mobile Device wireframe
 
 
 - Name of Test 
-- Outline of Testing Sign Up Form
-  -  
+- Outline of Testing Register Form
+  -  Goal check registeration form works
 - Test planning
-  -   
+  -   On deployed site navigate to registeration page
+  -   Register using the resgiteration form
+  -   Check registeration if possible that invalid entries give the user feedback and that registerations sends automatic email to new user
+  - Confirm that automatic email link allows user to complete registeration and log in 
 - Implementation
-  - 
+  - Navigate to [registeration link!](http://templeleanms4.herokuapp.com/accounts/signup/)
 - Fix (if applicable)
-  -  
+  -  Fixes were stylistic changing Sign Up to Register
 - Results
-  - 
+  - Click on Register button whilst form is empty
+    - received response of "please fill out this field"
+  - Click on Register button whilst required piece of form is empty
+    - received response of "please fill out this field"
+  - Click on Register button whilst all required form elements filled in
+    - received successful toast response of ""
+    - also received automated email. Screenshot in readmedoc2/testing/allauth/allauthconfirmationemail.jpg
 - Outcomes
-  - 
+  - Register from and email confirmation worked as expected
 
 
 - Name of Test Sign in Form
