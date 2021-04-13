@@ -870,18 +870,19 @@ Mobile Device wireframe
 - Test planning 
   - Check the Temple Lean site for performance, best practices and accessibility. 
 - Implementation
-  - access the deployed site via
+  - access the deployed site via deployed site  via [link to deployed site!](http://templeleanms4.herokuapp.com/)
   - Use Ctrl+Shift+I on your keyboard to access the developer tools
   - Click genereate report refer to image for visual detail 
-  - Sample result image readmedocs/testing/lighthouse/generatereportlighthouse.jpg
+  - Sample generate report image readmedoc2/testing/lighthouse/lighthousesummaryoftest.jpg
 - Fix (if applicable)
-  - no obvious performance issues on mobile or desktop device according to the lighthouse tests
+  - no obvious performance issues on desktop device according to the lighthouse tests
+  - Mobile device performance appears to be influenced by slow loading speed unfortunately we were unable to solve this
 - Results
   - The lighthouse test results are documented in the images below 
-    - readmedocs/testing/lighthouse/mobilelighthousetest.jpg
-    - readmedocs/testing/lighthouse/desktoplighthouseresults.jpg
+    - readmedoc2/testing/lighthouse/lighthousetestdesktop.jpg
+    - readmedoc2/testing/lighthouse/lighthousetestmobile.jpg
 - Outcomes
-  - performance was optimum
+  - performance was optimum despite slow loading future research needed to aid mobile first loading speed optimum design
 
 ### Performance Testing CSS
 - Test planning 
