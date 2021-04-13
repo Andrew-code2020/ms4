@@ -718,7 +718,23 @@ wrapt==1.12.1
 
 ### Testing
 
-- We carried out the procedures below to test the Temple Lean Recipe Website
+- We carried out the procedures below to test the Temple Lean Gym Website
+
+
+- Name of Test 
+- Outline of Testing Bag HTML File
+  -  
+- Test planning
+  -   
+- Implementation
+  - 
+- Fix (if applicable)
+  -  
+- Results
+  - readmedocs/testing/jsfiletest/jsfiletestresult.jpg
+- Outcomes
+  - 
+
 
 - Name of Test Check Django installed 
 - Outline of Testing
@@ -737,19 +753,36 @@ wrapt==1.12.1
   - The following  picture message appeared in the server readmedoc2/installingdjango/djangosuccessstep1.jpg
   - Django was successfully installed
 
-- Name of Test CRUD Unique to User who created recipe 
+- Name of Test CRUD Delete Profile
 - Outline of Testing
-  - 
+  - Check that if a user deletes their profile that they are deleted profile the Temple Lean website and logged out 
 - Test planning
-  - 
+  - Check the profile view has the correct code that the server is running and that a test user is logged in
 - Implementation
-  - 
+  - We navigated to the profile page page scrolled down to the delete profile button and clicked it.
 - Fix (if applicable)
-  - 
+  - A 404 error appeared and not the reverse redirect to account logout as prescribed in the view of the code
+  - To fix this we alter the code to target the user rather than the profile in the database.
+  - Our original code
+    def delete_profile(request, user_id):
+    """ Delete profile from Temple Lean """
+    profile = get_object_or_404(UserProfile, pk=user_id)
+    profile.delete()
+    messages.success(request, 'Profile deleted and you have been logged out')
+    return redirect(reverse('account_logout'))
+  - Our fix code
+  def delete_profile(request, user_id):
+    """ Delete profile from Temple Lean """
+    user = get_object_or_404(User, pk=user_id)
+    user.delete()
+    messages.success(request, 'Profile deleted and you have been logged out')
+    return redirect(reverse('home'))
+
 - Results
-  - 
+  - The delete didn't worked in the beginning but with the fix above it worked in the preview.
+  - We verified this worked on the Heroku app
 - Outcomes
-  - 
+  - Delete functionality enabled on the Temple Lean Website
 
 - Name of Test JS File
 - Outline of Testing

@@ -23,10 +23,10 @@
         </div>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle text-lean" href="#" id="membership" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle text-lean" href="{% url 'products' %}?category=online_membership,public_membership,corporate_membership,membership_student" id="membership" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Membership
         </a>
-        <div class="dropdown-menu" aria-labelledby="memebership">
+        <div class="dropdown-menu" aria-labelledby="membership">
           <a class="dropdown-item" href="{% url 'products' %}?category=online_membership">Online</a>
           <a class="dropdown-item" href="{% url 'products' %}?category=public_membership">Public</a>
           <a class="dropdown-item" href="{% url 'products' %}?category=corporate_membership">Corporate</a>

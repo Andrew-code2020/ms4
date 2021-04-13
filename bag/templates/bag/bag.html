@@ -33,7 +33,7 @@
         <div class="col">
             {% if bag_items %}
             <div class="table-responsive rounded">
-                <div class="table-responsive rounded">
+                <div class="table-responsive-sm rounded">
                     <table class="table table-sm table-borderless">
                         <thead class="text-black">
                             <tr>
@@ -46,8 +46,8 @@
                             </tr>
                         </thead>
                         <!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
-                        {% for item in bag_items %}
                         <tr>
+                            {% for item in bag_items %}
                             <td class="p-3 w-25">
                                 {% if item.product.image %}
                                 <img class="img-fluid rounded" src="{{ item.product.image.url }}"
