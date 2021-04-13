@@ -565,7 +565,7 @@ In development we set out to make sure that our site would be consistent. We use
 
 ### Skeleton Plane
 
-The wireframe pictures below were constructed
+The wireframe pictures below were constructed to help the developer in the initial design phase of the Temple Lean Website
 
 Desktop wireframes
 
@@ -600,20 +600,22 @@ Mobile Device wireframe
 
 ##### Summary
 
+[link to Google!](http://google.com)
+
 - Internal links
 - External links
 - Header
 - Navbar
+- 
 - Footer
 - Form
 - Form Select
-- 
 - Hover
 - 
 - Integrated with Django
 - Icons
 - Jquery 
-- Stripe
+- E- Commerce Stripe integration
 - Toasts
 
 
