@@ -731,9 +731,29 @@ wrapt==1.12.1
 - Fix (if applicable)
   -  
 - Results
-  - readmedocs/testing/jsfiletest/jsfiletestresult.jpg
+  - 
 - Outcomes
   - 
+
+
+- Name of Test Check Get Lean Now Button worked
+- Outline of Test
+  -  Click on Get Lean now button and ensure all products render on the page
+- Test planning
+  -  Review Button links and ensured products view was ready to deploy  
+- Implementation
+  - Opened preview from Gitpod workspace
+  - Clicked on Get Lean Now button (with Dumbbell icon). Observe that hover effect worked
+  - Observed that Overlay div also worked perfectly
+  - Scrolled down to check all products were accounted for
+  - Pressed Ctrl+shift+I to inspect mobile view
+  - verified mobile view worked
+- Fix (if applicable)
+  -  not applicable test ran smoothly
+- Results
+  - Get Lean now button and overlay worked worked (including hover)
+- Outcomes
+  - Primary button on site worked
 
 
 - Name of Test Check Django installed 
