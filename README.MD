@@ -600,22 +600,21 @@ Mobile Device wireframe
 
 ##### Summary
 
-[link to Google!](http://google.com)
 
 - Internal links
 - External links
 - Header
 - Navbar
-- 
+- Cards
 - Footer
 - Form
 - Form Select
 - Hover
-- 
+- Active
 - Integrated with Django
 - Icons
-- Jquery 
-- E- Commerce Stripe integration
+- jQuery 
+- E-Commerce Stripe integration
 - Toasts
 
 
@@ -627,17 +626,17 @@ Mobile Device wireframe
 - Header - Contains the Navbar design for desktop and mobile devices 
 - Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other recipe pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The top part of the navbar including log in and registeration collapse on a mobile device to a single apple icon which the user can click on. The navbar items Breakfast, Lunch, Dinner and Snacks appear after you register or log in. This was done to avoid overhwleming the user when they land on the page and guide them to log in or register and then more content will be revealed. 
 - Footer - Linked to some pages we used to develop the website and contains direct links to the developers Social Media platforms, Milestone 1 project and private blog. Temple Lean social media specific to this site do not exist but is in future development plans.
-- Section - The middle section is where the block content Jinja template is injected. The content changes on each page and gives basic information on aspects of the Temple Lean Recipes site.
+- Body - The middle section is where the block content Jinja template is injected. The content changes on each page and gives basic information on aspects of the Temple Lean site with option to take further steps to purchase.
 - Hero Image - The eye catching landing/homepage page is designed to convey to the user that they have arrived on a Temple Lean site as distinct from other gym sites. 
 - Select - We used select options to allow a better visual experience for the user and to avoid long typed responses on the forms through out the website. 
 - Hover 
    - social media icons all turn blue when the cursor hovers over them
    - internal links turn light black when the cursor hovers over them except for the homepage. 
    - external links do not have a hover
-   - The hover lets the user know that there is more information they can access here if they click. It draws attention to options which keep the user on the Temple Lean Recipe page. 
+   - The hover lets the user know that there is more information they can access here if they click. It draws attention to options which keep the user on the Temple Lean website page. 
 - Icons - font awesome icons were used to add style and an intuitive feel to the user experience. 
 - jQuery & JavaScript 
-    - Collapsible -   
+    -    
     - Sidenav - 
     - Form Select - 
 - CRUD Functionality
@@ -661,35 +660,40 @@ Mobile Device wireframe
 - CSS3 - Used for personalised custom built styling of website
 - JavaScript 
    - Used for 
-    - Collapsible   
+    - Stripe integration   
     - Sidenav
-    - Form Select 
+    - Form Select
+    - Update bag 
 - jQuery 
     - Used to configure interactive features above 
-    - Website https://jquery.com/
+    - [Website link to Bootstrap] https://jquery.com/
 - Bootstrap
-  - Website https://getbootstrap.com/
+  - [Website link to Bootstrap] (https://getbootstrap.com/)
   - Used to import generic styling for the entire website
 - Github and Gitpod
-  - Website of Github repository https://github.com/Andrew-code2020/ms3onlinecookbook
+  - [Website link to Github repository] (https://github.com/Andrew-code2020/ms4) 
   - Used to construct host and deploy the website
 - Font Awesome
-  - Website https://fontawesome.com/
+  - [Website link] (https://fontawesome.com/)
   - Used to import icons
 - Google Font
-  - Website https://fonts.google.com/
+  - [Website link] (https://fonts.google.com/)
   - Used to import font
  
-- Python https://www.python.org/
-  - Used to created roots,view and integrate with flask to deliver functionality to the website 
+- Python | [link to Python Website] (https://www.python.org/)
+  - Used to created roots,view and integrate with Django to deliver functionality to the website 
 
-- Heroku https://www.heroku.com/  
+- Heroku | [link to Heroku] (https://www.heroku.com/)  
   - Used to deploy the website
-  - Website link to the deployed Heroku app https://lean-temple-recipes.herokuapp.com/ 
+  - Website link to the deployed Heroku app [link to Deployed app] (https://templeleanms4.herokuapp.com/) 
   
 - Stripe 
-  - User profile main site [link to Stripe Sign In!](https://stripe.com/en-ie)
-  - Stripe Developer Docs
+  - User profile main site [link to Stripe Sign In](https://stripe.com/en-ie)
+  - Stripe Developer Docs [link to Stripe Documentation](https://stripe.com/docs)
+
+AWS 
+  - Used bucket to deploy static files and media [link to AWS log in!] (https://aws.amazon.com/)
+  - [link to AWS Bucket] (https://s3.console.aws.amazon.com/s3/buckets/templeleanms4?region=eu-west-1&tab=objects)
 
 - Dependencies (Also listed in requirements.txt file)
   - asgiref==3.3.1
@@ -1070,12 +1074,13 @@ Mobile Device wireframe
 
 ### Code Validators
 I used the following code validators to help me debug my code 
- - HTML - https://validator.w3.org/
+ - HTML - [link to HTML vaildator] https://validator.w3.org/
  - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Result visible via directory below
       - readmedoc2/testing/codevalidators/basecssvalidator.jpg
-      - 
- - JavaScript and JQuery validator https://jshint.com/
+      - readmedoc2/testing/codevalidators/checkoutcssvalidator.jpg
+    - No obvious errors were seen
+ - JavaScript and jQuery validator https://jshint.com/
     - Result visible in  readmedocs/testing/codevalidators/shintcheckresult.jpg
  - Python Validator http://pep8online.com/
     - Result visible readmedocs/testing/codevalidators/pep8vaildatorresult.jpg
