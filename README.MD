@@ -732,24 +732,29 @@ Mobile Device wireframe
 - Outline of Testing Register Form
   -  Goal check registeration form works
 - Test planning
-  -   On deployed site navigate to registeration page
-  -   Register using the resgiteration form
-  -   Check registeration if possible that invalid entries give the user feedback and that registerations sends automatic email to new user
+  -   On the deployed site navigate to the registeration page
+  -   Register using the registeration form
+  -   Check registeration that invalid entries give the user feedback 
+  - Check successful registeration and reveals toast message sends automatic email to new user
   - Confirm that automatic email link allows user to complete registeration and log in 
 - Implementation
   - Navigate to [registeration link!](http://templeleanms4.herokuapp.com/accounts/signup/)
+  - Checked that invalid entries on the registeration form gave the user feedback
+  - Checked that valid entries on the registeration form gave the user feedback
+  - Checked that valid entries but incomplete registeration form gave the user feedback
+  - Checked that successful registeration delivered automatic email to user
 - Fix (if applicable)
-  -  Fixes were stylistic changing Sign Up to Register
+  -  Fixes were stylistic changing the words Sign Up to Register for consisent user experience
 - Results
   - Click on Register button whilst form is empty
     - received response of "please fill out this field"
   - Click on Register button whilst required piece of form is empty
     - received response of "please fill out this field"
   - Click on Register button whilst all required form elements filled in
-    - received successful toast response of ""
-    - also received automated email. Screenshot in readmedoc2/testing/allauth/allauthconfirmationemail.jpg
+    - received successful toast response of stating confirmation email sent
+    - also received automated email to developers work email. Screenshot in readmedoc2/testing/allauth/allauthconfirmationemail.jpg
 - Outcomes
-  - Register from and email confirmation worked as expected
+  - Register form and email confirmation worked as expected and the design feels intuitive
 
 
 - Name of Test Sign in Form
