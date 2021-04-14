@@ -915,22 +915,24 @@ Mobile Device wireframe
 
 ### Performance Testing CSS
 - Test planning 
-    - Premise is our custom css file talks to our html files through python 
+    - Premise is our custom base.css file talks to our html files through python 
 - Implementation
-    - At the beginning of the project we checked to see if the background color red appeared when we added background color red to style.css
+    - At the beginning of each new app template we checked to see if the background color dark red #8B0000 appeared when we added background color #8B0000 to the overlay element in style.css
+    - This checked the base.css was talking to the new template in the new Django app
 - Fix (if applicable)
-    - not applicable code worked
+    - not applicable code worked and css was deemed fucntional
 - Results
-  - readmedocs/testing/cssfiletest/testinglinkbetweenbasetemplateandcustomcss.jpg
+  - Sample photo readmedoc2/testing/cssfiletest/cssperformancetest.jpg
 - Outcomes
   - test was successful
+  - Test was repeated in a similar way for individual app css if necessary
 
 ### Performance Testing Python Initial functionality 
-- Subject Test app.py inital ran 
-   - used python3 app.py to run the app.py file from gitpod
-   - screenshots in readmedocs/testing/pythontestfile/initialapppyrun.jpg
+- Subject Test python3 manage.py runserver  
+   - used python3 manage.py runserver to run the preview from gitpod
+   - screenshot in readmedoc2/installingdjango/homeapptest.jpg
 - Result
-   - Hello World of Temple Lean Again appeared in the browser as expected
+   - Temple Lean MS4 Project coming soon appeared in the browser as expected
 - Conclusion
   - initial set up worked well
 
@@ -1069,8 +1071,10 @@ Mobile Device wireframe
 ### Code Validators
 I used the following code validators to help me debug my code 
  - HTML - https://validator.w3.org/
- - CSS Validator - https://jigsaw.w3.org/css-validator/#validate_by_input
-    - Result visible in readmedocs/testing/codevalidators/cssvalidatorresult.jpg
+ - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Result visible via directory below
+      - readmedoc2/testing/codevalidators/basecssvalidator.jpg
+      - 
  - JavaScript and JQuery validator https://jshint.com/
     - Result visible in  readmedocs/testing/codevalidators/shintcheckresult.jpg
  - Python Validator http://pep8online.com/

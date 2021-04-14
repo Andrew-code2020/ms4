@@ -152,7 +152,7 @@ footer {
 
 .social-media a {
   font-size: 36px;
-  padding-left: auto;
+  padding-left: 15px;
   color: #1a1a1a;
 }
 
@@ -283,7 +283,7 @@ footer {
 /*--Coach Page CSS--*/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: auto;
+  max-width: 100%;
   margin: auto;
 }
 
