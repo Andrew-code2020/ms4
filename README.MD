@@ -785,6 +785,29 @@ AWS
   - Sign Form renders correct feedback on page when user signs in.
 
 
+- Name of Test Check Sign out funtionality
+- Outline of Test
+  -  Make sure users and super users can log out
+- Test planning
+  - Implement log out functionality via allauth
+  - Sign in to Temple Lean via [Sign In page] (https://templeleanms4.herokuapp.com/accounts/login/)
+  - Click buttons relevant to sign out
+  - Note responses from site 
+- Implementation
+  - Whilst logged Navigate to [Sign Out page] (https://templeleanms4.herokuapp.com/accounts/logout/) via my locker icon
+  - From dropdown menu select sign out
+  - Confirmed sign out by clicking black sign out button
+  - Received toast message indicatin sign out was successful
+  - Pressing back button did not allow users entry without signing in again
+- Fix (if applicable)
+  -  Changed text to be consistent ie changed log out in my locker dropdown to Sign Out to give user consistent user experience
+- Results
+  - Sign out functionality functioning optimally
+  - This was rendered in the command line preview and the deployed Heroku app
+- Outcomes
+  - Sign out functionality fit for purpose
+
+
 - Name of Test 
 - Outline of Testing Bag HTML File
   -  
@@ -836,6 +859,23 @@ AWS
 - Outcomes
   - The following  picture message appeared in the server readmedoc2/installingdjango/djangosuccessstep1.jpg
   - Django was successfully installed
+
+
+- Name of Test Update Profile
+- Outline of Test
+  -  
+- Test planning
+  -   
+- Implementation
+  - 
+- Fix (if applicable)
+  -  
+- Results
+  - 
+- Outcomes
+  - 
+
+
 
 - Name of Test CRUD Delete Profile
 - Outline of Testing
