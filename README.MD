@@ -863,17 +863,28 @@ AWS
 
 - Name of Test Update Profile
 - Outline of Test
-  -  
+  -  Check that our form submits to Django admin and retains updated user profile information
 - Test planning
-  -   
+  - Set up a user and input information
+  - Change some user information
+  - submit the form
+  - check Django admin updates
+  - check profile updates
 - Implementation
-  - 
+  - Signed in at at this [link](https://templeleanms4.herokuapp.com/accounts/login/)
+  - Navigated to the profile page
+  - Input information into the profile form
+  - Press update button
+  - Checked response received success toast
+  - Checked information appeared correctly in Django admin
+  - Checked information was visible to user on profile after update button submitted information
+  - Checked information automatically appeared in secure checkout minus Full Name which is required at each check out for verfication
 - Fix (if applicable)
-  -  
+  -  Fixed order of fields to make form more intuitive
 - Results
-  - 
+  - Update Profile function worked on front and back end
 - Outcomes
-  - 
+  - Update Profile function fit for purpose
 
 
 
