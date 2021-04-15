@@ -81,6 +81,10 @@ i {
     border: 2px solid black !important;
 }
 
+a.dropdown-item-sm{
+    color:#1a1a1a;
+}
+
 /*---Hover---*/
 a:hover {
     background: #98f2a4;

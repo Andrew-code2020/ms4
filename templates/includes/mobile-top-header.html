@@ -33,13 +33,13 @@
         <div class="dropdown-menu border-0" aria-labelledby="user-options">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
-            <a href="{% url 'add_product' %}" class="dropdown-item">Manage Temple Lean</a>
+            <a href="{% url 'add_product' %}" class="dropdown-item-sm">Manage Temple Lean</a>
             {% endif %}
-            <a href="" class="dropdown-item">My Profile</a>
-            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+            <a href="" class="dropdown-item-sm">My Profile</a>
+            <a href="{% url 'account_logout' %}" class="dropdown-item-sm">Logout</a>
             {% else %}
-            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
-            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+            <a href="{% url 'account_signup' %}" class="dropdown-item-sm">Register</a>
+            <a href="{% url 'account_login' %}" class="dropdown-item-sm">Login</a>
             {% endif %}
         </div>
 </li>
