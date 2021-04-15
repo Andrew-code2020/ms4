@@ -143,6 +143,14 @@ a:hover {
     color:#1a1a1a;
 }
 
+.text-info{
+    color:#80ffa9;
+}
+
+.text-danger{
+    color:#f73668;
+}
+
 /*--Footer--*/
 
 ul {

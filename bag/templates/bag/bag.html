@@ -29,7 +29,7 @@
     </div>
     <!--bag content table for ease of display table taken from Boutique Ado project and adapated for this project-->
     <div class="row">
-        <div class="col mb-5 d-none d-xs-block">
+        <div class="col mb-5">
             {% if bag_items %}
             <table class="table table-sm table-borderless">
                 <thead class="text-lean">
@@ -72,23 +72,38 @@
                             <div class="form-group">
                                 <div class="input-group">
                                     <div class="input-group-prepend">
-                                        <button class="decrement-qty btn btn-sm small-buy-now-button rounded-0"
-                                            data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
-                                            <span>
-                                                <i class="fas fa-minus fa-sm"></i>
-                                            </span>
-                                        </button>
+                                        <ul>
+                                            <li>
+                                                <button class="decrement-qty btn btn-sm small-buy-now-button rounded-0"
+                                                    data-item_id="{{ item.item_id }}"
+                                                    id="decrement-qty_{{ item.item_id }}">
+                                                    <span>
+                                                        <i class="fas fa-minus fa-sm"></i>
+                                                    </span>
+                                                </button>
+                                            </li>
+                                        </ul>
                                     </div>
-                                    <input class="form-control form-control-sm qty_input text-center" type="number"
-                                        name="quantity" value="{{ item.quantity }}" min="1" max="99"
-                                        data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                    <ul>
+                                        <li>
+                                            <input class="form-control form-control-sm qty_input text-center w-100"
+                                                type="number" name="quantity" value="{{ item.quantity }}" min="1"
+                                                max="99" data-item_id="{{ item.item_id }}"
+                                                id="id_qty_{{ item.item_id }}">
+                                        </li>
+                                    </ul>
                                     <div class="input-group-append">
-                                        <button class="increment-qty btn btn-sm small-buy-now-button rounded-0"
-                                            data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
-                                            <span>
-                                                <i class="fas fa-plus fa-sm"></i>
-                                            </span>
-                                        </button>
+                                        <ul>
+                                            <li>
+                                                <button class="increment-qty btn btn-sm small-buy-now-button rounded-0"
+                                                    data-item_id="{{ item.item_id }}"
+                                                    id="increment-qty_{{ item.item_id }}">
+                                                    <span>
+                                                        <i class="fas fa-plus fa-sm"></i>
+                                                    </span>
+                                                </button>
+                                            </li>
+                                        </ul>
                                     </div>
                                     <hr>
                                     {% if item.product.has_days %}
@@ -147,11 +162,11 @@
 {% include 'products/includes/quantity_input_script.html' %}
 <script type="text/javascript">
     // Update quantity on click
-    $('.update-link').click(function (e) {
+    $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
         form.submit();
     })
-
+    
     // Remove item and reload on click
     $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
