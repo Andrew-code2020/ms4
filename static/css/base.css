@@ -81,6 +81,10 @@ i {
     border: 2px solid black !important;
 }
 
+.dropdown-item{
+    background-color:#80C4FF;
+}
+
 a.dropdown-item-sm{
     color:#1a1a1a;
 }

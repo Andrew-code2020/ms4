@@ -32,127 +32,123 @@
     <div class="row">
         <div class="col">
             {% if bag_items %}
-                <div class="table-responsive-sm rounded">
-                    <table class="table table-sm table-borderless">
-                        <thead class="text-lean">
-                            <tr>
-                                <th scope="col">Product Info</th>
-                                <th scope="col"></th>
-                                <th scope="col">Day</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Qty</th>
-                                <th scope="col">Subtotal</th>
-                            </tr>
-                        </thead>
-                        <!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
+            <div class="table-responsive-sm rounded">
+                <table class="table table-sm table-borderless">
+                    <thead class="text-lean">
                         <tr>
-                            {% for item in bag_items %}
-                            <td class="p-3 w-25">
-                                {% if item.product.image %}
-                                <img class="img-fluid rounded" src="{{ item.product.image.url }}"
-                                    alt="{{ item.product.name }}">
-                                {% else %}
-                                <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png"
-                                    alt="{{ item.product.name }}">
-                                {% endif %}
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0"><strong>{{ item.product.name }}</strong></p>
-                                <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0"><strong>
-                                        {% if item.product.has_days %}{{ item.days|upper }}{% else %}N/A{% endif %}
-                                    </strong>
-                                </p>
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0">€{{ item.product.price }}</p>
-                            </td>
-                            <td class="py-3 w-25">
-                                <!--update bag content input taken from Boutique Ado project and adapated for this project-->
-                                <form class="form update-form" method="POST"
-                                    action="{% url 'adjust_bag' item.item_id %}">
-                                    {% csrf_token %}
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <button class="decrement-qty btn btn-sm small-buy-now-button rounded-0"
-                                                    data-item_id="{{ item.item_id }}"
-                                                    id="decrement-qty_{{ item.item_id }}">
-                                                    <span>
-                                                        <i class="fas fa-minus fa-sm"></i>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                            <input class="form-control form-control-sm qty_input text-center"
-                                                type="number" name="quantity" value="{{ item.quantity }}" min="1"
-                                                max="99" data-item_id="{{ item.item_id }}"
-                                                id="id_qty_{{ item.item_id }}">
-                                            <div class="input-group-append">
-                                                <button class="increment-qty btn btn-sm small-buy-now-button rounded-0"
-                                                    data-item_id="{{ item.item_id }}"
-                                                    id="increment-qty_{{ item.item_id }}">
-                                                    <span>
-                                                        <i class="fas fa-plus fa-sm"></i>
-                                                    </span>
-                                                </button>
-                                            </div>
-                                            <hr>
-                                            {% if item.product.has_days %}
-                                            <input class="text-center" type="hidden" name="product_days"
-                                                value="{{ item.days }}">
-                                            {% endif %}
+                            <th scope="col">Product Info</th>
+                            <th scope="col"></th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Subtotal</th>
+                        </tr>
+                    </thead>
+                    <!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
+                    <tr>
+                        {% for item in bag_items %}
+                        <td class="p-3 w-25">
+                            {% if item.product.image %}
+                            <img class="img-fluid rounded" src="{{ item.product.image.url }}"
+                                alt="{{ item.product.name }}">
+                            {% else %}
+                            <img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png"
+                                alt="{{ item.product.name }}">
+                            {% endif %}
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                            <p class="my-0 small text-muted">SKU: {{ item.product.sku|upper }}</p>
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0"><strong>
+                                    {% if item.product.has_days %}{{ item.days|upper }}{% else %}N/A{% endif %}
+                                </strong>
+                            </p>
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0">€{{ item.product.price }}</p>
+                        </td>
+                        <td class="py-3 w-25">
+                            <!--update bag content input taken from Boutique Ado project and adapated for this project-->
+                            <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+                                {% csrf_token %}
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <button class="decrement-qty btn btn-sm small-buy-now-button rounded-0"
+                                                data-item_id="{{ item.item_id }}" id="decrement-qty_{{ item.item_id }}">
+                                                <span>
+                                                    <i class="fas fa-minus fa-sm"></i>
+                                                </span>
+                                            </button>
                                         </div>
+                                        <input class="form-control form-control-sm qty_input text-center" type="number"
+                                            name="quantity" value="{{ item.quantity }}" min="1" max="99"
+                                            data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                        <div class="input-group-append">
+                                            <button class="increment-qty btn btn-sm small-buy-now-button rounded-0"
+                                                data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                                <span>
+                                                    <i class="fas fa-plus fa-sm"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                        <hr>
+                                        {% if item.product.has_days %}
+                                        <input class="text-center" type="hidden" name="product_days"
+                                            value="{{ item.days }}">
+                                        {% endif %}
                                     </div>
-                                    <!--links to allow update of product quantity. code taken from Boutique Ado project and adapted to this project-->
-                                    <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
-                                        data-product_days="{{ item.days }}"><small>Remove</small></a>
-                                </form>
-                            </td>
-                            <td class="py-3">
-                                <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
-                            </td>
-                        </tr>
-                        {% endfor %}
-                        <!--shopping bag grand total code taken from Boutique Ado project and adapted to this project-->
-                        <tr>
-                            <td colspan="5" class="pt-5 text-right">
-                                <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="5" class="text-right">
-                                <a href="{% url 'products' %}" class="btn-secondary rounded-0 btn-lg">
-                                    <span class="icon">
-                                        <i class="fas fa-chevron-left btn-secondary"></i>
-                                    </span>
-                                    <span class="text-uppercase">Keep Shopping</span>
-                                </a>
-                                <a href="{% url 'checkout' %}" class="buy-now-button rounded-0 btn-lg">
-                                    <span class="text-uppercase">Secure Checkout</span>
-                                    <span class="icon">
-                                        <i class="fas fa-user-lock"></i>
-                                    </span>
-                                </a>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
+                                </div>
+                                <!--links to allow update of product quantity. code taken from Boutique Ado project and adapted to this project-->
+                                <a class="update-link text-info"><small>Update</small></a>
+                                <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}"
+                                    data-product_days="{{ item.days }}"><small>Remove</small></a>
+                            </form>
+                        </td>
+                        <td class="py-3">
+                            <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    <!--shopping bag grand total code taken from Boutique Ado project and adapted to this project-->
+                    <tr>
+                        <td colspan="5" class="pt-5 text-right">
+                            <h4 class="mt-4"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5" class="text-right">
+                            <a href="{% url 'products' %}" class="btn-secondary rounded-0 btn-lg">
+                                <span class="icon">
+                                    <i class="fas fa-chevron-left btn-secondary"></i>
+                                </span>
+                                <span class="text-uppercase">Keep Shopping</span>
+                            </a>
+                            <a href="{% url 'checkout' %}" class="buy-now-button rounded-0 btn-lg">
+                                <span class="text-uppercase">Secure Checkout</span>
+                                <span class="icon">
+                                    <i class="fas fa-user-lock"></i>
+                                </span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
             </div>
-            <!--Notice in case bag becomes empty. code taken from Boutique Ado project and adapted to this project-->
-            {% else %}
-            <p class="lead mb-5">Your bag is empty.</p>
-            <a href="{% url 'products' %}" class="btn-secondary rounded-0 btn-lg">
-                <span class="icon">
-                    <i class="fas fa-chevron-left btn-secondary"></i>
-                </span>
-                <span class="text-uppercase">Back to Gym Floor</span>
-            </a>
-            {% endif %}
         </div>
+        <!--Notice in case bag becomes empty. code taken from Boutique Ado project and adapted to this project-->
+        {% else %}
+        <p class="lead mb-5">Your bag is empty.</p>
+        <a href="{% url 'products' %}" class="btn-secondary rounded-0 btn-lg">
+            <span class="icon">
+                <i class="fas fa-chevron-left btn-secondary"></i>
+            </span>
+            <span class="text-uppercase">Back to Gym Floor</span>
+        </a>
+        {% endif %}
     </div>
+</div>
 
 
 {% endblock %}
