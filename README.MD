@@ -1108,7 +1108,9 @@ I used the following code validators to help me debug my code
  - JavaScript and jQuery validator [link to JS or jQuery vaildator](https://jshint.com/)
     - No obvious errors were seen in the validators 
  - Python Validator http://pep8online.com/
-    - Result visible 
+    - Result visible We ran each python file through the python validator
+    - We had some line too long comments which we opted not to fix because they would break up links mid link
+    - Other times we didn't fix the line too long out because it then threw a whitespace error which effected the functionality of the site 
 
 I also used following website to help me correct any formatting anomalies in my code
 - https://codebeautify.org/ 

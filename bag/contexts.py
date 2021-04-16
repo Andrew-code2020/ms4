@@ -6,12 +6,13 @@ from products.models import Product
 # logic for adding content to bag
 # inspired by Boutique ado project and adapted for this project
 # calculating price
-def bag_contents(request):
 
+
+def bag_contents(request):
     bag_items = []
     total = 0
     product_count = 0
-    bag = request.session.get('bag', {}) 
+    bag = request.session.get('bag', {})
 
     for item_id, item_data in bag.items():
         if isinstance(item_data, int):
@@ -22,7 +23,7 @@ def bag_contents(request):
                 'item_id': item_id,
                 'quantity': item_data,
                 'product': product,
-            })   
+            })
         else:
             product = get_object_or_404(Product, pk=item_id)
             for days, quantity in item_data['items_by_days'].items():
@@ -34,9 +35,8 @@ def bag_contents(request):
                     'product': product,
                     'days': days,
                 })
-    
     grand_total = total
-    
+
     context = {
         'bag_items': bag_items,
         'total': total,
@@ -45,4 +45,3 @@ def bag_contents(request):
     }
 
     return context
-

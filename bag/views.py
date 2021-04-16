@@ -26,17 +26,21 @@ def add_to_bag(request, item_id):
         if item_id in list(bag.keys()):
             if days in bag[item_id]['items_by_days'].keys():
                 bag[item_id]['items_by_days'][days] += quantity
-                messages.success(request, f'Added day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
+                messages.success(
+                    request, f'Added day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
             else:
                 bag[item_id]['items_by_days'][days] = quantity
-                messages.success(request, f'Added day {days.upper()} {bag[item_id]} to your bag')
+                messages.success(
+                    request, f'Added day {days.upper()} {bag[item_id]} to your bag')
         else:
             bag[item_id] = {'items_by_days': {days: quantity}}
-            messages.success(request, f'Added day {days.upper()} to {product.name} in your bag')
+            messages.success(
+                request, f'Added day {days.upper()} to {product.name} in your bag')
     else:
         if item_id in list(bag.keys()):
             bag[item_id] += quantity
-            messages.success(request, f'Updated {product.name} total in {bag[item_id]}')
+            messages.success(
+                request, f'Updated {product.name} total in {bag[item_id]}')
         else:
             bag[item_id] = quantity
             messages.success(request, f'Added {product.name} to your bag')
@@ -59,16 +63,19 @@ def adjust_bag(request, item_id):
     if days:
         if quantity > 0:
             bag[item_id]['items_by_days'][days] = quantity
-            messages.success(request, f'Updated day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
+            messages.success(
+                request, f'Updated day {days.upper()} {product.name} amount to {bag[item_id]["items_by_days"][days]}')
         else:
             del bag[item_id]['items_by_days'][days]
             if not bag[item_id]['items_by_days']:
                 bag.pop(item_id)
-            messages.success(request, f'Removed day option {days.upper()} {product.name} from your bag')
+            messages.success(
+                request, f'Removed day option {days.upper()} {product.name} from your bag')
     else:
         if quantity > 0:
             bag[item_id] = quantity
-            messages.success(request, f'Updated {product.name} total in {bag[item_id]}')
+            messages.success(
+                request, f'Updated {product.name} total in {bag[item_id]}')
         else:
             bag.pop(item_id)
             messages.success(request, f'Removed {product.name} from your bag')
@@ -78,6 +85,8 @@ def adjust_bag(request, item_id):
 
 # remove item from gym bag
 # code taken from Boutique Ado project and adapted to this project
+
+
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
     product = get_object_or_404(Product, pk=item_id)
@@ -91,7 +100,8 @@ def remove_from_bag(request, item_id):
             del bag[item_id]['items_by_days'][size]
             if not bag[item_id]['items_by_days']:
                 bag.pop(item_id)
-            messages.success(request, f'Removed day option {days.upper()} {product.name} from your bag')
+            messages.success(
+                request, f'Removed day option {days.upper()} {product.name} from your bag')
         else:
             bag.pop(item_id)
             messages.success(request, f'Removed {product.name} from your bag')

@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-#imports relevant to deployment
+# imports relevant to deployment
 import os
 import dj_database_url
 
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    #Primary project apps
+    # Primary project apps
     'home',
     'products',
     'bag',
@@ -53,10 +53,10 @@ INSTALLED_APPS = [
     'profiles',
     'facilities',
     'coach',
-    #Secondary project apps
+    # Secondary project apps
     'crispy_forms',
     'active_link',
-    #deployment
+    # deployment
     'storages',
 ]
 
@@ -85,16 +85,16 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                #required by allauth
+                # required by allauth
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                #noimage process
+                # noimage process
                 'django.template.context_processors.media',
-                #required by shopping bag
+                # required by shopping bag
                 'bag.contexts.bag_contents',
             ],
-            #crispy forms requirement
+            # crispy forms requirement
             'builtins':[
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
@@ -106,9 +106,8 @@ TEMPLATES = [
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-#allauth authentication backends
+# allauth authentication backends
 AUTHENTICATION_BACKENDS = [
-    
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
 
@@ -134,7 +133,7 @@ WSGI_APPLICATION = 'a_templelean.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-#telling computer where to store data
+# telling computer where to store data
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -146,8 +145,6 @@ else:
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
-
 
 
 # Password validation
@@ -192,7 +189,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#sending static and media files to AWS bucket
+# sending static and media files to AWS bucket
 if 'USE_AWS' in os.environ:
     # allow browser to cache
     AWS_S3_OBJECT_PARAMETERS = {
@@ -217,13 +214,13 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
-#Stripe telling system where to find stripe keys
+# Stripe telling system where to find stripe keys
 STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
-#sending emails using Django
+# sending emails using Django
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
     DEFAULT_FROM_EMAIL = 'andrew@templelean.ie'
@@ -235,3 +232,5 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+    
