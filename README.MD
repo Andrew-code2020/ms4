@@ -666,34 +666,34 @@ Mobile Device wireframe
     - Update bag 
 - jQuery 
     - Used to configure interactive features above 
-    - [Website link to Bootstrap] https://jquery.com/
+    - [Website link to jQeury](https://jquery.com/)
 - Bootstrap
-  - [Website link to Bootstrap] (https://getbootstrap.com/)
+  - [Website link to Bootstrap](https://getbootstrap.com/)
   - Used to import generic styling for the entire website
 - Github and Gitpod
-  - [Website link to Github repository] (https://github.com/Andrew-code2020/ms4) 
+  - [Website link to Github repository](https://github.com/Andrew-code2020/ms4) 
   - Used to construct host and deploy the website
 - Font Awesome
-  - [Website link] (https://fontawesome.com/)
+  - [Website link](https://fontawesome.com/)
   - Used to import icons
 - Google Font
-  - [Website link] (https://fonts.google.com/)
+  - [Website link](https://fonts.google.com/)
   - Used to import font
  
-- Python | [link to Python Website] (https://www.python.org/)
+- Python | [link to Python Website](https://www.python.org/)
   - Used to created roots,view and integrate with Django to deliver functionality to the website 
 
-- Heroku | [link to Heroku] (https://www.heroku.com/)  
+- Heroku | [link to Heroku](https://www.heroku.com/)  
   - Used to deploy the website
-  - Website link to the deployed Heroku app [link to Deployed app] (https://templeleanms4.herokuapp.com/) 
+  - Website link to the deployed Heroku app [link to Deployed app](https://templeleanms4.herokuapp.com/) 
   
 - Stripe 
   - User profile main site [link to Stripe Sign In](https://stripe.com/en-ie)
   - Stripe Developer Docs [link to Stripe Documentation](https://stripe.com/docs)
 
 AWS 
-  - Used bucket to deploy static files and media [link to AWS log in!] (https://aws.amazon.com/)
-  - [link to AWS Bucket] (https://s3.console.aws.amazon.com/s3/buckets/templeleanms4?region=eu-west-1&tab=objects)
+  - Used bucket to deploy static files and media [link to AWS log in!](https://aws.amazon.com/)
+  - [link to AWS Bucket](https://s3.console.aws.amazon.com/s3/buckets/templeleanms4?region=eu-west-1&tab=objects)
 
 - Dependencies (Also listed in requirements.txt file)
   - asgiref==3.3.1
@@ -790,11 +790,11 @@ AWS
   -  Make sure users and super users can log out
 - Test planning
   - Implement log out functionality via allauth
-  - Sign in to Temple Lean via [Sign In page] (https://templeleanms4.herokuapp.com/accounts/login/)
+  - Sign in to Temple Lean via [Sign In page](https://templeleanms4.herokuapp.com/accounts/login/)
   - Click buttons relevant to sign out
   - Note responses from site 
 - Implementation
-  - Whilst logged Navigate to [Sign Out page] (https://templeleanms4.herokuapp.com/accounts/logout/) via my locker icon
+  - Whilst logged Navigate to [Sign Out page](https://templeleanms4.herokuapp.com/accounts/logout/) via my locker icon
   - From dropdown menu select sign out
   - Confirmed sign out by clicking black sign out button
   - Received toast message indicatin sign out was successful
@@ -1031,12 +1031,12 @@ AWS
 ### Testing Browser Screens
 
 ### Chrome Browser
-- I tested the website by copying and pasting the deployed Temple Lean app [link] (https://templeleanms4.herokuapp.com/) into the Chrome Browsers
+- I tested the website by copying and pasting the deployed Temple Lean app [link](https://templeleanms4.herokuapp.com/) into the Chrome Browsers
 - I pressed control+shift+I to access developer tools in the Chrome Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
 ### Edge Browser
-- I tested the website by copying and pasting the Heroku pages [link] (https://templeleanms4.herokuapp.com/)  into Edge Browser
+- I tested the website by copying and pasting the Heroku pages [link](https://templeleanms4.herokuapp.com/) into the Edge Browser
 - I pressed control+shift+I to access developer tools in the Edge Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
@@ -1094,17 +1094,17 @@ AWS
 
 ### Code Validators
 I used the following code validators to help me debug my code 
- - HTML - [link to HTML vaildator] https://validator.w3.org/
+ - HTML - [link to HTML vaildator](https://validator.w3.org/)
    
  - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Result visible via directory below
       - readmedoc2/testing/codevalidators/basecssvalidator.jpg
       - readmedoc2/testing/codevalidators/checkoutcssvalidator.jpg
     - No obvious errors were seen
- - JavaScript and jQuery validator https://jshint.com/
-    - Result visible in  readmedocs/testing/codevalidators/shintcheckresult.jpg
+ - JavaScript and jQuery validator [link to JS or jQuery vaildator] (https://jshint.com/)
+    - Result visible in 
  - Python Validator http://pep8online.com/
-    - Result visible readmedocs/testing/codevalidators/pep8vaildatorresult.jpg
+    - Result visible 
 
 I also used following website to help me correct any formatting anomalies in my code
 - https://codebeautify.org/ 
@@ -1173,17 +1173,17 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 - Project Repository on Github
   - This project is hosted in a github repository. 
   - The project was developed using a Gitpod workspace. 
-  - Link to the [Github repository] (https://github.com/Andrew-code2020/ms4)
+  - Link to the [Github repository](https://github.com/Andrew-code2020/ms4)
 
 
 #### Creating the repository
 
-- To create the project in my github repository I went to the code institute recommended repository via this link https://github.com/Code-Institute-Org/gitpod-full-template
+- To create the project in my github repository I went to the code institute recommended repository via this [link](https://github.com/Code-Institute-Org/gitpod-full-template)
 - We copied the code institute template
 - The screenshots of this process are available by following the directories below
     - readmedocs/creatingrepo/creatingsitetemplate/step1copyrepotemplate.png
     - readmedocs/creatingrepo/creatingsitetemplate/step2creatingreponame.png
-- Finally we cloned the repository from the developers milestone project 2 using the instructions on the following website https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+- Finally we cloned the repository from the developers milestone project 2 using the instructions on the following [website](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 #### Deploying the project to Heroku
 
@@ -1198,7 +1198,7 @@ Bugs - countries field navigate through model and forms removed the label. Chang
     - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku6.jpg
     - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku7.jpg
     - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku8.jpg
-- The live Temple Lean Recipes site may be accessed by following this link https://lean-temple-recipes.herokuapp.com/
+- The live Temple Lean site may be accessed by following this [link] (https://templeleanms4.herokuapp.com/)
 
 
 ## Credits
@@ -1215,7 +1215,7 @@ Bugs - countries field navigate through model and forms removed the label. Chang
             - Overflow
             - Profile Card custom css
 - I used Bootstrap through out the project to deploy a mobile first design principle.
-  - [Bootstrap Website] (https://getbootstrap.com/)
+  - [Bootstrap Website](https://getbootstrap.com/)
   - Features influenced
     - Navbar
     - Header
@@ -1231,16 +1231,16 @@ Bugs - countries field navigate through model and forms removed the label. Chang
     - Color
 
 - Google Fonts 
-  - I imported the text font RocknRoll One from [Google Fonts website] (https://fonts.google.com/)
+  - I imported the text font RocknRoll One from [Google Fonts website](https://fonts.google.com/)
   - I used this font because it was the same font as other gym websites and therefore made my website feel familiar and readable to users. Also I felt it added energy to the site.
 
 - Hero Image
 - I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I copied a Materialize card code to mimic a jumbotron. 
-  - Reference to [Github repository] (https://andrew-code2020.github.io/) from code along project
+  - Reference to [Github repository](https://andrew-code2020.github.io/) from code along project
 
-- I copied the icons from [Font awesome] (https://fontawesome.com/) and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
+- I copied the icons from [Font awesome](https://fontawesome.com/) and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
 
-- I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. I also used [jQuery] (https://jquery.com/) to help implement code in the Temple Lean site.
+- I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. I also used [jQuery](https://jquery.com/) to help implement code in the Temple Lean site.
 
 - I frequently referred back to the following code institute modules to research how to construct certain features
 
@@ -1254,11 +1254,12 @@ Bugs - countries field navigate through model and forms removed the label. Chang
   - Data Centric Development Milestone Project 
   - Full Stack Frameworks with Django 
 
-- I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to [mini project repository] (https://github.com/Andrew-code2020/boutique_ado_v1_ecom)
+- I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to [mini project repository](https://github.com/Andrew-code2020/boutique_ado_v1_ecom)
 
 ### Code
 Coaches page
-- I copied the profile card idea on the Coaches page from [Profile Card W3 school] (https://www.w3schools.com/howto/howto_css_profile_card.asp). I adapted the code with classes and margins from Bootstrap to help it fit in with our site.
+- I copied the profile card idea on the Coaches page from [Profile Card W3 school](https://www.w3schools.com/howto/howto_css_profile_card.asp). I adapted the code with classes and margins from Bootstrap to help it fit in with our site.
+- I copied the python logic of the Boutique ado mini project from the Boutique Ado Source [Code](https://github.com/ckz8780/boutique_ado_v1/tree/f5880efee43b3b9ea1276a09ca972f4588001c59) and adpated it to this project 
 
 ### Content
 
@@ -1266,7 +1267,8 @@ Coaches page
 
 ### Media
 
-- The photos used in this site were obtained from pexels.com
+- The photos used in this site were obtained from [Pexels](pexels.com)
+- The coaches photos of Andrew and Julie are photos from the developers private collection
 - These photos are placed in the website on the following pages;
 
 #### Facilities Images
@@ -1274,131 +1276,128 @@ Coaches page
 
 Weight Rooms
  - [Link](https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ ) to guys working with weight rack in gym 
- - Credit to [Photographer] (https://www.pexels.com/@brunogobofoto) 
+ - Credit to [Photographer](https://www.pexels.com/@brunogobofoto) 
 - Lean Machine Rooms
- - [Link] (https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/) to guy on sitting using pec dec gym 
- - Credit to [Photographer] (https://www.pexels.com/@olly)
+ - [Link](https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/) to guy on sitting using pec dec gym 
+ - Credit to [Photographer](https://www.pexels.com/@olly)
 - Kettlebell Rooms
   - [Link](https://www.pexels.com/photo/bright-close-up-color-colorful-221247/) to kettlebell on floor
-  - Credit to [Photographer] (https://www.pexels.com/@pixabay)
+  - Credit to [Photographer](https://www.pexels.com/@pixabay)
 - Suspension Room
-  - [Link] (https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/) to girl doing single leg squat  
-  - Credit to [Photographer] (https://www.pexels.com/@jonathanborba) 
+  - [Link](https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/) to girl doing single leg squat  
+  - Credit to [Photographer](https://www.pexels.com/@jonathanborba) 
 
 Cardio Rooms
   - Cardio Gym
-    - Link to guy on bike in gym https://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
-    - Credit to Photographer https://www.pexels.com/@olly
+    - [Link](https://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/) to guy on bike in gym
+    - Credit to [Photographer](https://www.pexels.com/@olly)
   -  Indoor Cycling Studio
-    - [Link] (https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ ) to guy on bike in gym  
-    - Credit to [Photographer] (https://www.pexels.com/@ivan-samkov)
+    - [Link](https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ ) to guy on bike in gym  
+    - Credit to [Photographer](https://www.pexels.com/@ivan-samkov)
   -  Online Studio
     - [Link](https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/) to studio photo  
-    - Credit to [Photographer] (https://www.pexels.com/@alexander-dummer-37646)
+    - Credit to [Photographer](https://www.pexels.com/@alexander-dummer-37646)
 
 Café
 -  Café
-    - Link to coffee shop https://www.pexels.com/photo/table-in-vintage-restaurant-6267/
-    - Credit to Photographer https://www.pexels.com/@kaboompics
+    - [Link](https://www.pexels.com/photo/table-in-vintage-restaurant-6267/) to coffee shop
+    - Credit to [Photographer](https://www.pexels.com/@kaboompics)
  
 -  Salad Bar
-    - Link to salad bar https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/  
-    - Credit to Photographer https://www.pexels.com/@dana-tentis-118658 
+    - [Link](https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/) to salad bar  
+    - Credit to [Photographer](https://www.pexels.com/@dana-tentis-118658) 
 
 -  Smoothie Bar
-    - Link to smoothie bar photo https://www.pexels.com/photo/shake-in-a-glass-990439/ 
-    - Credit to Photographer https://www.pexels.com/@joshsorenson
+    - [Link](https://www.pexels.com/photo/shake-in-a-glass-990439/) to smoothie bar photo 
+    - Credit to [Photographer](https://www.pexels.com/@joshsorenson)
 
 Classes
 -  Online
     - Link to Online Class photo
-        - Morning https://www.pexels.com/photo/macbook-pro-beside-white-ipad-4158/
-        - Afternoon https://www.pexels.com/photo/space-grey-ipad-air-with-graph-on-brown-wooden-table-187041/
-        - Evening https://www.pexels.com/photo/smartphone-ipad-tablet-white-40739/ 
+        - [Morning](https://www.pexels.com/photo/macbook-pro-beside-white-ipad-4158/)
+        - [Afternoon](https://www.pexels.com/photo/space-grey-ipad-air-with-graph-on-brown-wooden-table-187041/)
+        - [Evening](https://www.pexels.com/photo/smartphone-ipad-tablet-white-40739/) 
     - Credit to Photographer
-      - Morning https://www.pexels.com/@pixabay
-      - Afternoon https://www.pexels.com/@weekendplayer
-      - Evening https://www.pexels.com/@pixabay 
+      - [Morning](https://www.pexels.com/@pixabay)
+      - [Afternoon](https://www.pexels.com/@weekendplayer)
+      - [Evening](https://www.pexels.com/@pixabay) 
 
 -  Kettlebells
     - Link to Kettlebell Class photo
-        - Morning https://www.pexels.com/photo/person-using-yellow-kettlebell-4720232/
-        - Afternoon https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/
-        - Evening https://www.pexels.com/photo/kettle-bells-and-dumbbells-on-floor-near-gym-equipment-4608175/ 
+        - [Morning](https://www.pexels.com/photo/person-using-yellow-kettlebell-4720232/)
+        - [Afternoon](https://www.pexels.com/photo/man-in-blue-shorts-carrying-brown-exercise-equipments-116079/)
+        - [Evening](https://www.pexels.com/photo/kettle-bells-and-dumbbells-on-floor-near-gym-equipment-4608175/) 
     - Credit to Photographer
-      - Morning https://www.pexels.com/@ketut-subiyanto
-      - Afternoon https://www.pexels.com/@binyaminmellish
-      - Evening https://www.pexels.com/@2926593 
+      - [Morning](https://www.pexels.com/@ketut-subiyanto)
+      - [Afternoon](https://www.pexels.com/@binyaminmellish)
+      - [Evening](https://www.pexels.com/@2926593) 
 
 -  Lean Machine
     - Link to Lean Machine Class
-        - Morning https://www.pexels.com/photo/young-determined-sportswoman-doing-exercise-on-weight-machine-in-modern-sports-club-3768913/
-        - Afternoon https://www.pexels.com/photo/fit-male-bodybuilder-exercising-with-metal-machine-in-gym-3837388/
-        - Evening  https://www.pexels.com/photo/muscular-sportsman-training-on-arms-machine-in-gym-4608134/
+        - [Morning](https://www.pexels.com/photo/young-determined-sportswoman-doing-exercise-on-weight-machine-in-modern-sports-club-3768913/)
+        - [Afternoon](https://www.pexels.com/photo/fit-male-bodybuilder-exercising-with-metal-machine-in-gym-3837388/)
+        - [Evening](https://www.pexels.com/photo/muscular-sportsman-training-on-arms-machine-in-gym-4608134/)
     - Credit to Photographer
-      - Morning https://www.pexels.com/@olly
-      - Afternoon https://www.pexels.com/@olly
-      - Evening https://www.pexels.com/@2926593 
+      - [Morning](https://www.pexels.com/@olly)
+      - [Afternoon](https://www.pexels.com/@olly)
+      - [Evening](https://www.pexels.com/@2926593) 
 
 -  Pilates
     - Link to Pilates Class
-        - Morning https://www.pexels.com/photo/woman-in-purple-shirt-and-gray-pants-bending-her-body-3756527/
-        - Afternoon https://www.pexels.com/photo/graceful-woman-performing-variation-of-setu-bandha-sarvangasana-yoga-pose-5012071/
-        - Evening https://www.pexels.com/photo/woman-in-pink-long-sleeve-shirt-and-gray-leggings-doing-yoga-3756521/ 
+        - [Morning](https://www.pexels.com/photo/woman-in-purple-shirt-and-gray-pants-bending-her-body-3756527/)
+        - [Afternoon](https://www.pexels.com/photo/graceful-woman-performing-variation-of-setu-bandha-sarvangasana-yoga-pose-5012071/)
+        - [Evening](https://www.pexels.com/photo/woman-in-pink-long-sleeve-shirt-and-gray-leggings-doing-yoga-3756521/) 
     - Credit to Photographer
-      - Morning https://www.pexels.com/@alexy-almond
-      - Afternoon https://www.pexels.com/@shvetsa
-      - Evening https://www.pexels.com/@alexy-almond
+      - [Morning](https://www.pexels.com/@alexy-almond)
+      - [Afternoon](https://www.pexels.com/@shvetsa)
+      - [Evening](https://www.pexels.com/@alexy-almond)
 
 Membership
 -  Online
     - Link to Online Membership
-        - Introduction https://www.pexels.com/photo/woman-doing-online-yoga-class-6697222/
-        - Monthly https://www.pexels.com/photo/crop-woman-with-laptop-and-dumbbell-on-sports-mat-4498362/
-        - Yearly  https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/
+        - [Introduction](https://www.pexels.com/photo/woman-doing-online-yoga-class-6697222/)
+        - [Monthly](https://www.pexels.com/photo/crop-woman-with-laptop-and-dumbbell-on-sports-mat-4498362/)
+        - [Yearly](https://www.pexels.com/photo/adult-athlete-body-bodybuilding-414029/)
     - Credit to Photographer
-        - Introduction https://www.pexels.com/@tim-samuel
-        - Monthly https://www.pexels.com/@karolina-grabowska
-        - Yearly https://www.pexels.com/@pixabay
+        - [Introduction](https://www.pexels.com/@tim-samuel)
+        - [Monthly](https://www.pexels.com/@karolina-grabowska)
+        - [Yearly](https://www.pexels.com/@pixabay)
 
 
 Membership
 -  Public
     - Link to Public Membership
-        - 1 Week Pass https://www.pexels.com/photo/strong-man-training-biceps-with-dumbbells-4793224/
-        - Monthly https://www.pexels.com/photo/person-holding-black-barbell-703014/
-        - Yearly https://www.pexels.com/photo/several-kettlebells-on-metal-bar-in-gym-3839058/  
+        - [1 Week Pass](https://www.pexels.com/photo/strong-man-training-biceps-with-dumbbells-4793224/)
+        - [Monthly](https://www.pexels.com/photo/person-holding-black-barbell-703014/)
+        - [Yearly](https://www.pexels.com/photo/several-kettlebells-on-metal-bar-in-gym-3839058/)  
     - Credit to Photographer
-        - 1 Week Pass https://www.pexels.com/@anete-lusina
-        - Monthly https://www.pexels.com/@victorfreitas
-        - Yearly https://www.pexels.com/@olly
+        - [1 Week Pass](https://www.pexels.com/@anete-lusina)
+        - [Monthly](https://www.pexels.com/@victorfreitas)
+        - [Yearly](https://www.pexels.com/@olly)
 
 Membership
 -  Corporate
     - Link to Public Membership
-        - 1 Week Pass
-        - Monthly
-        - Yearly  
+        - [1 Week Pass](https://www.pexels.com/photo/group-of-people-in-dress-suits-776615/)
+        - [Monthly](https://www.pexels.com/photo/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355/)
+        - [Yearly](https://www.pexels.com/photo/women-at-the-meeting-3810796/)  
     - Credit to Photographer
-        - 1 Week Pass
-        - Monthly
-        - Yearly 
+        - [1 Week Pass](https://www.pexels.com/@marily-torres-227778)
+        - [Monthly](https://www.pexels.com/@divinetechygirl)
+        - [Yearly](https://www.pexels.com/@rethaferguson) 
 
 
 Student
--  Corporate
-    - Link to Public Membership
-        - 1 Week Pass
-        - Monthly
-        - Yearly  
+    - Link to Student Membership
+        - [Monthly](https://www.pexels.com/photo/a-man-reading-indoor-2325729/)
+        - [Yearly](https://www.pexels.com/photo/determined-asian-man-with-dumbbell-in-gym-6550836/)  
     - Credit to Photographer
-        - 1 Week Pass
-        - Monthly
-        - Yearly 
+        - [Monthly](https://www.pexels.com/@diimejii)
+        - [Yearly](https://www.pexels.com/@andres-ayrton) 
 
 -  No Media Image
-    - Link to coming https://www.pexels.com/photo/love-people-art-sign-4439444/
-    - Credit to Photographer https://www.pexels.com/@vie-studio
+    - [Link](https://www.pexels.com/photo/love-people-art-sign-4439444/) coming soon image
+    - Credit to [Photographer](https://www.pexels.com/@vie-studio)
 
 
 #### Coach images
