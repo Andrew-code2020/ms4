@@ -1106,7 +1106,7 @@ I used the following code validators to help me debug my code
       - readmedoc2/testing/codevalidators/profilecssvalidator.jpg
     - No obvious errors were seen
  - JavaScript and jQuery validator [link to JS or jQuery vaildator](https://jshint.com/)
-    - Result visible in 
+    - No obvious errors were seen in the validators 
  - Python Validator http://pep8online.com/
     - Result visible 
 
