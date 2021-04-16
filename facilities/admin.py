@@ -1,10 +1,8 @@
 from django.contrib import admin
-
-
-
 from .models import FacilityCategory, facility
 
-#register FacilityCategory & facility to Django admin
+# register FacilityCategory & facility to Django admin
+
 
 class FacilityAdmin(admin.ModelAdmin):
 
@@ -23,10 +21,10 @@ class FacilityAdmin(admin.ModelAdmin):
 
 class FacilityCategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'friendly_name', 
+        'friendly_name',
         'name',
     )
 
+
 admin.site.register(FacilityCategory, FacilityCategoryAdmin)
 admin.site.register(facility, FacilityAdmin)
-

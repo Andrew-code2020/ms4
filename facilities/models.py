@@ -2,6 +2,7 @@ from django.db import models
 
 # models for Facilties app
 
+
 class FacilityCategory(models.Model):
 
     class Meta:
@@ -18,12 +19,14 @@ class FacilityCategory(models.Model):
 
 
 class facility(models.Model):
-    category = models.ForeignKey('FacilityCategory', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'FacilityCategory', null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
     testimonial = models.TextField()
-    rating = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
+    rating = models.DecimalField(
+        max_digits=5, decimal_places=2, null=True, blank=True)
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
