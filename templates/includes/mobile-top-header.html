@@ -42,13 +42,19 @@
                 <a href="{% url 'profile' %}" class="dropdown-item-sm ml-2 mb-2">My Profile</a>
             </li>
             <li>
-                <a href="{% url 'account_logout' %}" class="dropdown-item-sm ml-2 mb-2">Logout</a>
+                <a href="{% url 'account_logout' %}" class="dropdown-item-sm ml-2 mb-2">Sign Out</a>
             </li>
-            {% else %}
-                <a href="{% url 'account_signup' %}" class="dropdown-item-sm ml-2 mb-2">Register</a>
-                <a href="{% url 'account_login' %}" class="dropdown-item-sm ml-2 mb-2">Login</a>
-            {% endif %}
         </ul>
+        {% else %}
+        <ul>
+            <li>
+                <a href="{% url 'account_signup' %}" class="dropdown-item-sm ml-2 mb-2">Register</a>
+            </li>
+            <li>
+                <a href="{% url 'account_login' %}" class="dropdown-item-sm ml-2 mb-2">Sign In</a>
+            </li>
+        </ul>
+        {% endif %}
     </div>
 </li>
 

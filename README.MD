@@ -807,6 +807,32 @@ AWS
 - Outcomes
   - Sign out functionality fit for purpose
 
+- Name of Test | Mobile Top Header links
+- Outline of Test
+  -  Click into mobile top header links to ensure they work
+- Test planning
+  - Code Mobile Top Header page
+  - run server in preview
+  - click in each link starting from the right hand side of the mobile top header
+  - go through each potential scenario with each link 
+- Implementation
+  - Ran server
+  - Clicked Ctrl+Shift+I on the key board
+  - Started by clicking on open door dropdown menu
+  - Clicked through each link and reviewed that each screen rendered
+  - Checked search bar dropped down and could take product search parameters
+  - Checked the my locker dropdown links work including
+      - Register
+      - Sign In
+      - product management (if superuser)
+      - My profile
+      - Sign Out
+- Fix (if applicable)
+  -  Changed the text on Mobile top header to match desktop ie Log in became Sign In. This was carried out to offer the user a consistent user experience
+- Results
+  - Mobile top header renders and is functional
+- Outcomes
+  - Mobile top header deemed operational with no obvious bugs
 
 - Name of Test 
 - Outline of Testing Bag HTML File
@@ -954,7 +980,7 @@ AWS
 - Test planning 
   - Check the Temple Lean site for performance, best practices and accessibility. 
 - Implementation
-  - access the deployed site via deployed site  via [link to deployed site!](http://templeleanms4.herokuapp.com/)
+  - access the deployed site via deployed site via [link to deployed site!](http://templeleanms4.herokuapp.com/)
   - Use Ctrl+Shift+I on your keyboard to access the developer tools
   - Click genereate report refer to image for visual detail 
   - Sample generate report image readmedoc2/testing/lighthouse/lighthousesummaryoftest.jpg
@@ -995,24 +1021,22 @@ AWS
 - Test
    - Registeration form check the content renders on our app 
 - Implementation
-   -used python3 app.py to run the app.py file from gitpod to visualise our registeration file
+   
 - Fix (if applicable)
-    - icons render on top of label text
-    - to fix we placed the icons within the label element
 - Results
-  - visually the icon and the label are no longer over lapping
+  - 
 - Outcomes
-  - Fixed a visual bug
+  - 
 
 ### Testing Browser Screens
 
 ### Chrome Browser
-- I tested the website by copying and pasting the Heroku pages link https://templeleanms4.herokuapp.com/ into the Chrome Browsers
+- I tested the website by copying and pasting the deployed Temple Lean app [link] (https://templeleanms4.herokuapp.com/) into the Chrome Browsers
 - I pressed control+shift+I to access developer tools in the Chrome Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
 ### Edge Browser
-- I tested the website by copying and pasting the Heroku pages link https://templeleanms4.herokuapp.com/  into Edge Browser
+- I tested the website by copying and pasting the Heroku pages [link] (https://templeleanms4.herokuapp.com/)  into Edge Browser
 - I pressed control+shift+I to access developer tools in the Edge Browser and checked the web pages responsiveness
 - There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
 
@@ -1028,17 +1052,28 @@ AWS
   - iPhone X
   - iPad
   - iPad Pro
+  - Surface Duo
 - I checked the console in developer tools showed no errors on each page as I went through each page of the Temple Lean Recipes site
 
 ### Header and Footer
 
 - Across each page of the website you may verify that the Header and the Footer have the same features outlined below in the Testing Navbar and Testing Footer sections
 
-### Testing Navbar
+### Testing  1st Tier Navbar
 
-- Go to the Temple Lean Recipes "Home/Landing" page or any other Temple Lean Recipes page
-- Click on Log In or Register
-- On the Log In or Register page the text and icon will take on a light blue background so the user will know where they are on the Temple Lean Recipes Website
+- Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean  page
+- Click on 
+- On the Log In or Register page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Recipes Website
+- Verify that when the user clicks on the Log In or Register active feature highlights in light blue occurs when the user is on either page
+- Verify that the forms to allow a user to log in or register appear
+- When you have logged in or registered verify that the secondary navbar containing the Breakfast, Lunch, Dinner & Snacks appear
+- Verify that when the user clicks on Breakfast, Lunch, Dinner & Snacks active feature highlights the text in light blue when the user is on any of the pages
+
+### Testing  2nd Tier Navbar
+
+- Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean page
+- Click on Facilities, Classes, Membership or Coaches
+- On the Facilities, Classes, Membership or Coaches page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Recipes Website
 - Verify that when the user clicks on the Log In or Register active feature highlights in light blue occurs when the user is on either page
 - Verify that the forms to allow a user to log in or register appear
 - When you have logged in or registered verify that the secondary navbar containing the Breakfast, Lunch, Dinner & Snacks appear

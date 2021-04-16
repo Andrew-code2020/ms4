@@ -48,8 +48,7 @@ body {
 }
 
 /*--homepage header--*/
-
-.dropdown-item.active, .dropdown-item:active{
+.active {
     background-color: #80ffa9;
 }
 
