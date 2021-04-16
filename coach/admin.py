@@ -4,6 +4,7 @@ from .models import Coach
 
 # Registering coach model to the admin.
 
+
 class CoachAdmin(admin.ModelAdmin):
     list_display = (
             'name',

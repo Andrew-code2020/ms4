@@ -2,6 +2,7 @@ from django.db import models
 
 # Coach Model.
 
+
 class Coach(models.Model):
     name = models.CharField(max_length=254)
     qualification = models.CharField(max_length=254)
