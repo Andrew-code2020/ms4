@@ -1059,108 +1059,43 @@ AWS
 
 - Across each page of the website you may verify that the Header and the Footer have the same features outlined below in the Testing Navbar and Testing Footer sections
 
-### Testing  1st Tier Navbar
+### Testing | Desktop 1st Tier Navbar
 
-- Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean  page
-- Click on 
-- On the Log In or Register page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Recipes Website
-- Verify that when the user clicks on the Log In or Register active feature highlights in light blue occurs when the user is on either page
-- Verify that the forms to allow a user to log in or register appear
-- When you have logged in or registered verify that the secondary navbar containing the Breakfast, Lunch, Dinner & Snacks appear
-- Verify that when the user clicks on Breakfast, Lunch, Dinner & Snacks active feature highlights the text in light blue when the user is on any of the pages
+- Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean page
+- Click on Temple Lean, Search, My Locker or Shopping Cart
+- Verified that when the user clicks on the Temple Lean, Search, My Locker or Shopping Cart that the user is either directed to the next page in the step or in the search bar the user can input a search for products ie type word 'membership' and membership options appeared below
+- Verified previously that the forms to a user to log in or register
+- Verified that the shopping cart tells the user that the gym bag is empty
+- erified that when you have logged in or registered that the secondary my locker navigation containing My profile, log out and Manage products (if super user) appear
 
-### Testing  2nd Tier Navbar
+### Testing | Desktop 2nd Tier Navbar
 
 - Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean page
 - Click on Facilities, Classes, Membership or Coaches
-- On the Facilities, Classes, Membership or Coaches page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Recipes Website
-- Verify that when the user clicks on the Log In or Register active feature highlights in light blue occurs when the user is on either page
-- Verify that the forms to allow a user to log in or register appear
-- When you have logged in or registered verify that the secondary navbar containing the Breakfast, Lunch, Dinner & Snacks appear
-- Verify that when the user clicks on Breakfast, Lunch, Dinner & Snacks active feature highlights the text in light blue when the user is on any of the pages
+- On the Facilities, Classes, Membership or Coaches page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Website
+- Verified that when the user clicks on the Facilities, Classes, Membership or Coaches feature highlights in light green occurs when the user is on any page
+- Verified that when the user clicks on Facilities, Classes, Membership or Coaches a dropdown menu appears for Facilities, Classes and Membership but clicking the Coach page leads to being redirected to the Coaches page straight away
+- Verified that when the user clicks on Facilities, Classes, Membership a dropdown menu appears for Facilities, Classes and Membership and when we clicked on the dropdown menu each page with that category appeared
+- Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work and that a purchase can begin from each page 
+- Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work including if super user CRUD functionlity appears and is functional
 
 ### Testing Footer
- - Go to the Temple Lean Recipes "Home/Landing" page or any other Temple Lean Recipes page
- - Verify that clicking the links to the blog open in a new tab
+ - Go to the Temple Lean "Home/Landing" page or any other Temple Lean Recipes page
  - Verify that clicking on the social media icons open the correct social media page in a new tab
 
 
-### Testing Section
+### Testing Overlay
 
-- The section element changes it's content depending on which page you are on
-- Below I have outlined briefly the testing on each section
-
-### Testing Home/Landing page
-
-- Go to the "Home" page by clicking on the words Temple Lean Recipes
-- Verify that the page with the salad bowl appears with a welcome message and log in and registeration buttons
-- Verify that clicking the buttons connect to the correct internal page
-
-#### Testing Log In
-
-- Go to the "Log in" page by clicking on the Log In icon
-- Verify that when you hover over Log In a light black background appears inviting the user to click on Log In   
-- Click on Log In verify the log in page appears. 
-- Verify that the Log In text and icon appears with a light blue background to help users determine where they are on the Temple Lean Website
-- Fill in the log in form
-- Verify that you can log into the site or that the flash messages appears if you enter invalid or non existing log in information
-- Verify that when you log in you are directed to your profile page 
-  
-
-#### Testing Registeration page
-
-- Go to the "Registeration" page by clicking on the Register icon
-- Verify that when you hover over Register a light black background appears inviting the user to click on Log In   
-- Click on Register verify the registeration page appears. 
-- Verify that when you are on the Register page that the Register text and icon appears with a light blue background to help users determine where they are on the Temple Lean Recipes Website
-- Fill in the Registeration form
-- Verify that you can Register with the site and that the flash messages appears when you finish registeration and you are redirected to your newly created profile page
+- The Overlay class acts as a floor for content depending on which page you are on
+- This is functional for each app in the project
 
 
-#### Testing Profile page including CRUD functionality
-
-- Log into the Temple Lean Recipe page 
-- Verify that when you are logged your profile page appears on the screen    
-- Verify that when you are on the Profile page that the icon and text appear with a light blue background to help users determine where they are on the Temple Lean Recipes Website  
-- Verify that you can update the profile and that the update renders on the profile page
-- Verify that you receive a flash messages telling you that you have completed the update successfully and are redirected to your newly updated edit profile page
-- Verify that you can delete the profile and that you are automatically logged out with a flash message telling that your profile is deleted whilst you are redirected to the registeration page
-
-
-#### Testing Breakfast, Lunch, Dinner & Snacks page including CRUD functionality
-
-- Log into the Temple Lean Recipe page 
-- Verify that when you are you logged into the Temple Lean Recipes site that the Breakfast, Lunch, Dinner & Snacks pages appear in the secondary navbar.
-- Verify that this Navbar adjusts on a mobile device to become smaller but the words and the ability to click on the Breakfast, Lunch, Dinner & Snacks pages remains possible    
-- Verify that when you are on the Breakfast, Lunch, Dinner or Snacks pages that the text appears with a light blue background to help users determine where they are on the Temple Lean Recipes Website  
-- Verify that you can create a recipe on the Breakfast, Lunch, Dinner or Snacks pages by pressing the create recipe button and that the recipe information appears in the relevant section of the Temple Lean Recipe website. (The image url will need to be adjusted from the back end to render on the Temple Lean Recipe site. The Temple Lean Admin will do this until in future development it is possible for the user to upload an image directly)
-- Verify that when you create a recipe on the Breakfast, Lunch, Dinner or Snacks pages that a flash appears telling you that the recipe has been added successfully and that you are redirected to your profile page.
-- Verify that the recipe has been added to the bottom of the relevant recipe category page
-- Verify that the alt image notice appears if your image link has not rendered successfully
-- Verify later that the admin managing the site has added an appropriate image from the back end database MongoDB.
-- Verify that you can receive a flash message telling you that you have completed the update successfully and are redirected to your profile page.
-   - We redirected the user to the profile page to avoid creating seperate addrecipe roots in python that redirected users back to each individual recipe page.
-   - The profile page was deemed an acceptable compromise as it also has quick links to the recipe pages so the user can easily verify within 3 clicks if their recipe has been created successfully.
-- Once you have created a recipe verify that the following green buttons appear Update Recipe and Delete Recipe. Only the user who created the recipe may update or delete a recipe from the Temple Lean Website. The admin of the site may delete a recipe from MongoDB.
-- In a recipe you created verify that you can click the update recipe button and that you are taken to the edit recipe form. Make edits to the section you wish to edit. Click update recipe when you have completed your edits.
-- Verify that a flash message appears telling you that you have updated the recipe successfully and that you are again redirected to the profile page.
-   - We redirected the user to the profile page to avoid creating seperate editrecipe roots in python that redirected users back to each individual recipe page.
-   - The profile page was deemed an acceptable compromise as it also has quick links to the recipe pages so the user can easily verify within 3 clicks if their recipe has been updated successfully.
-- In a recipe you created verify that you can delete the recipe by pressing the delete button. A flash message will appear on the profile page telling the user that they have deleted the recipe successfully. 
-   - We redirected the user to the profile page to avoid creating seperate deleterecipe roots in python that redirected users back to each individual recipe page.
-   - The profile page was deemed an acceptable compromise as it also has quick links to the recipe pages so the user can easily verify within 3 clicks that their recipe has been deleted successfully. 
-
-#### Testing Log Out functionality
-
-- Log into the Temple Lean Recipes page 
-- Verify that when you are on your any page that the log out ability is available on the top right in the desktop and through the apple icon on a mobile device   
-- Click the log out button
-- Verify that you receive a flash message telling you that you have logged out are redirected to the log in page
 
 
 ### Code Validators
 I used the following code validators to help me debug my code 
  - HTML - [link to HTML vaildator] https://validator.w3.org/
+   
  - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Result visible via directory below
       - readmedoc2/testing/codevalidators/basecssvalidator.jpg
@@ -1238,7 +1173,7 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 - Project Repository on Github
   - This project is hosted in a github repository. 
   - The project was developed using a Gitpod workspace. 
-  - Link to the repository https://github.com/Andrew-code2020/ms3onlinecookbook
+  - Link to the [Github repository] (https://github.com/Andrew-code2020/ms4)
 
 
 #### Creating the repository
@@ -1268,23 +1203,19 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 
 ## Credits
 
-- I consulted the folowing websites to learn about Recipe Websites and to help construct meaningful content for the Temple Lean Recipes site
-   - Recipe Websites
-     -  
-
 - I consulted the following websites for inspiration and to learn how to implement certain features into my project;
-    - https://stackoverflow.com/
+    - [Stackoverflow](https://stackoverflow.com/)
         - Features influenced
         - Active class in navbar 
         - height of images
-    - https://www.w3schools.com/default.asp
+    - [W3 School](https://www.w3schools.com/default.asp)
          - Features influenced
             - Border
             - Hover
             - Overflow
-            - Card custom css
+            - Profile Card custom css
 - I used Bootstrap through out the project to deploy a mobile first design principle.
-  - Website https://getbootstrap.com/
+  - [Bootstrap Website] (https://getbootstrap.com/)
   - Features influenced
     - Navbar
     - Header
@@ -1295,18 +1226,21 @@ Bugs - countries field navigate through model and forms removed the label. Chang
     - Select Option
     - Buttons
     - Cards
-    - Collapsible
+    - Margins
+    - Padding
+    - Color
 
 - Google Fonts 
-  - I imported the text font Recursive from Google Fonts website https://fonts.google.com/
-  - I used this font because it was the same font as other recipe websites and therefore made my website feel familiar and readable to users
+  - I imported the text font RocknRoll One from [Google Fonts website] (https://fonts.google.com/)
+  - I used this font because it was the same font as other gym websites and therefore made my website feel familiar and readable to users. Also I felt it added energy to the site.
 
+- Hero Image
 - I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I copied a Materialize card code to mimic a jumbotron. 
-  - Reference to Github repository from code along project https://andrew-code2020.github.io/whiskeydrop/
+  - Reference to [Github repository] (https://andrew-code2020.github.io/) from code along project
 
-- I copied the icons from Font awesome https://fontawesome.com/ and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
+- I copied the icons from [Font awesome] (https://fontawesome.com/) and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
 
-- I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. 
+- I reviewed the lessons on jQuery in the Interactive Front Development Module to help me implement the features in this project. I also used [jQuery] (https://jquery.com/) to help implement code in the Temple Lean site.
 
 - I frequently referred back to the following code institute modules to research how to construct certain features
 
@@ -1320,50 +1254,47 @@ Bugs - countries field navigate through model and forms removed the label. Chang
   - Data Centric Development Milestone Project 
   - Full Stack Frameworks with Django 
 
-- I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to mini project repository https://github.com/Andrew-code2020/boutique_ado_v1_ecom
+- I copied the knowledge of how to implement the Bootstrap CDN, jQuery CDN and Font awesome CDN links from my Boutique Ado mini project during the Full Stack Frameworks With Django development module. Link to [mini project repository] (https://github.com/Andrew-code2020/boutique_ado_v1_ecom)
 
 ### Code
 Coaches page
-- I copied the profile card idea on the Coaches page from https://www.w3schools.com/howto/howto_css_profile_card.asp. I adapted the code with classes and margins from Bootstrap to help it fit in with our site.
+- I copied the profile card idea on the Coaches page from [Profile Card W3 school] (https://www.w3schools.com/howto/howto_css_profile_card.asp). I adapted the code with classes and margins from Bootstrap to help it fit in with our site.
 
 ### Content
 
 - The content was constructed by the student with inspiration from their experience as a Health and Fitness professional for the past 10 years. 
--   
 
 ### Media
 
 - The photos used in this site were obtained from pexels.com
-  - These photos are placed in the website on the following pages;
-    - Home page
-    - Registeration page
+- These photos are placed in the website on the following pages;
 
 #### Facilities Images
-- The Facilities images were taken from pexels.com
+- The Facilities images were taken from [Pexels](pexels.com)
 
 Weight Rooms
- - Link to guys working with weight rack in gym https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ 
- - Credit to Photographer https://www.pexels.com/@brunogobofoto 
+ - [Link](https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ ) to guys working with weight rack in gym 
+ - Credit to [Photographer] (https://www.pexels.com/@brunogobofoto) 
 - Lean Machine Rooms
- - Link to guy on sitting using pec dec gym https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/ 
- - Credit to Photographer https://www.pexels.com/@olly
+ - [Link] (https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/) to guy on sitting using pec dec gym 
+ - Credit to [Photographer] (https://www.pexels.com/@olly)
 - Kettlebell Rooms
-  - Link to kettlebell on floor https://www.pexels.com/photo/bright-close-up-color-colorful-221247/ 
-  - Credit to Photographer https://www.pexels.com/@pixabay
+  - [Link](https://www.pexels.com/photo/bright-close-up-color-colorful-221247/) to kettlebell on floor
+  - Credit to [Photographer] (https://www.pexels.com/@pixabay)
 - Suspension Room
-  - Link to girl doing single leg squat https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/ 
-  - Credit to Photographer https://www.pexels.com/@jonathanborba 
+  - [Link] (https://www.pexels.com/photo/determined-sportswoman-squatting-with-suspension-straps-in-modern-gym-4842733/) to girl doing single leg squat  
+  - Credit to [Photographer] (https://www.pexels.com/@jonathanborba) 
 
 Cardio Rooms
   - Cardio Gym
     - Link to guy on bike in gym https://www.pexels.com/photo/strong-sportsman-using-exercise-bike-during-cardio-workout-in-gym-3888093/
     - Credit to Photographer https://www.pexels.com/@olly
   -  Indoor Cycling Studio
-    - Link to guy on bike in gym https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ 
-    - Credit to Photographer https://www.pexels.com/@ivan-samkov
+    - [Link] (https://www.pexels.com/photo/man-on-an-exercise-bike-at-the-gym-4162580/ ) to guy on bike in gym  
+    - Credit to [Photographer] (https://www.pexels.com/@ivan-samkov)
   -  Online Studio
-    - Link to studio photo https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/ 
-    - Credit to Photographer https://www.pexels.com/@alexander-dummer-37646
+    - [Link](https://www.pexels.com/photo/photo-studio-with-white-wooden-framed-wall-mirror-134469/) to studio photo  
+    - Credit to [Photographer] (https://www.pexels.com/@alexander-dummer-37646)
 
 Café
 -  Café
