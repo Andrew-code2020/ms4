@@ -1095,11 +1095,15 @@ AWS
 ### Code Validators
 I used the following code validators to help me debug my code 
  - HTML - [link to HTML vaildator](https://validator.w3.org/)
-   
+   - All HTML pages were placed in validator to check best practice
+   - Some errors were observed but since they did not effect functionality of the site they were ignored and placed in review during future development
+   - A sample of output of one validator is included at this location
+     - readmedoc2/testing/codevalidators/samplehtmlvalidatoroutput.jpg
  - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Result visible via directory below
       - readmedoc2/testing/codevalidators/basecssvalidator.jpg
       - readmedoc2/testing/codevalidators/checkoutcssvalidator.jpg
+      - readmedoc2/testing/codevalidators/profilecssvalidator.jpg
     - No obvious errors were seen
  - JavaScript and jQuery validator [link to JS or jQuery vaildator] (https://jshint.com/)
     - Result visible in 
@@ -1181,23 +1185,33 @@ Bugs - countries field navigate through model and forms removed the label. Chang
 - To create the project in my github repository I went to the code institute recommended repository via this [link](https://github.com/Code-Institute-Org/gitpod-full-template)
 - We copied the code institute template
 - The screenshots of this process are available by following the directories below
-    - readmedocs/creatingrepo/creatingsitetemplate/step1copyrepotemplate.png
-    - readmedocs/creatingrepo/creatingsitetemplate/step2creatingreponame.png
+    - readmedoc2/creatingrepo/step1copyrepotemplate.png
+    - readmedoc2/creatingrepo/step2creatingreponame.png
 - Finally we cloned the repository from the developers milestone project 2 using the instructions on the following [website](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 #### Deploying the project to Heroku
 
-- To deploy the project the developer went into Gitpod 
-- The developer followed the steps outlined the code institute video available by following this link https://www.youtube.com/watch?v=YfQIUSuPm2w&feature=youtu.be
-- The screenshots of this process are available by following the directories below;
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku1.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku2.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku3.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku4.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku5.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku6.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku7.jpg
-    - readmedocs/deploytheproject/deployonheroku/deploymenttoheroku8.jpg
+- To deploy the project the developer used 
+    - [Heroku](https://www.heroku.com/) 
+    - [Amazon Web Services](https://aws.amazon.com/)
+- The developer followed the steps outlined the code institute videos available by following this links below
+  - [Video 1](https://youtu.be/6mv-Qp37X4I)
+  - [Video 2](https://youtu.be/Tp2CU1qpgJo)
+  - [Video 3](https://youtu.be/uGdZeX319Q4)
+  - [Video 4](https://youtu.be/BzzjLvC0Fcc)
+  - [Video 5](https://youtu.be/r-HJv_MyOqw)
+  - [Video 6](https://youtu.be/JPb82nILolU)
+
+- The Heroku app held a postgres database and config vars essential for the functioning of the website such as; 
+  - Postgres Database
+  - AWS Bucket
+  - Email
+  - Stripe & Stripe Webhooks
+
+The AWS bucket held media and static file for the deployed site. 
+
+Github and Herkoku were linked automatically allow instantaneous deployment. Github was configured with a Procfile and a requirments.txt file which told Heroku which dependencies to use to deploy the site. the settings.py file in the project level Django app was configured to allow local hosts ie Gitpod and Heroku deployment and also allow custom storages for AWS to work effectively.
+
 - The live Temple Lean site may be accessed by following this [link] (https://templeleanms4.herokuapp.com/)
 
 
@@ -1272,11 +1286,12 @@ Coaches page
 - These photos are placed in the website on the following pages;
 
 #### Facilities Images
-- The Facilities images were taken from [Pexels](pexels.com)
+
 
 Weight Rooms
  - [Link](https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/ ) to guys working with weight rack in gym 
  - Credit to [Photographer](https://www.pexels.com/@brunogobofoto) 
+
 - Lean Machine Rooms
  - [Link](https://www.pexels.com/photo/serious-sportsman-training-on-exercise-machine-in-modern-gym-3838937/) to guy on sitting using pec dec gym 
  - Credit to [Photographer](https://www.pexels.com/@olly)
@@ -1311,6 +1326,7 @@ Café
     - [Link](https://www.pexels.com/photo/shake-in-a-glass-990439/) to smoothie bar photo 
     - Credit to [Photographer](https://www.pexels.com/@joshsorenson)
 
+#### Classes Images
 Classes
 -  Online
     - Link to Online Class photo
@@ -1352,7 +1368,7 @@ Classes
       - [Afternoon](https://www.pexels.com/@shvetsa)
       - [Evening](https://www.pexels.com/@alexy-almond)
 
-Membership
+#### Membership Images
 -  Online
     - Link to Online Membership
         - [Introduction](https://www.pexels.com/photo/woman-doing-online-yoga-class-6697222/)
@@ -1364,7 +1380,6 @@ Membership
         - [Yearly](https://www.pexels.com/@pixabay)
 
 
-Membership
 -  Public
     - Link to Public Membership
         - [1 Week Pass](https://www.pexels.com/photo/strong-man-training-biceps-with-dumbbells-4793224/)
@@ -1375,9 +1390,9 @@ Membership
         - [Monthly](https://www.pexels.com/@victorfreitas)
         - [Yearly](https://www.pexels.com/@olly)
 
-Membership
--  Corporate
-    - Link to Public Membership
+
+Corporate
+    - Link to Membership
         - [1 Week Pass](https://www.pexels.com/photo/group-of-people-in-dress-suits-776615/)
         - [Monthly](https://www.pexels.com/photo/people-sitting-beside-brown-wooden-desk-near-flat-screen-tv-1181355/)
         - [Yearly](https://www.pexels.com/photo/women-at-the-meeting-3810796/)  
@@ -1395,7 +1410,7 @@ Student
         - [Monthly](https://www.pexels.com/@diimejii)
         - [Yearly](https://www.pexels.com/@andres-ayrton) 
 
--  No Media Image
+No Media Image
     - [Link](https://www.pexels.com/photo/love-people-art-sign-4439444/) coming soon image
     - Credit to [Photographer](https://www.pexels.com/@vie-studio)
 
@@ -1403,11 +1418,11 @@ Student
 #### Coach images
 - The photo of Andrew Burns is a private of the developer of this project
 - The photo of Julie O Leary is a private of the developers collection of this project
-- The photo of Richard is taken from the pexels colection of https://www.pexels.com/@olly. The link to the photo is 
- https://www.pexels.com/photo/cheerful-ethnic-guy-toothy-smiling-at-camera-3799717/
+- The photo of Richard is taken from the pexels collection of [Olly](https://www.pexels.com/@olly). 
+- The [link](https://www.pexels.com/photo/cheerful-ethnic-guy-toothy-smiling-at-camera-3799717/) to the photo 
 
 
 ##### Acknowledgements
 
 - I received inspiration for this project from the Code Institute Tutorial videos and my mentor Mr. Adegbenga Adeye.
-- I would also like thank the following members of the Tutor Team Tim Nelson, Anna, Xavier, Igor, Miklos, Cormac, Kevin, Johann, Samantha and Haley (apologies that I could not find all your surnames). I spent many hours trying to work through problems I encountered with them.
+- I would also like thank the following members of the Tutor Team Tim Nelson, Anna, Xavier, Igor, Miklos, Cormac, Kevin, Johann, Samantha, Jo, Alan and Haley (apologies that I could not find all your surnames). I spent many hours trying and succeeding to work through problems I encountered with them.

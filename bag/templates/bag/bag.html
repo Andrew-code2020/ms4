@@ -34,7 +34,7 @@
             <table class="table table-sm table-borderless">
                 <thead class="text-lean">
                     <tr>
-                        <th scope="col-sm">Product Info</th>
+                        <th scope="col">Product Info</th>
                         <th scope="col"></th>
                         <th scope="col">Day</th>
                         <th scope="col">Price</th>
@@ -43,8 +43,8 @@
                     </tr>
                 </thead>
                 <!--Gym bag content for ease of display table used. Table taken from Boutique Ado project and adapated for this project-->
+                {% for item in bag_items %}
                 <tr>
-                    {% for item in bag_items %}
                     <td class="p-3 w-25">
                         {% if item.product.image %}
                         <img class="img-fluid rounded" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
