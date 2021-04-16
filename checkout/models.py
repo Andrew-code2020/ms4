@@ -7,12 +7,13 @@ from django.db import models
 from django.db.models import Sum
 from django.conf import settings
 
-from django_countries.fields import CountryField 
+from django_countries.fields import CountryField
 
 from products.models import Product
 from profiles.models import UserProfile
 
 # order models and logic
+
 
 class Order(models.Model):
     order_number = models.CharField(max_length=32, null=False, editable=False)
@@ -33,7 +34,8 @@ class Order(models.Model):
     grand_total = models.DecimalField(
         max_digits=10, decimal_places=2, null=False, default=0)
     original_bag = models.TextField(null=False, blank=False, default='')
-    stripe_pid = models.CharField(max_length=254, null=False, blank=False, default='')
+    stripe_pid = models.CharField(
+        max_length=254, null=False, blank=False, default='')
 
     def _generate_order_number(self):
         """
