@@ -21,9 +21,9 @@ def profile(request):
             form.save()
             messages.success(request, 'Temple Lean Profile update complete')
         else:
-            messages.error(request, 'Profile update failed. Please ensure the form is valid.')
-    
-    else: 
+            messages.error(
+                request, 'Profile update failed. Please ensure the form is valid.')
+    else:
         form = UserProfileForm(request.POST, instance=profile)
     orders = profile.orders.all()
 
@@ -54,7 +54,6 @@ def order_history(request, order_number):
     return render(request, template, context)
 
 
-
 @login_required
 def delete_profile(request, user_id):
     """ Delete profile from Temple Lean """
@@ -62,5 +61,3 @@ def delete_profile(request, user_id):
     user.delete()
     messages.success(request, 'Profile deleted and you have been logged out')
     return redirect(reverse('home'))
-
-    
