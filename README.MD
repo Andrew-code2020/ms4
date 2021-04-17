@@ -198,7 +198,7 @@ Basic Observations on what works well for a gym websites and features we plan to
     - Home
     - Shopping Cart for quick purchase
    - Rating (of facility)
-   - Register/Login (Right and collapsible) then reveals, profile and log out and recipe navbar
+   - Register/Login (Right and collapsible) then reveals, profile and log out and navbar
 
 - Section or Main Body of page
   - Home/Landing Page Body 
@@ -538,7 +538,7 @@ In development we set out to make sure that our site would be consistent. We use
 ### User Questions
 
 - Where am I?
-  - On each page the main Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean Recipes site. 
+  - On each page the main Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean site. 
   - Subheaders on each page tell the user they are on a certain page ie Coaches which has information about , Membership and class has Activity Offers written on it and the Shopping Bag is called the Gym Bag and Checkout is also labelled. All of these are designed to give the user the experience of moving through a process.
   - 
 
@@ -624,7 +624,7 @@ Mobile Device wireframe
 - Internal links to different parts of the Temple Lean website
 - External links that open different platforms such as social media, the developers Milestone 1 project website  The social media accounts and the developers Milestone 1 project website are linked to this project to demonstrate the skill of adding external links.
 - Header - Contains the Navbar design for desktop and mobile devices 
-- Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other recipe pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The top part of the navbar including log in and registeration collapse on a mobile device to a single apple icon which the user can click on. The navbar items Breakfast, Lunch, Dinner and Snacks appear after you register or log in. This was done to avoid overhwleming the user when they land on the page and guide them to log in or register and then more content will be revealed. 
+- Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other gym website pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The top part of the navbar including log in and registeration collapse on a mobile device to a single apple icon which the user can click on. The navbar items Breakfast, Lunch, Dinner and Snacks appear after you register or log in. This was done to avoid overhwleming the user when they land on the page and guide them to log in or register and then more content will be revealed. 
 - Footer - Linked to some pages we used to develop the website and contains direct links to the developers Social Media platforms, Milestone 1 project and private blog. Temple Lean social media specific to this site do not exist but is in future development plans.
 - Body - The middle section is where the block content Jinja template is injected. The content changes on each page and gives basic information on aspects of the Temple Lean site with option to take further steps to purchase.
 - Hero Image - The eye catching landing/homepage page is designed to convey to the user that they have arrived on a Temple Lean site as distinct from other gym sites. 
@@ -647,11 +647,12 @@ Mobile Device wireframe
 
 
 ##### Features Left to Implement
-- Book and pay for a private Personal Training Sessions
+- Book and pay for a private Personal Training Sessions with Coach
+- Live payments
 - Analytics that show user traffic flow
-- Testimonials from Users
 - Members Subscription 
-- Ratings so users can give feedback to Temple Lean 
+- Ratings on products so users can give feedback to Temple Lean 
+- Contact Us form
 
 
 ### Technologies Used
@@ -695,55 +696,24 @@ AWS
   - Used bucket to deploy static files and media [link to AWS log in!](https://aws.amazon.com/)
   - [link to AWS Bucket](https://s3.console.aws.amazon.com/s3/buckets/templeleanms4?region=eu-west-1&tab=objects)
 
-- Dependencies (Also listed in requirements.txt file)
-  - asgiref==3.3.1
-  - astroid==2.5.2
-  - boto3==1.17.22
-  - botocore==1.20.22
-  - countries==0.2.0
-  - dj-database-url==0.5.0
-  - Django==3.1.7
-  - django-allauth==0.44.0
-  - django-countries==7.1
-  - django-crispy-forms==1.11.2
-  - django-storages==1.11.1
-  - gunicorn==20.0.4
-  - isort==5.8.0
-  - jmespath==0.10.0
-  - lazy-object-proxy==1.6.0
-  - mccabe==0.6.1
-  - oauthlib==3.1.0
-  - Pillow==8.1.2
-  - psycopg2-binary==2.8.6
-  - PyJWT==2.0.1
-  - pylint==2.7.4
-  - python3-openid==3.2.0
-  - pytz==2021.1
-  - requests-oauthlib==1.3.0
-  - s3transfer==0.3.4
-  - sqlparse==0.4.1
-  - stripe==2.56.0
-  - toml==0.10.2
-  - wrapt==1.12.1
-
-
+- Dependencies are listed in requirements.txt
+  
 ### Testing
 
 - We carried out the procedures below to test the Temple Lean Gym Website
 
-
-- Name of Test 
+- Name of Test - Test Registeration Form
 - Outline of Testing Register Form
   -  Goal check registeration form works
 - Test planning
-  -   On the deployed site navigate to the registeration page
+  -   On the deployed [site](https://templeleanms4.herokuapp.com/) navigate to the registeration page
   -   Register using the registeration form
-  -   Check registeration that invalid entries give the user feedback 
-  - Check successful registeration and reveals toast message sends automatic email to new user
+  -   Check registeration form that has invalid entries gives the user feedback 
+  - Check successful registeration reveals toast message and sends automatic email to new user
   - Confirm that automatic email link allows user to complete registeration and log in 
 - Implementation
   - Navigate to [registeration link!](http://templeleanms4.herokuapp.com/accounts/signup/)
-  - Checked that invalid entries on the registeration form gave the user feedback
+  - Checked that invalid entries on the registeration form gave the user feedback to fill in required field
   - Checked that valid entries on the registeration form gave the user feedback
   - Checked that valid entries but incomplete registeration form gave the user feedback
   - Checked that successful registeration delivered automatic email to user
@@ -780,6 +750,8 @@ AWS
   -  no fix required
 - Results
   - Sign in form appears functional on both preview from Gitpod work space and Heroku deployment
+  - User levels exist
+  - CRUD functionality appears for super user only in products otherwise CRUD only available in profile for ordinary user
 - Outcomes
   - Sign Form renders on page and allows pre existing user to sign in.
   - Sign Form renders correct feedback on page when user signs in.
@@ -1094,7 +1066,7 @@ Name of Test - Dev tools
   - iPad
   - iPad Pro
   - Surface Duo
-- I checked the console in developer tools showed no errors on each page as I went through each page of the Temple Lean Recipes site
+- I checked the console in developer tools showed no errors on each page as I went through each page of the Temple Lean site
 
 ### Header and Footer
 
@@ -1121,7 +1093,7 @@ Name of Test - Dev tools
 - Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work including if super user CRUD functionlity appears and is functional
 
 ### Testing Footer
- - Go to the Temple Lean "Home/Landing" page or any other Temple Lean Recipes page
+ - Go to the Temple Lean "Home/Landing" page or any other Temple Lean page
  - Verify that clicking on the social media icons open the correct social media page in a new tab
 
 
