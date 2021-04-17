@@ -753,8 +753,8 @@ AWS
   - User levels exist
   - CRUD functionality appears for super user only in products otherwise CRUD only available in profile for ordinary user
 - Outcomes
-  - Sign Form renders on page and allows pre existing user to sign in.
-  - Sign Form renders correct feedback on page when user signs in.
+  - Sign In Form renders on page and allows pre existing user to sign in.
+  - Sign In Form renders correct feedback on page when user signs in.
 
 
 - Name of Test Check Sign out funtionality
@@ -769,13 +769,13 @@ AWS
   - Whilst logged Navigate to [Sign Out page](https://templeleanms4.herokuapp.com/accounts/logout/) via my locker icon
   - From dropdown menu select sign out
   - Confirmed sign out by clicking black sign out button
-  - Received toast message indicatin sign out was successful
+  - Received toast message indicating sign out was successful
   - Pressing back button did not allow users entry without signing in again
 - Fix (if applicable)
   -  Changed text to be consistent ie changed log out in my locker dropdown to Sign Out to give user consistent user experience
 - Results
-  - Sign out functionality functioning optimally
-  - This was rendered in the command line preview and the deployed Heroku app
+  - Sign out functionalitey working optimally
+  - The result was rendered in the command line preview and the deployed Heroku app
 - Outcomes
   - Sign out functionality fit for purpose
 
@@ -789,10 +789,10 @@ AWS
   - go through each potential scenario with each link 
 - Implementation
   - Ran server
-  - Clicked Ctrl+Shift+I on the key board
+  - Clicked Ctrl+Shift+I on the key board rendered mobile view in dev tools
   - Started by clicking on open door dropdown menu
   - Clicked through each link and reviewed that each screen rendered
-  - Checked search bar dropped down and could take product search parameters
+  - Checked search bar dropped down, could take product search parameters and that searched products appeared
   - Checked the my locker dropdown links work including
       - Register
       - Sign In
@@ -823,20 +823,21 @@ AWS
 
 - Name of Test Check Get Lean Now Button worked
 - Outline of Test
-  -  Click on Get Lean now button and ensure all products render on the page
+  -  Click on Get Lean Now button on home page and ensure all products render on the page
 - Test planning
-  -  Review Button links and ensured products view was ready to deploy  
+  -  Review Button links and ensured product details view was ready to deploy  
 - Implementation
   - Opened preview from Gitpod workspace
-  - Clicked on Get Lean Now button (with Dumbbell icon). Observe that hover effect worked
+  - Clicked on Get Lean Now button (with Dumbbell icon)
+  - Observe that hover effect worked
   - Observed that Overlay div also worked perfectly
-  - Scrolled down to check all products were accounted for
+  - Scrolled down to check all products were rendered and accounted for
   - Pressed Ctrl+shift+I to inspect mobile view
   - verified mobile view worked
 - Fix (if applicable)
   -  not applicable test ran smoothly
 - Results
-  - Get Lean now button and overlay worked worked (including hover)
+  - Get Lean now button and overlay worked (including hover)
 - Outcomes
   - Primary button on site worked
 
@@ -855,7 +856,7 @@ AWS
 - Results
   -Command line indicated Django installed successfully
 - Outcomes
-  - The following  picture message appeared in the server readmedoc2/installingdjango/djangosuccessstep1.jpg
+  - The following picture message appeared in the running preview server readmedoc2/installingdjango/djangosuccessstep1.jpg
   - Django was successfully installed
 
 
@@ -866,8 +867,8 @@ AWS
   - Set up a user and input information
   - Change some user information
   - submit the form
-  - check Django admin updates
-  - check profile updates
+  - check Django admin updates on back end
+  - check profile updates on the front end
 - Implementation
   - Signed in at at this [link](https://templeleanms4.herokuapp.com/accounts/login/)
   - Navigated to the profile page
@@ -878,11 +879,11 @@ AWS
   - Checked information was visible to user on profile after update button submitted information
   - Checked information automatically appeared in secure checkout minus Full Name which is required at each check out for verfication
 - Fix (if applicable)
-  -  Fixed order of fields to make form more intuitive
+  -  Fixed order of fields in model to make form more intuitive
 - Results
   - Update Profile function worked on front and back end
 - Outcomes
-  - Update Profile function fit for purpose
+  - Update Profile function fit for purpose of site
 
 
 
@@ -969,7 +970,30 @@ Name of Test - Dev tools
 - Outcome
   - This general test was a great way to implement test driven development. We could add a feature and check if it rendered and then fix at point of development rather than back tracking days or even months later.
 
+
+### General Performance Test | Django Admin
+- Name of Test Django Admin
+- Outline of Testing 
+  - Check to see if Django back end was receiving updates from the front end
+  - Check to see if front end deployed on heroku was receiving updates from the Django admin at the back end
+- Test planning
+  -  Enter information in the front end of the deployed site and check CRUD submission rendered in back end 
+- Implementation
+  - Navigated to deployed [site](https://templeleanms4.herokuapp.com/)
+  - Updated profile as previously outlined on deployed site
+  - Checked that update rendered successfully in Django admin
+  - Updated profile in [Django admin](https://templeleanms4.herokuapp.com/admin/login/?next=/admin/) 
+  - Checked that update rendered successfully on deployed site
+  - Performed same action above put instead of update deleted profile on deployed site and Django admin
+  - Delete function worked on deployed site and Django admin
+  - Checked Update and Delete worked for products as well
+  - Checked that only super users can update or delete products
+- Fix (if applicable)
+  -  Move database to postgres (More details in bug section)
+- Results
+  - Django admin and front end communicating
 - Outcomes
+  - Front and back end talking and working in harmony
 
 
 ### Performance Testing Lighthouse 
