@@ -973,6 +973,32 @@ AWS
 
 - Outcomes
    
+### General Performance Test
+Name of Test - Dev tools
+- Outline of Testing
+  - Use Ctrl+Shift+I
+- Test planning
+  - After implementing every feature run the server using python3 manage.py runserver
+  - Review the preview
+- Implementation
+  - Open the inspector tools using  Ctrl+Shift+I
+  - Check the console for errors
+  - Navigate to the page on which you implemented the feature check for error messages
+  - Check CSS rendered if applicable
+  - Check Mobile friendly output by manipulating the responsive dev tools
+- Fix (if applicable)
+  - Many bugs were isolated using this general test format
+  - Often times the dev tools could show us which css class to override and where to put a margin or padding to render the site in more friendly user format
+  - Sometimes emptying the cache was needed to render css correctly but have this implemented as a check list style test avoided wasting time chasing down phantom bugs that weren't real because we had not emptied the cache
+  - Console errors allowed us to trouble shoot js error quickly
+  - page errors allowed us to refer back to the relevant python file or project level settings.py file
+- Results
+  - We debugged a tremendous amount of error using this method
+- Outcome
+  - This general test was a great way to implement test driven development. We could add a feature and check if it rendered and then fix at point of development rather than back tracking days or even months later.
+
+- Outcomes
+
 
 ### Performance Testing Lighthouse 
 - Name of Test 
@@ -1017,7 +1043,7 @@ AWS
 - Conclusion
   - initial set up worked well
 
- Testing | Stripe worked
+### Testing | Stripe integration worked
 - Test
    - Check that order was passed from checkout app to stripe and that the relevant data like process rendered in stripe 
 - Implementation
@@ -1027,7 +1053,7 @@ AWS
       - Card Number 4242 4242 4242 4242 
       - CVC 424
       - Postal code 42424
-    - [Sign in]() to stripe account 
+    - [Sign in](https://stripe.com/en-ie) to stripe account 
     - review API requests on on developer page in site
     - Select webhooks enter deployed site links
     - Click send testwebhook 
