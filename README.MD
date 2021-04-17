@@ -1120,7 +1120,7 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 #### Bugs
 
 Bug - Product Detail page
-- In the product detail page the has days feature was visibly too close to the Quantity incrementor. To push to down we inserted a top margin or mt-2 in Day column which pushed it down. This made the product details page more visibly appealing.
+- In the product detail page the has_days feature was visibly too close to the Quantity incrementor. To push it down we inserted a top margin or mt-2 in the has_days column which pushed it down. This made the product details page more visibly appealing.
 - The column in the select box went from this code <div class="col-12"> to this code <div class="col-12 mt-3"> to solve the problem
 
 Bug - Home page
@@ -1134,13 +1134,18 @@ Bug - Home page
     -  <div class="col-12 col-md-6 my-auto">
 
 Bug - Add product urls
-
+- During the construction of the add_product url the developer accidentally removed a > from the copied path which through an error in the project.
+- It wasn't immediately obvious that a typo had occured. 
+- To chase up the bug the developer went back to the previous commit to check the urls code and found the bug
 Correct code 
   path('<int:product_id>/', views.product_detail, name='product_detail'),
 Developer wrote by accident 
    path('<int:product_id/, views.product_detail, name='product_detail'),
+  
 
 Bug - Coaches view
+- When writing the coaches view the developer misplaced the comma's below which threw an error. 
+- We reviewed source code from other views and the relevant parts through [diff checker](https://www.diffchecker.com/diff) where we spotted the out of place comma's changed them and the view rendered on the coaches page
 - context = {
         'coaches':coaches,
     }
@@ -1149,11 +1154,16 @@ versus
         coaches:'coaches',
     }
 
+
 Bug - images set to 250 px
-taregtting css classes .card-img, .card-img-top with height 250 px would not render. Targeting the img element did. Did have to change some images as the looked stretched 
+- During development we need to input uniform pictures sizes to give our site a clean look. 
+- Unfortunately taregtting css classes .card-img, .card-img-top with height 250 px in base.css would not render effectively. Targeting the img element did. 
+- We did have to change some images as they looked stretched or squashed. Unfortunately for those images they just did not fit our site. 
 
 Bug - Directory Structure wrong in Facilities app
-- facilities on top of template instead of template on top of facilities
+- During the construction of the facilities app our directory was constructed in correctly
+- We accidently put the facilities folder on top of the templates folder instead of templates folder on top of facilities
+- This through an error but a quick review of the previous app directory allowed us to correct the problem easily
 
 Bug - Visual- Pictures 
 - Button primary class overwriting hover
@@ -1165,12 +1175,17 @@ Bugs - css for home button changed nav and footer so bottom css was not working 
 
 Bugs - data delay into Toast Header div and not container div
 
-Bugs - bag tools in checkout template or template error showed. Forgot to add bag tools at the top
+Bugs - bag tools in checkout template 
+- in the checkout app the template tag bag tools was needed or the template error showed. We forgot to add {% load bag_tools %} at the top of the checkout html. Once this was inserted the error dissolved and the page rendered 
 
-Bugs - checkout app missing div caused footer to loose the outer edge of it's blue. inserted code into validator and found missing div
+Bugs - checkout.html app missing div 
+- A missing closing div tag caused footer to loose the outer edge of it's blue. We inserted code into a html [validator](https://validator.w3.org/) found the missing div and restored it which fixed the page
 
-Bugs - countries field navigate through model and forms removed the label. Changing the css height in StripeElement,
-.stripe-style-input to 60 px resolved the image problem
+Bugs - Stripe element
+- On the chekcout page the countries field placeholder rendered with the top portion of the word country visible. 
+- To fix this bug we changed the css height in StripeElement. 
+- This made the form boxes slightly bigger which was considered a fair compromise rather than having a half visible placeholder which looked awful
+- The image in the checkout also rendered squashed so we changed .stripe-style-input to 60 px which resolved the image problem
 
 ### Deployment
 
