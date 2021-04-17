@@ -20,12 +20,12 @@ The class categories on offer are below ;
 The problems that we are trying to solve for the owner are;  
 1. Remodel the Temple Lean Business for living with COVID-19
 2. Connect with members after lockdowns or whilst the lockdown is ongoing 
-3. Provide the business with and effective means to conduct a large proportion of their business online
+3. Provide the business with an effective means to conduct a large proportion of their business online
 
 The problem that we are trying to solve for the service user are;
-1. Our members have become more health conscious and wish to maintain the physical activity they enjoyed during lockdown. 
-2. Our members wish to have less physical contacts whilst the Pandemic is ongoing. Offering online physical activity is seen by our members as a short to medium term solution during the pandemic. Allowing Temple Lean members to do more business with us virtually is also seen as stress free way to stay active.
-3. Some of our service users are now exclusively online. We need to develop an initial offering for them into a consistent business. We will need to develop this over time possibly as an adjunct to main membership 
+1. Members have become more health conscious and wish to maintain the physical activity they enjoyed during lockdown. 
+2. Members wish to have less physical contacts whilst the Pandemic is ongoing. Offering online physical activity is seen by our members as a short to medium term solution during the pandemic. Allowing Temple Lean members to do more business with us virtually is also seen as stress free way to stay active and adhere to healthy living.
+3. Some of our service users are now exclusively online. We need to develop an initial free offering for them into a consistent business. We will need to develop this over time possibly as an adjunct to main membership 
 
 
 The above named membership and class categories are strategically valuable markets. They are what people want from a gym in the post COVID-19 21st century. 
@@ -42,11 +42,11 @@ The key reasons for producing the website were to;
 
 - help current gym members get the best quality physical activity experience from their trusted Health and Fitness professionals at Temple Lean Gym
 - help members easily access 4 common membership categories and 4 common class categories
-- help integrate new and current members into a community where they can
+- help integrate new and current members into an online community where they can
   - book services they use on their fitness journey
   - read their Temple Lean profile 
-  - update their profile they have used themselves
-  - delete their profile they no longer find useful  
+  - update their profile
+  - delete their profile   
 - In the future help Temple Lean Gym attract and retain online subscription members through their website 
 
 At the outset the minimum viable product was determined to be a community platform whereby the operator(s) of the Temple Lean Gym website 
@@ -70,12 +70,12 @@ Further objectives included;
 - implementing interactive features on the Temple Lean website to help the user feel they were receiving a comprehensive service.
 
 It was determined that the Minimum Viable Product will contain the essential features below;
-- Register
-- Log in Log Out
-- CRUD a profile
-- Allow the owner the CRUD to manage products
-- Buy Class Pass
-- Buy Membership
+- Registeration
+- Sign in Sign Out
+- CRUD for member profile
+- Allow the owner the CRUD functionality to manage products
+- Buy a Class Pass (or multiple and or mix membership) 
+- Buy a Membership (or multiple and or mix membership)
 - Find information about Facilities and Coaches
 
 ## Business Model
@@ -86,8 +86,9 @@ What are you the Business aiming to achieve?
 - Users are looking for; 
   - A place to workout in a post/living with COVID-19 era
   - A place to enjoy a workout in the gym whilst feeling safe or online if in a temporary lockdown
-  - Access to Small Group Training
+  - Access to Small Group Training to give the user maximum quality but low risk of contacts
   - A place they can book a class or purchase membership online
+  - Add products easily as the business develops
 - As a business we are looking to provide the above to our members
 
 
@@ -98,22 +99,22 @@ Business wants the client to;
 Review the competition - Is someone else already doing it?
 - A review of the market in Cork Ireland suggested that a platform for members to access physical activity services within a Health and Fitness Clubs website was a new or under developed idea
 - A review of the businesses below showed that many fitness providers had an app to manage classes but that membership and classes appeared to be seperated between the app and the website.
-- We looked towards everything in one place to avoid user frustration with looking for membership on an app exclusively designed for classes or worse no information at all telling the users that membership was only available via the front desk
+- We looked towards everything in one place for our website to avoid user frustration with looking for membership on an app exclusively designed for classes or worse no information at all telling the users that membership was only available via the front desk
 - Businesses reviewed
-   - https://www.mardykearena.com/
-   - https://www.dennehys.ie/
-   - https://www.energiefitness.com/midleton
-   - https://onelifefitness.ie/
-   - https://gymplus.ie/locations/cork/
+   - [Mardyke Arena UCC](https://www.mardykearena.com/)
+   - [Dennehys Health and Fitness](https://www.dennehys.ie/)
+   - [Energie](https://www.energiefitness.com/midleton)
+   - [One Life](https://onelifefitness.ie/)
+   - [Gym Plus](https://gymplus.ie/locations/cork/)
 - Businesses reviewed online
-  - https://www.gymbox.com/404
+  - [Gym Box](https://www.gymbox.com/404)
 
 Stakeholder interviews
 - An emerging trend in Fitness clubs and studios prior to the pandemic was the Small Group Training
 
 Who else is doing this?
-- Small Group Training hadn't caught on as yet in Ireland though the market elsewhere indicated a willingness to access and pay a high premium for this service. Reference https://www.ihrsa.org/improve-your-club/why-personal-small-group-training-is-for-everyone/
-- Few studios were offering this class and thus this was identified as a unique selling point in our Business Strategy. 
+- Small Group Training hadn't caught on as yet in Ireland though the market elsewhere indicated a willingness to access and pay a high premium for this high quality service. [Reference link](https://www.ihrsa.org/improve-your-club/why-personal-small-group-training-is-for-everyone/)
+- Few studios were offering this class and thus this was identified as a unique selling point in our new Business Strategy. 
 - Our classes were thus capped at a maximum of 12 members
 - An online class service was developed as a route for the potential overflow of members
 - It was forecast that the demand for these small group training environments would rise as people continue to seek out opportunities to minimise contacts after COVID-19 subsided 
@@ -139,7 +140,7 @@ What are they (the competition) doing, but they could be doing better?
 
 
 User interviews and Surveys (What a user thinks they need may not be exactly what they need?)
-- Majority wanted basic classes and membership to return to something familiar. If we offered something online the user wanted it to feel familiar. In others words if they had public or student membership before they wanted to be offered public membership again but online
+- The majority of users wanted basic classes and membership to return to something familiar. If we offered something online the user wanted it felt familiar. In others words if they had public or student membership before they wanted to be offered public membership again but online
 - Some of the feedback was conflicting. Some clients wanted more advanced niche products like Strength and Conditioning, marathon, triathlon and nutrition training classes.
 - We reduced our offering to a basic physical activity offering to avoid cluttering our initial move into the online world for the user. Also with no competitive sport on the horizon we felt the Strength and Conditioning, marathon, triathlon and nutrition training classes might be unsuccessful and fail. They were placed in future development 
 - The majority of feedback from client surveys indicated a balance of Cardiovascular and Resistance training offers would be broadly welcomed. 
@@ -148,19 +149,19 @@ User interviews and Surveys (What a user thinks they need may not be exactly wha
 - The conclusion the developer drew from these interviews was that we should start basic and progress to more advanced activity recommendations if a clear market or demand emerged later. 
 
 Would you use this and why? 
-- Yes I as the developer would use it because it offers me a way to manage my physical activity online
+- Yes I as the developer would use it because it offers me a way to manage my physical activity online i one place
 - Clients indicated they would use it because they wished to be able to continue their healthy lifestyle even if another lockdown occurs.
 - They welcomed the opportunity to manage their membership and class bookings in a way that suits them
 
 Who is our target audience? 
 - This project is primarily a consumer business to customer service (B2C) 
-- We noted the potential for business to business B2B partnerships and included some corporate team offerings. Rather than opt for a bespoke offering to each potential corporate client we went with a scattergun approach to assess where the corporate wellness market is in the COVID-19 era. Feedback will reveal where bespoke offerings maybe included 
+- We noted the potential for business to business B2B partnerships and included some corporate team offerings. Rather than opt for a bespoke offering to each potential corporate client we went with a scattergun approach to assess where the corporate wellness market is in the COVID-19 era. Feedback will reveal where bespoke offerings maybe included later 
 - Our aim was to access clients we already have but leave the door open for other clients to join us 
-- Our thoughts were that our current clients wouldn't need much justifcation to purchase a their previous offering online from us given our existing relationship and the trust we have built up over many years.
+- Our thoughts were that our current clients wouldn't need much justifcation to purchase their previous offering online from us given our existing relationship and the trust we have built up over many years.
 
 What makes a good Fitness Facility website experience?
 - Following reserach we settled on the points below as a good Gym website experience
-  - Intuitive design (Simple Navigation)
+  - Intuitive design (Simple point and click Navigation)
   - Clean, attractive layout with point and clicks revealing information slowly in an easy to understand readable format
   - Users can create, read, update and delete their own profile and interact with Temple Lean 
   - Videos (This was placed in future development plans)
@@ -893,7 +894,7 @@ AWS
 - Test planning
   - Check the profile view has the correct code that the server is running and that a test user is logged in
 - Implementation
-  - We navigated to the profile page page scrolled down to the delete profile button and clicked it.
+  - We navigated to the profile page scrolled down to the delete profile button and clicked it.
 - Fix (if applicable)
   - A 404 error appeared and not the reverse redirect to account logout as prescribed in the view of the code
   - To fix this we alter the code to target the user rather than the profile in the database.
@@ -916,59 +917,32 @@ AWS
   - The delete didn't worked in the beginning but with the fix above it worked in the preview.
   - We verified this worked on the Heroku app
 - Outcomes
-  - Delete functionality enabled on the Temple Lean Website
+  - Delete profile functionality enabled on the Temple Lean Website
 
-- Name of Test JS File
-- Outline of Testing
-  -  
-- Test planning
-  -   
-- Implementation
-  - 
-- Fix (if applicable)
-  -  
-- Results
-  - readmedocs/testing/jsfiletest/jsfiletestresult.jpg
-- Outcomes
-  - 
-
-
-- Name of Test - JS file functionality
-- Outline of Testing
-  - 
-- Test planning
-  -  
-- Implementation
-  - 
-- Fix (if applicable)
-
-- Results
-
-- Outcomes
    
 ### General Performance Test
 Name of Test - Dev tools
 - Outline of Testing
   - Use Ctrl+Shift+I
 - Test planning
-  - After implementing every feature run the server using python3 manage.py runserver
+  - After implementing every feature we run the server using python3 manage.py runserver
   - Review the preview
 - Implementation
-  - Open the inspector tools using  Ctrl+Shift+I
+  - Open the inspector tools using Ctrl+Shift+I
   - Check the console for errors
   - Navigate to the page on which you implemented the feature check for error messages
   - Check CSS rendered if applicable
-  - Check Mobile friendly output by manipulating the responsive dev tools
+  - Check Mobile friendly output by manipulating the responsive button in dev tools
 - Fix (if applicable)
   - Many bugs were isolated using this general test format
-  - Often times the dev tools could show us which css class to override and where to put a margin or padding to render the site in more friendly user format
+  - Often times the dev tools could show us which css class to override and where to put a margin or padding class to render the site in more friendly user format
   - Sometimes emptying the cache was needed to render css correctly but have this implemented as a check list style test avoided wasting time chasing down phantom bugs that weren't real because we had not emptied the cache
-  - Console errors allowed us to trouble shoot js error quickly
+  - Console errors allowed us to trouble shoot js errors quickly. These varied from typos to directory bugs
   - page errors allowed us to refer back to the relevant python file or project level settings.py file
 - Results
-  - We debugged a tremendous amount of error using this method
+  - We debugged a tremendous amount of errors using this method
 - Outcome
-  - This general test was a great way to implement test driven development. We could add a feature and check if it rendered and then fix at point of development rather than back tracking days or even months later.
+  - This general test format was a great way to implement test driven development. We could add a feature and check if it rendered and then fix at point of development rather than back tracking days or even months later.
 
 
 ### General Performance Test | Django Admin
@@ -984,10 +958,14 @@ Name of Test - Dev tools
   - Checked that update rendered successfully in Django admin
   - Updated profile in [Django admin](https://templeleanms4.herokuapp.com/admin/login/?next=/admin/) 
   - Checked that update rendered successfully on deployed site
-  - Performed same action above put instead of update deleted profile on deployed site and Django admin
-  - Delete function worked on deployed site and Django admin
+  - Performed same action above put instead of update deleted profile on deployed site and later Django admin
+  - Delete function worked effectively on deployed site and Django admin
+    - User was logged out on main site when profile was deleted
   - Checked Update and Delete worked for products as well
-  - Checked that only super users can update or delete products
+  - Checked that only super users can update or delete products by using different users
+     - submitted code nd deployed site to peer review slack channel
+     - sent site to friends and family
+     - no unexpected super user capability was reported
 - Fix (if applicable)
   -  Move database to postgres (More details in bug section)
 - Results
@@ -1003,12 +981,12 @@ Name of Test - Dev tools
   - Check the Temple Lean site for performance, best practices and accessibility. 
 - Implementation
   - access the deployed site via deployed site via [link to deployed site!](http://templeleanms4.herokuapp.com/)
-  - Use Ctrl+Shift+I on your keyboard to access the developer tools
+  - Use Ctrl+Shift+I on keyboard to access the developer tools
   - Click genereate report refer to image for visual detail 
   - Sample generate report image readmedoc2/testing/lighthouse/lighthousesummaryoftest.jpg
 - Fix (if applicable)
   - no obvious performance issues on desktop device according to the lighthouse tests
-  - Mobile device performance appears to be influenced by slow loading speed unfortunately we were unable to solve this
+  - Mobile device performance appears to be influenced by slow loading speed unfortunately we were unable to solve this to make faster. Future research may yield a better result here
 - Results
   - The lighthouse test results are documented in the images below 
     - readmedoc2/testing/lighthouse/lighthousetestdesktop.jpg
@@ -1022,12 +1000,13 @@ Name of Test - Dev tools
 - Implementation
     - At the beginning of each new app template we checked to see if the background color dark red #8B0000 appeared when we added background color #8B0000 to the overlay element in style.css
     - This checked the base.css was talking to the new template in the new Django app
+    - We performed a similar test for checkout.css and profile.css to check they were responsive  in their apps
 - Fix (if applicable)
     - not applicable code worked and css was deemed fucntional
 - Results
   - Sample photo readmedoc2/testing/cssfiletest/cssperformancetest.jpg
 - Outcomes
-  - test was successful
+  - Test was successful
   - Test was repeated in a similar way for individual app css if necessary
 
 ### Performance Testing Python Initial functionality 
@@ -1049,6 +1028,7 @@ Name of Test - Dev tools
       - Card Number 4242 4242 4242 4242 
       - CVC 424
       - Postal code 42424
+    - Complete Order
     - [Sign in](https://stripe.com/en-ie) to stripe account 
     - review API requests on on developer page in site
     - Select webhooks enter deployed site links
@@ -1062,6 +1042,8 @@ Name of Test - Dev tools
   - Result of test webhook readmedoc2/testing/stripe/stripewebhooksucceeded.jpg
 - Outcomes
   - Stripe was integrated and the test payment functionality is active and working
+  - We test this worked by asking friends and family in peer review to check it independently
+  - independent tests reported no issues and the requests rendered in the stripe account
   - The site is not receiving live payments
   - Webhook functionality is active and working for the deployed site
 
@@ -1098,35 +1080,33 @@ Name of Test - Dev tools
 
 ### Testing | Desktop 1st Tier Navbar
 
-- Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean page
+- Go to the Temple Lean "Home/Landing" by clicking Temple Lean on top left hand side or any other Temple Lean page
 - Click on Temple Lean, Search, My Locker or Shopping Cart
 - Verified that when the user clicks on the Temple Lean, Search, My Locker or Shopping Cart that the user is either directed to the next page in the step or in the search bar the user can input a search for products ie type word 'membership' and membership options appeared below
-- Verified previously that the forms to a user to log in or register
-- Verified that the shopping cart tells the user that the gym bag is empty
-- erified that when you have logged in or registered that the secondary my locker navigation containing My profile, log out and Manage products (if super user) appear
+- Verified previously that the forms allow a user to log in or register
+- Verified that the shopping cart tells the user that the gym bag is empty (if empty or no products in cart)
+- Verified that when you have logged in or registered that the secondary my locker navigation containing My profile, log out and Manage products (if super user) appear
 
 ### Testing | Desktop 2nd Tier Navbar
 
 - Go to the Temple Lean "Home/Landing" by clicking page or any other Temple Lean page
 - Click on Facilities, Classes, Membership or Coaches
 - On the Facilities, Classes, Membership or Coaches page the text and icon will take on a light green background so the user will know where they are on the Temple Lean Website
-- Verified that when the user clicks on the Facilities, Classes, Membership or Coaches feature highlights in light green occurs when the user is on any page
+- Verified that when the user clicks on the Facilities, Classes, Membership or Coaches feature highlights in light green occurs when the user is on any of these pages
 - Verified that when the user clicks on Facilities, Classes, Membership or Coaches a dropdown menu appears for Facilities, Classes and Membership but clicking the Coach page leads to being redirected to the Coaches page straight away
 - Verified that when the user clicks on Facilities, Classes, Membership a dropdown menu appears for Facilities, Classes and Membership and when we clicked on the dropdown menu each page with that category appeared
 - Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work and that a purchase can begin from each page 
-- Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work including if super user CRUD functionlity appears and is functional
+- Verfied that each pages (Facilities, Classes, Membership or Coaches) call to action buttons work including if super user CRUD functionality appears and is functional
 
 ### Testing Footer
  - Go to the Temple Lean "Home/Landing" page or any other Temple Lean page
- - Verify that clicking on the social media icons open the correct social media page in a new tab
+ - Verify that clicking on the social media icons open the correct social media page in a new tab so the user knows which site they came from
 
 
 ### Testing Overlay
 
 - The Overlay class acts as a floor for content depending on which page you are on
 - This is functional for each app in the project
-
-
 
 
 ### Code Validators
@@ -1143,14 +1123,18 @@ I used the following code validators to help me debug my code
       - readmedoc2/testing/codevalidators/profilecssvalidator.jpg
     - No obvious errors were seen
  - JavaScript and jQuery validator [link to JS or jQuery vaildator](https://jshint.com/)
-    - No obvious errors were seen in the validators 
- - Python Validator http://pep8online.com/
+    - Some minor errors were seen in the validation of some js files
+    - Depsite research we were unable to fix some of them
+    - Also when they related to stripe integration which was largely copied code we were reluctant to alter the code because we were worried it would compromise functionality
+    - A sample of output of one validator is included at this location
+       - readmedoc2/testing/codevalidators/jsvalidatorstripe.jpg
+ - Python Validator [link to PEP8 Validator](http://pep8online.com/)
     - Result visible We ran each python file through the python validator
     - We had some line too long comments which we opted not to fix because they would break up links mid link
     - Other times we didn't fix the line too long out because it then threw a whitespace error which effected the functionality of the site 
 
 I also used following website to help me correct any formatting anomalies in my code
-- https://codebeautify.org/ 
+- Code Beautifier [link](https://codebeautify.org/) 
 
 I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
