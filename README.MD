@@ -173,22 +173,22 @@ Features we wanted to include in our design
 
 Color Scheme
 - Colour light background generally white then strong font and color
-- The color scheme that was used in this website came from the followin recommendations on this website https://colors.muz.li/
-- The developer searched for the color light blue in the website above. We then implemented that color into the project home page as a test to see how it looked. We reviewed with friends and family and relative to other gyms. We then serached for a color palette that went with #80C4FF. This guided us colors through out the site such as button colors for the CRUD features. All colors were associated with the recommendations of this color palette
+- The color scheme that was used in this website came from the following recommendations on the [Muzli website](https://colors.muz.li/)
+- The developer searched for the color light blue in the website above. We then implemented that color into the project home page as a test to see how it looked. We reviewed with friends and family and relative to other gyms. We then searched for a color palette on Muzli that went with the color #80C4FF. This guided our colors through out the site such as button colors for the CRUD features. All colors were associated with the recommendations of this color palette
 - We reviewed the following websites to help us determine a color and scheme and what to avoid in design
-  - http://www.kabu-kitamura.com/colon/en/ 
-    - Review notes what not to do annoying music and no intuitive way to get to gym information
-  - https://mountainsoulyoga.com/classes/ 
+  - [Website 1 color scheme](http://www.kabu-kitamura.com/colon/en/) 
+    - Review notes - what not to do annoying music and no intuitive way to get to gym information
+  - [Website 2 color scheme](https://mountainsoulyoga.com/classes/) 
     - Review notes grey color not great
-  - https://yogabuzz.org/ 
-    - Review notes color blue Navbar #0000ff Alert #ff0000 Body #bfcfff Writing #ffffff
-  - https://www.revolutionpersonaltraining.com.au/ 
-    - Review notes color scheme great
+  - [Website 3 color scheme](https://yogabuzz.org/) 
+    - Review notes - color blue Navbar #0000ff Alert #ff0000 Body #bfcfff Writing #ffffff
+  - [Website 4 color scheme](https://www.revolutionpersonaltraining.com.au/) 
+    - Review notes - color scheme great
 
 Basic Observations on what works well for a gym websites and features we plan to implement
    - Navbar 
     - Two tiers
-    - Collapsible
+    - Dropdown
    - Includes Navigation for following items
     - Search
     - Facilities
@@ -199,14 +199,15 @@ Basic Observations on what works well for a gym websites and features we plan to
     - Home
     - Shopping Cart for quick purchase
    - Rating (of facility)
-   - Register/Login (Right and collapsible) then reveals, profile and log out and navbar
+   - Register/Sign In (Right and collapsible) then reveals, profile and log out and navbar
 
 - Section or Main Body of page
   - Home/Landing Page Body 
      - Hero image on home page
-     - Overlay hero image with white background
+     - Overlay hero image with white/light background
   - CRUD Functionality to be available in 
     - Profile
+    - Product for Super User
   - Django Admin page with appropriate models
   - Cards with Photo Gallery
     - Profile
@@ -222,7 +223,6 @@ Footer
  - Right opening hours
 
 Data Schema - Database Django
-
 
 Categories
 
@@ -348,14 +348,16 @@ Faciltiies
 ### Apps
 1. a_templelean the project level app
 2. bag for user to place items into
-3. chekcout for user to buy items into
+3. checkout for user to buy items (Stripe integrated)
 4. coach for users to research their coaches
-5. facilties for users research facilities and facility categories
-6. Home for landing page and anchor point for users to navigate the site
+5. facilties for users to research facilities and facility categories
+6. Home for landing page and anchor point for users to navigate the site easily
 7. products for user to browser product and for developer to add products
 8. profiles to store user information
 
 ## User Stories - Theme | Registeration and CRUD
+
+The project was developed with the goal of fulfilling these user stories
 
 ### User Story No. 1 
 As a Temple Lean Website User
