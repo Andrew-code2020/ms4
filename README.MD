@@ -1032,7 +1032,7 @@ Name of Test - Dev tools
 ### Edge Browser
 - I tested the website by copying and pasting the Heroku pages [link](https://templeleanms4.herokuapp.com/) into the Edge Browser
 - I pressed control+shift+I to access developer tools in the Edge Browser and checked the web pages responsiveness
-- There were no obvious bugs in the chrome browser on desktop or mobile views within this browser
+- There were no obvious bugs in the Edge browser on desktop or mobile views within this browser
 
 ### Testing Device screens
 - I used the chrome developer tools to test that the websites appearance and functionality was available across multiple devices listed below;
@@ -1089,18 +1089,18 @@ I check the README.MD file spelling using this [website](https://www.online-spel
 
 ### Code Validators
 I used the following code validators to help me debug my code 
- - HTML - [link to HTML vaildator](https://validator.w3.org/)
+ - HTML - [link to HTML validator](https://validator.w3.org/)
    - All HTML pages were placed in validator to check best practice
    - Some errors were observed but since they did not effect functionality of the site they were ignored and placed in review during future development
    - A sample of output of one validator is included at this location
      - readmedoc2/testing/codevalidators/samplehtmlvalidatoroutput.jpg
- - CSS Validator - [link to CSS vaildator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+ - CSS Validator - [link to CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
     - Result visible via directory below
       - readmedoc2/testing/codevalidators/basecssvalidator.jpg
       - readmedoc2/testing/codevalidators/checkoutcssvalidator.jpg
       - readmedoc2/testing/codevalidators/profilecssvalidator.jpg
     - No obvious errors were seen
- - JavaScript and jQuery validator [link to JS or jQuery vaildator](https://jshint.com/)
+ - JavaScript and jQuery validator [link to JS or jQuery validator](https://jshint.com/)
     - Some minor errors were seen in the validation of some js files
     - Depsite research we were unable to fix some of them
     - Also when they related to stripe integration which was largely copied code we were reluctant to alter the code because we were worried it would compromise functionality
@@ -1119,7 +1119,7 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 #### Bugs
 
 Bug - Active Class in Django
-- The active class [documentation](https://django-active-link.readthedocs.io/en/latest/) in Django helped us implement the Active light green to help users figure out where are on the site
+- The active class [documentation](https://django-active-link.readthedocs.io/en/latest/) in Django helped us implement the Active light green which was implemented to help users figure out where they are on the site
 - Bug the active class vanished for a few days during development then returned and this can't be explained by the developer
 - When it returned we could no longer differentiate the classes and membership with the light green background. Further research may solve this unfortunately we ran out of time to find a solution to this and tutor support could not help either.
 
