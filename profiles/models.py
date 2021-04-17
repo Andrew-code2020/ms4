@@ -7,6 +7,9 @@ from django.dispatch import receiver
 
 from django_countries.fields import CountryField
 
+# inspired by boutique ado mini project
+# adapted for this project
+
 
 class UserProfile(models.Model):
     """

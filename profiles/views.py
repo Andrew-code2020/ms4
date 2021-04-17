@@ -9,6 +9,11 @@ from .forms import UserProfileForm
 from checkout.models import Order
 
 
+# inspired by boutique ado mini project
+# adapted for this project
+# profile logic
+
+
 @login_required
 def profile(request):
     """ Display the user's profile. """
@@ -36,6 +41,10 @@ def profile(request):
 
     return render(request, template, context)
 
+# inspired by boutique ado mini project
+# adapted for this project
+# Order History logic
+
 
 def order_history(request, order_number):
     order = get_object_or_404(Order, order_number=order_number)
@@ -52,6 +61,11 @@ def order_history(request, order_number):
     }
 
     return render(request, template, context)
+
+
+# inspired by boutique ado mini project
+# adapted for this project
+# delete profile logic
 
 
 @login_required
