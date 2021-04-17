@@ -55,7 +55,7 @@ At the outset the minimum viable product was determined to be a community platfo
  - begin to build a digital support platform to help Temple Lean owners run their Business effectively with respect to the challenges of today.
 
 It was an objective of this project to include an intuitive design which would allow new and current clients to navigate and engage with the website without any prior experience of Temple Lean the gym facility or it's online services. 
-Current and potential client surveys were conducted to assess the minumim effective information required to illicit a positive emotional response from users.
+Current and potential client surveys were conducted to assess the minimum effective information required to illicit a positive emotional response from users.
 This information was incredibly valuable during the construction of wireframes for the website. 
 
 
@@ -172,7 +172,7 @@ What makes a good Fitness Facility website experience?
 Features we wanted to include in our design
 
 Color Scheme
-- Colour light background generally white then strong font and color
+- Color light background generally white then strong font and color
 - The color scheme that was used in this website came from the following recommendations on the [Muzli website](https://colors.muz.li/)
 - The developer searched for the color light blue in the website above. We then implemented that color into the project home page as a test to see how it looked. We reviewed with friends and family and relative to other gyms. We then searched for a color palette on Muzli that went with the color #80C4FF. This guided our colors through out the site such as button colors for the CRUD features. All colors were associated with the recommendations of this color palette
 - We reviewed the following websites to help us determine a color and scheme and what to avoid in design
@@ -350,7 +350,7 @@ Faciltiies
 2. bag for user to place items into
 3. checkout for user to buy items (Stripe integrated)
 4. coach for users to research their coaches
-5. facilties for users to research facilities and facility categories
+5. facilities for users to research facilities and facility categories
 6. Home for landing page and anchor point for users to navigate the site easily
 7. products for user to browser product and for developer to add products
 8. profiles to store user information
@@ -390,7 +390,7 @@ As a Temple Lean Website User
 ### User Story No. 5
 As a Temple Lean Website User
 - I want to be able to
-   - recieve a confirmation email after registering
+   - receive a confirmation email after registering
 - So that I can
    - successfully complete registeration on the Temple Lean website
 
@@ -480,7 +480,7 @@ As a Temple Lean Website User
 - I want to be able to
    - Easily enter payment information
 - So that I can
-   - Check out quickly andd with no hassles
+   - Check out quickly and with no hassles
 
 
 ### User Story No. 6 
@@ -518,30 +518,30 @@ As a Temple Lean Website Owner
 In development we set out to make sure that our site would be consistent. We used the categories below to describe our efforts
  - Predictable
    - We used a base template for the header and footer and a white overlay to cover the background image of the body
-   - We used similar forms to register, to log in, create and update profile information, take payment information, create, update and delete information and product information if you're a super user.
+   - We used similar forms to register, to Sign In, create and update profile information, take payment information and create, update and delete product information if you're a super user.
    We used similar cards for each section of the site to help the user intuitively move around the site no matter what page they accessed
-   - We used clear intuitive call to action buttons throughout the site to help user make a purchase easily  
+   - We used clear intuitive call to action buttons with icons throughout the site to help user make a purchase easily or proceed to the next step  
    - We used Toast messages to tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do. The user will be able to rely on the site for feedback if they complete an action
  - Learnable
    - We used buttons and links reveal information to the user and guide user to the next step if they wished to make a purchase or visit another part of the site
-   - Toast messages tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do 
+   - Toast messages tell the user that they have successfully completed a task or entered invalid information or tried to do something that only the owner of the site can do
+   - The button text content help the user understand what will happen if they press the button 
  - Visible 
    - A user can easily review updates they have made on the site immediately after they have been made
-   - In so far as we could we used photos and icons to give the user visible feedback like pictures, buttons, hover effect and icons about where they are on the site and what they can.   
+   - In so far as we could we used photos and icons to give the user visible feedback like pictures, buttons, hover effect and icons about where they are on the site and what they can do.   
  - Clear and intuitive feedback
    - Toast messages give clear and intuitive feedback to the user. Automatic emails sent from the developers gmail on sign up or purchase also reassure the user that they have proceeded with their desired intention.
 
 ### User Questions
 
 - Where am I?
-  - On each page the main Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean site. 
-  - Subheaders on each page tell the user they are on a certain page ie Coaches which has information about , Membership and class has Activity Offers written on it and the Shopping Bag is called the Gym Bag and Checkout is also labelled. All of these are designed to give the user the experience of moving through a process.
-  - 
+  - On each page the secondary Navbar highlights text in light green of the relevant page. This helps you locate where you are on the Temple Lean site. 
+  - Headers on each page tell the user they are on a certain page ie Coaches which has information about , Membership and class has Activity Offers written on it and the Shopping Bag is called the Gym Bag and Checkout is also labelled. All of these are designed to give the user the experience of moving through a process.
 
 - How did I get here?
-  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms. The platforms are currently connected to the developers social media accounts because the social media accounts for this website and it's staff do not exist. Rather than leave any empty link the developer opted for his own social media pages to demonstrate in the skill of linking pages to thei site and to show the user a full web experience even whilst the site is undergoing business development. 
-  - The navbar and footer are the exact same on each page and with the current page highlighted in light green in the main navbar so that the user may easily identify where they are on the Temple Lean website
-  - The keeping shopping and cancel buttons act as a way for the user go back a step if they need too amend something or if they go forward by mistake without pressing the back button. The user can also press click on Temple lean which acts as a home button on large screens. A door icon acts as a dropdown menu on a small screen to help users see which page they are on in light green and will help reveal how they arrived on the page from another place on the site
+  - Clicking on certain icons or words opens up new tabs to a specific external site so the user does not forget which website they accessed the content from such as social media platforms. The platforms are currently connected to the developers social media accounts because the social media accounts for this website and it's staff do not exist. Rather than leave any empty link the developer opted for his own social media pages to demonstrate the skill of linking pages to their site and to show the user a full web experience even whilst the site is undergoing business development. 
+  - The navbar and footer are the exact same on each page and with the current page highlighted in light green in the secondary navbar so that the user may easily identify where they are on the Temple Lean website
+  - The keeping shopping and cancel buttons act as a way for the user go back a step if they need too amend something or if they go forward by mistake without pressing the back button. The user can also click on the text Temple lean which acts as a home button on large screens. A door icon acts as a dropdown menu on a small screen to help users see which page they are on in light green and will help reveal how they arrived on the page from another place on the site
   
 - What can I do here?
   - The user is invited clearly to click on and then access various features of the Temple Lean  website. 
@@ -549,19 +549,18 @@ In development we set out to make sure that our site would be consistent. We use
      - Navbar with the hover feature
      - Footer via the social media icons (Hover feature turns them light green when the cursor is over the icons)
      - The Update and Delete buttons with their icons clearly represent a function the user may undertake
-     - On click the dropdown feature in the main navbar reveals subnavigation for that particular section 
+     - On click the dropdown arrow makes it obvious to the user that this feature in the navbar reveals subnavigation for that particular section. 
      - The user is also invited to type information on forms and into the search bar throughout the site. This form information is requested via placeholder and single clear words for example update or sign in or logout let the user know what they can do here or what will happen here.
 
 - Where can I go from here?
-  - The navbar and footer are the exact same on each page. In the navbar the user is able to easily identify where they are using the light blue active feature and where they can go from here is not highlighted letting the user know that they can go here if they wish. 
+  - The navbar and footer are the exact same on each page. In the navbar the user is able to easily identify where they are using the light green active feature and where they can go from here is not highlighted but has a green hover letting the user know that they can go here if they wish. 
   - Buttons also tell the user intuitively where they can go from here ie update profile or Buy membership, Secure Checkout or complete Order
-  - The blue hover feature is also designed to indicate to the user that they can click on this icon in the footer and access further content.
-  - On the home page in the cards (under the main hero image) the Log In and Register Page buttons invite the user to click on them and log in or register.
+  - The green hover feature is also designed to indicate to the user that they can click on this icon in the footer and access further content.
  
 
 ### Skeleton Plane
 
-The wireframe pictures below were constructed to help the developer in the initial design phase of the Temple Lean Website
+The wireframe pictures below were constructed to help the developer in the initial design phase of the Temple Lean Website. They acted a guide for site development. They are not exact but very close to the completed project
 
 Desktop wireframes
 
@@ -596,9 +595,9 @@ Mobile Device wireframe
 
 ##### Summary
 
-
 - Internal links
 - External links
+- Buttons
 - Header
 - Navbar
 - Cards
@@ -618,33 +617,32 @@ Mobile Device wireframe
 ##### Existing Features
 
 - Internal links to different parts of the Temple Lean website
-- External links that open different platforms such as social media, the developers Milestone 1 project website  The social media accounts and the developers Milestone 1 project website are linked to this project to demonstrate the skill of adding external links.
+- External links that open different platforms such as social media, the developers Milestone 1 project website. The social media accounts and the developers Milestone 1 project website are linked to this project to demonstrate the skill of adding external links.
 - Header - Contains the Navbar design for desktop and mobile devices 
-- Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other gym website pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The top part of the navbar including log in and registeration collapse on a mobile device to a single apple icon which the user can click on. The navbar items Breakfast, Lunch, Dinner and Snacks appear after you register or log in. This was done to avoid overhwleming the user when they land on the page and guide them to log in or register and then more content will be revealed. 
-- Footer - Linked to some pages we used to develop the website and contains direct links to the developers Social Media platforms, Milestone 1 project and private blog. Temple Lean social media specific to this site do not exist but is in future development plans.
+- Easy navigation - The Navbar at the top of each page is similar to conventional navbars of other gym website pages allowing the user an intuitive experience on a perhaps unfamiliar website. We maintained this navbar across each page using a base template for ease of navigation and coding. The navbar closes into a Mobile Top Header all areas of the site (except the home page) on a mobile device. The icon contains the facilities products and coaches which the user can click on. The navbar registeration and Sign In are in my locker. This mobile top header was constructed to avoid overhwleming the user when they land on the page via mobile device and guide them to more content in one or two clicks. 
+- Footer - Linked to the developers Social Media platforms, Milestone 1 project. Temple Lean social media specific to this site does not exist but is in future development plans.
 - Body - The middle section is where the block content Jinja template is injected. The content changes on each page and gives basic information on aspects of the Temple Lean site with option to take further steps to purchase.
 - Hero Image - The eye catching landing/homepage page is designed to convey to the user that they have arrived on a Temple Lean site as distinct from other gym sites. 
-- Select - We used select options to allow a better visual experience for the user and to avoid long typed responses on the forms through out the website. 
+- Select - We used select options to allow a better visual experience for the user and to avoid confusion in the country field on the forms through out the website. 
 - Hover 
-   - social media icons all turn blue when the cursor hovers over them
-   - internal links turn light black when the cursor hovers over them except for the homepage. 
-   - external links do not have a hover
+   - social media icons all turn light green in the background when the cursor hovers over them
+   - internal links turn light green when the cursor hovers over them except for the dropdown items which turn white from blue. 
    - The hover lets the user know that there is more information they can access here if they click. It draws attention to options which keep the user on the Temple Lean website page. 
 - Icons - font awesome icons were used to add style and an intuitive feel to the user experience. 
 - jQuery & JavaScript 
-    -    
-    - Sidenav - 
-    - Form Select - 
+    - Was used to integrate stripe, remove items from the bag and trigger toast messages   
 - CRUD Functionality
-    - Create - 
-    - Read -  
-    - Update - 
-    - Delete - 
+    - Create - Available for profile and products (if super user)
+    - Read -  Available for profile and products
+    - Update - Available for profile (if user logged in) and products(if super user)
+    - Delete - Available for profile (if user logged in) and products(if super user)
 
 
 ##### Features Left to Implement
 - Book and pay for a private Personal Training Sessions with Coach
-- Live payments
+- Live stripe payments
+- User profile images
+- User exercise preferences in profile model
 - Analytics that show user traffic flow
 - Members Subscription 
 - Ratings on products so users can give feedback to Temple Lean 
@@ -658,7 +656,6 @@ Mobile Device wireframe
 - JavaScript 
    - Used for 
     - Stripe integration   
-    - Sidenav
     - Form Select
     - Update bag 
 - jQuery 
@@ -676,23 +673,20 @@ Mobile Device wireframe
 - Google Font
   - [Website link](https://fonts.google.com/)
   - Used to import font
- 
 - Python | [link to Python Website](https://www.python.org/)
   - Used to created roots,view and integrate with Django to deliver functionality to the website 
-
 - Heroku | [link to Heroku](https://www.heroku.com/)  
   - Used to deploy the website
   - Website link to the deployed Heroku app [link to Deployed app](https://templeleanms4.herokuapp.com/) 
-  
 - Stripe 
+  - Used to integrate payment system
   - User profile main site [link to Stripe Sign In](https://stripe.com/en-ie)
   - Stripe Developer Docs [link to Stripe Documentation](https://stripe.com/docs)
-
 AWS 
   - Used bucket to deploy static files and media [link to AWS log in!](https://aws.amazon.com/)
   - [link to AWS Bucket](https://s3.console.aws.amazon.com/s3/buckets/templeleanms4?region=eu-west-1&tab=objects)
 
-- Dependencies are listed in requirements.txt
+- Dependencies are listed in requirements.txt file
   
 ### Testing
 
@@ -706,7 +700,7 @@ AWS
   -   Register using the registeration form
   -   Check registeration form that has invalid entries gives the user feedback 
   - Check successful registeration reveals toast message and sends automatic email to new user
-  - Confirm that automatic email link allows user to complete registeration and log in 
+  - Confirm that automatic email link allows user to complete registeration and Sign In 
 - Implementation
   - Navigate to [registeration link!](http://templeleanms4.herokuapp.com/accounts/signup/)
   - Checked that invalid entries on the registeration form gave the user feedback to fill in required field
@@ -721,10 +715,10 @@ AWS
   - Click on Register button whilst required piece of form is empty
     - received response of "please fill out this field"
   - Click on Register button whilst all required form elements filled in
-    - received successful toast response of stating confirmation email sent
+    - received successful toast response stating confirmation email sent
     - also received automated email to developers work email. Screenshot in readmedoc2/testing/allauth/allauthconfirmationemail.jpg
 - Outcomes
-  - Register form and email confirmation worked as expected and the design feels intuitive
+  - Registeration form and email confirmation worked as expected and the design feels intuitive
 
 
 - Name of Test Sign in Form
@@ -768,7 +762,7 @@ AWS
   - Received toast message indicating sign out was successful
   - Pressing back button did not allow users entry without signing in again
 - Fix (if applicable)
-  -  Changed text to be consistent ie changed log out in my locker dropdown to Sign Out to give user consistent user experience
+  -  Changed text to be consistent ie changed log out in my locker dropdown to Sign Out to give user consistent site experience
 - Results
   - Sign out functionalitey working optimally
   - The result was rendered in the command line preview and the deployed Heroku app
@@ -802,20 +796,6 @@ AWS
 - Outcomes
   - Mobile top header deemed operational with no obvious bugs
 
-- Name of Test 
-- Outline of Testing Bag HTML File
-  -  
-- Test planning
-  -   
-- Implementation
-  - 
-- Fix (if applicable)
-  -  
-- Results
-  - 
-- Outcomes
-  - 
-
 
 - Name of Test Check Get Lean Now Button worked
 - Outline of Test
@@ -840,7 +820,7 @@ AWS
 
 - Name of Test Check Django installed 
 - Outline of Testing
-  - Check that DJango was installed succesfully before proceeding with the rest of the project
+  - Check that Django was installed succesfully before proceeding with the rest of the project
 - Test planning
   - Install Django
   - Run server with python3 manage.py runserver 
@@ -866,7 +846,7 @@ AWS
   - check Django admin updates on back end
   - check profile updates on the front end
 - Implementation
-  - Signed in at at this [link](https://templeleanms4.herokuapp.com/accounts/login/)
+  - Signed in at this [link](https://templeleanms4.herokuapp.com/accounts/login/)
   - Navigated to the profile page
   - Input information into the profile form
   - Press update button
@@ -885,7 +865,7 @@ AWS
 
 - Name of Test CRUD Delete Profile
 - Outline of Testing
-  - Check that if a user deletes their profile that they are deleted profile the Temple Lean website and logged out 
+  - Check that if a user deletes their profile that their profile is deleted from the Temple Lean website and logged out 
 - Test planning
   - Check the profile view has the correct code that the server is running and that a test user is logged in
 - Implementation
@@ -921,17 +901,17 @@ Name of Test - Dev tools
   - Use Ctrl+Shift+I
 - Test planning
   - After implementing every feature we run the server using python3 manage.py runserver
-  - Review the preview
+  - Review the preview with Dev tools
 - Implementation
   - Open the inspector tools using Ctrl+Shift+I
-  - Check the console for errors
   - Navigate to the page on which you implemented the feature check for error messages
+  - Check the console for errors
   - Check CSS rendered if applicable
   - Check Mobile friendly output by manipulating the responsive button in dev tools
 - Fix (if applicable)
   - Many bugs were isolated using this general test format
-  - Often times the dev tools could show us which css class to override and where to put a margin or padding class to render the site in more friendly user format
-  - Sometimes emptying the cache was needed to render css correctly but have this implemented as a check list style test avoided wasting time chasing down phantom bugs that weren't real because we had not emptied the cache
+  - Often times the dev tools could show us which css class to override or implement and where to put a a row, col, margin or padding class to render the site in more user friendly format
+  - Sometimes emptying the cache was needed to render css correctly but having this test implemented as a check list style test avoided wasting time chasing down phantom bugs that weren't real because we had not emptied the cache
   - Console errors allowed us to trouble shoot js errors quickly. These varied from typos to directory bugs
   - page errors allowed us to refer back to the relevant python file or project level settings.py file
 - Results
@@ -958,7 +938,7 @@ Name of Test - Dev tools
     - User was logged out on main site when profile was deleted
   - Checked Update and Delete worked for products as well
   - Checked that only super users can update or delete products by using different users
-     - submitted code nd deployed site to peer review slack channel
+     - submitted code from github and deployed site to peer review slack channel
      - sent site to friends and family
      - no unexpected super user capability was reported
 - Fix (if applicable)
@@ -1015,7 +995,7 @@ Name of Test - Dev tools
 
 ### Testing | Stripe integration worked
 - Test
-   - Check that order was passed from checkout app to stripe and that the relevant data like process rendered in stripe 
+   - Check that order was passed from checkout app to stripe and that the relevant data like amount spent rendered in stripe 
 - Implementation
    - Selected product from Temple Lean site
    - Go through check out process fill out form
@@ -1025,21 +1005,21 @@ Name of Test - Dev tools
       - Postal code 42424
     - Complete Order
     - [Sign in](https://stripe.com/en-ie) to stripe account 
-    - review API requests on on developer page in site
+    - reviewed API requests in stripe account on developer page in site
     - Select webhooks enter deployed site links
     - Click send testwebhook 
 - Fix (if applicable)
    - Add Stripe secret Key and Stripe Public Key to environment variables on deployed Heroku app in config vars and in Gitpod environment variables
-   - Having them in both environments allowed consistent test driven development
+   - Having them in both environments allowed for consistent test driven development
 - Results
-  - Stripe received the order signal perfecty once the config vars were added 
+  - Stripe received the order signal perfectly once the config vars were added 
   - Photo of signalreadmedoc2/testing/stripe/stripesuccesspicture.jpg
   - Result of test webhook readmedoc2/testing/stripe/stripewebhooksucceeded.jpg
 - Outcomes
   - Stripe was integrated and the test payment functionality is active and working
   - We test this worked by asking friends and family in peer review to check it independently
   - independent tests reported no issues and the requests rendered in the stripe account
-  - The site is not receiving live payments
+  - The site is not receiving live payments but test payments work perfectly
   - Webhook functionality is active and working for the deployed site
 
 ### Testing Browser Screens
@@ -1078,7 +1058,7 @@ Name of Test - Dev tools
 - Go to the Temple Lean "Home/Landing" by clicking Temple Lean on top left hand side or any other Temple Lean page
 - Click on Temple Lean, Search, My Locker or Shopping Cart
 - Verified that when the user clicks on the Temple Lean, Search, My Locker or Shopping Cart that the user is either directed to the next page in the step or in the search bar the user can input a search for products ie type word 'membership' and membership options appeared below
-- Verified previously that the forms allow a user to log in or register
+- Verified previously that the forms allow a user to Sign In or register
 - Verified that the shopping cart tells the user that the gym bag is empty (if empty or no products in cart)
 - Verified that when you have logged in or registered that the secondary my locker navigation containing My profile, log out and Manage products (if super user) appear
 
@@ -1102,6 +1082,9 @@ Name of Test - Dev tools
 
 - The Overlay class acts as a floor for content depending on which page you are on
 - This is functional for each app in the project
+
+### Testing Markdown
+I check the README.MD file spelling using this [website](https://www.online-spellcheck.com/)
 
 
 ### Code Validators
@@ -1135,6 +1118,16 @@ I also used Shift+alt+F on my laptop to beautify each page of code in gitpod
 
 #### Bugs
 
+Bug - Active Class in Django
+- The active class [documentation](https://django-active-link.readthedocs.io/en/latest/) in Django helped us implement the Active light green to help users figure out where are on the site
+- Bug the active class vanished for a few days during development then returned and this can't be explained by the developer
+- When it returned we could no longer differentiate the classes and membership with the light green background. Further research may solve this unfortunately we ran out of time to find a solution to this and tutor support could not help either.
+
+Bug - Update Button in gym bag
+- Despite repeated attempts and multiple reviews of the source code we could figure out why the update button would not perform it's function in the gym bag app. 
+- We're hoping future research will resolve this function for now the increment counter will have to do
+- Also in future development the bag html will be a card rather than a table. Tables are notoriously unresponsive and their mobile rendering with only horizontal scrolling wasn't the most user friendly experience. Sadly time went against in the development process and we were unable to change this in time for submission
+
 Bug - Product Detail page
 - In the product detail page the has_days feature was visibly too close to the Quantity incrementor. To push it down we inserted a top margin or mt-2 in the has_days column which pushed it down. This made the product details page more visibly appealing.
 - The column in the select box went from this code <div class="col-12"> to this code <div class="col-12 mt-3"> to solve the problem
@@ -1161,7 +1154,7 @@ Developer wrote by accident
 
 Bug - Coaches view
 - When writing the coaches view the developer misplaced the comma's below which threw an error. 
-- We reviewed source code from other views and the relevant parts through [diff checker](https://www.diffchecker.com/diff) where we spotted the out of place comma's changed them and the view rendered on the coaches page
+- We reviewed source code from other views and put the relevant parts through [diff checker](https://www.diffchecker.com/diff) where we spotted the out of place comma's changed them and the view rendered on the coaches page
 - context = {
         'coaches':coaches,
     }
@@ -1172,8 +1165,8 @@ versus
 
 
 Bug - images set to 250 px
-- During development we need to input uniform pictures sizes to give our site a clean look. 
-- Unfortunately taregtting css classes .card-img, .card-img-top with height 250 px in base.css would not render effectively. Targeting the img element did. 
+- During development we needed to input uniform pictures sizes to give our site a clean look. 
+- Unfortunately targetting css classes .card-img, .card-img-top with height 250 px in base.css would not render effectively. Targeting the img element did. 
 - We did have to change some images as they looked stretched or squashed. Unfortunately for those images they just did not fit our site. 
 
 Bug - Directory Structure wrong in Facilities app
@@ -1181,33 +1174,31 @@ Bug - Directory Structure wrong in Facilities app
 - We accidently put the facilities folder on top of the templates folder instead of templates folder on top of facilities
 - This through an error but a quick review of the previous app directory allowed us to correct the problem easily
 
-Bug - Visual- Pictures 
-- Button primary class overwriting hover
-- Home page Picture not rendering quite as effectively on the screen 
+ 
 
 Bugs - Development process bug 
 - Early in development we deployed to Heroku
-- We did this because we were following test driven development
+- We did this because we were following a test driven development process
 - After each push to Github we reviewed not just the preview in the Gitpod server but the deployed site as well and checked the functionality was rendering correctly
 - Early on we noticed that our Gitpod environment was tied to sqlite
 - This was leading to a mismatch between our local development environment and our deployed site which used a postgres database
-- To be consistent and implement effective test driven development we input postgres environment varibles into our Gitpod environment variables effectively bypassing the default sqlite database
-- We did have to perform one data dump from sqllite to postgres but from then on we had a consistent development environment using one database
+- To be consistent and implement effective test driven development we input postgres environment varibles into our Gitpod environment variables and proceeded to effectively bypassing the default sqlite database
+- We did have to perform one data dump from sqllite to postgres but from then on we had a consistent development environment using one database postgres
 
 Bugs - Toast Messages
 - In the beginning of our implementation of toast messages our toast messages would flash for less than a second on screen
-- To effectively implement the delay we placed the delay attribute in Toast Header. Despite initial placing the delay attribute in the main toast container this did not work effectively
-- Eventually some guess work led us to the toast header and effective delay atrribute rendering 
+- To effectively implement the delay we placed the datadelay attribute in Toast Header. Despite initial placing the delay attribute in the main toast container this did not work effectively
+- Eventually some guess work led us to the toast header and effective data-delay atrribute rendering 
 
 
 Bugs - bag tools in checkout template 
 - in the checkout app the template tag bag tools was needed or the template error showed. We forgot to add {% load bag_tools %} at the top of the checkout html. Once this was inserted the error dissolved and the page rendered 
 
 Bugs - checkout.html app missing div 
-- A missing closing div tag caused footer to loose the outer edge of it's blue. We inserted code into a html [validator](https://validator.w3.org/) found the missing div and restored it which fixed the page
+- A missing closing div tag caused footer to lose the outer edge of it's blue. We inserted our code into a html [validator](https://validator.w3.org/) found the missing div and restored it which fixed the page footer
 
 Bugs - Stripe element
-- On the chekcout page the countries field placeholder rendered with the top portion of the word country visible. 
+- On the checkout page the countries field placeholder rendered with the top portion of the word country visible. 
 - To fix this bug we changed the css height in StripeElement. 
 - This made the form boxes slightly bigger which was considered a fair compromise rather than having a half visible placeholder which looked awful
 - The image in the checkout also rendered squashed so we changed .stripe-style-input to 60 px which resolved the image problem
@@ -1229,7 +1220,7 @@ Bugs - Stripe element
 - The screenshots of this process are available by following the directories below
     - readmedoc2/creatingrepo/step1copyrepotemplate.png
     - readmedoc2/creatingrepo/step2creatingreponame.png
-- Finally we cloned the repository from the developers milestone project 2 using the instructions on the following [website](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+- Finally we cloned the repository from the developers milestone project 3 using the instructions on the following [website](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 #### Deploying the project to Heroku
 
@@ -1252,7 +1243,7 @@ Bugs - Stripe element
 
 The AWS bucket held media and static file for the deployed site. 
 
-Github and Herkoku were linked automatically allow instantaneous deployment. Github was configured with a Procfile and a requirments.txt file which told Heroku which dependencies to use to deploy the site. the settings.py file in the project level Django app was configured to allow local hosts ie Gitpod and Heroku deployment and also allow custom storages for AWS to work effectively.
+Github and Herkoku were linked automatically to allow instantaneous deployment. Github was configured with a Procfile and a requirments.txt file which told Heroku which dependencies to use to deploy the site. The settings.py file in the project level Django app was configured to allow local hosts ie Gitpod and Heroku deployment and also allow custom storages for AWS to work effectively.
 
 - The live Temple Lean site may be accessed by following this [link] (https://templeleanms4.herokuapp.com/)
 
@@ -1292,7 +1283,7 @@ Github and Herkoku were linked automatically allow instantaneous deployment. Git
 
 - Hero Image
 - I copied the hero image idea in a similar way to the Jumbtron idea from our code along whiskey drop project with the code institute. I copied a Materialize card code to mimic a jumbotron. 
-  - Reference to [Github repository](https://andrew-code2020.github.io/) from code along project
+  - Reference to [Github repository](https://github.com/Andrew-code2020/whiskeydrop) from our code along project
 
 - I copied the icons from [Font awesome](https://fontawesome.com/) and used the CDN to implement them in the project. I then wrote custom css code to style the icons and make them more responsive.
 
