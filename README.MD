@@ -1017,16 +1017,31 @@ AWS
 - Conclusion
   - initial set up worked well
 
- Testing 
+ Testing | Stripe worked
 - Test
-   - Registeration form check the content renders on our app 
+   - Check that order was passed from checkout app to stripe and that the relevant data like process rendered in stripe 
 - Implementation
-   
+   - Selected product from Temple Lean site
+   - Go through check out process fill out form
+   - Enter the following card details
+      - Card Number 4242 4242 4242 4242 
+      - CVC 424
+      - Postal code 42424
+    - [Sign in]() to stripe account 
+    - review API requests on on developer page in site
+    - Select webhooks enter deployed site links
+    - Click send testwebhook 
 - Fix (if applicable)
+   - Add Stripe secret Key and Stripe Public Key to environment variables on deployed Heroku app in config vars and in Gitpod environment variables
+   - Having them in both environments allowed consistent test driven development
 - Results
-  - 
+  - Stripe received the order signal perfecty once the config vars were added 
+  - Photo of signalreadmedoc2/testing/stripe/stripesuccesspicture.jpg
+  - Result of test webhook readmedoc2/testing/stripe/stripewebhooksucceeded.jpg
 - Outcomes
-  - 
+  - Stripe was integrated and the test payment functionality is active and working
+  - The site is not receiving live payments
+  - Webhook functionality is active and working for the deployed site
 
 ### Testing Browser Screens
 
@@ -1169,11 +1184,20 @@ Bug - Visual- Pictures
 - Button primary class overwriting hover
 - Home page Picture not rendering quite as effectively on the screen 
 
-Bugs - input data postgres to sqlite
+Bugs - Development process bug 
+- Early in development we deployed to Heroku
+- We did this because we were following test driven development
+- After each push to Github we reviewed not just the preview in the Gitpod server but the deployed site as well and checked the functionality was rendering correctly
+- Early on we noticed that our Gitpod environment was tied to sqlite
+- This was leading to a mismatch between our local development environment and our deployed site which used a postgres database
+- To be consistent and implement effective test driven development we input postgres environment varibles into our Gitpod environment variables effectively bypassing the default sqlite database
+- We did have to perform one data dump from sqllite to postgres but from then on we had a consistent development environment using one database
 
-Bugs - css for home button changed nav and footer so bottom css was not working at all
+Bugs - Toast Messages
+- In the beginning of our implementation of toast messages our toast messages would flash for less than a second on screen
+- To effectively implement the delay we placed the delay attribute in Toast Header. Despite initial placing the delay attribute in the main toast container this did not work effectively
+- Eventually some guess work led us to the toast header and effective delay atrribute rendering 
 
-Bugs - data delay into Toast Header div and not container div
 
 Bugs - bag tools in checkout template 
 - in the checkout app the template tag bag tools was needed or the template error showed. We forgot to add {% load bag_tools %} at the top of the checkout html. Once this was inserted the error dissolved and the page rendered 
