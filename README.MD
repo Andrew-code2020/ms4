@@ -383,22 +383,17 @@ As a Temple Lean Website User
 ### User Story No. 4 
 As a Temple Lean Website User
 - I want to be able to
-   - Easily recover password
+   - Easily recover my password
 - So that I can
    - Access my account if I forget my password
 
 ### User Story No. 5
 As a Temple Lean Website User
 - I want to be able to
-   - recieve confirmation email after registering
+   - recieve a confirmation email after registering
 - So that I can
-   - so that when the user is sent an email from the Temple Lean website they will know that they successfully completed registeration
+   - successfully complete registeration on the Temple Lean website
 
-### User Story No. 6 
-As a Temple Lean Website User
-- I want to be able to
-   -
-- So that I can
 
 ## User Stories - Theme | Viewing and Navigation
 ### User Story  No. 1
@@ -420,20 +415,20 @@ As a Temple Lean Website User
 - I want to be able to
    - Identify special offers at the gym
 - So that I can
-   - Take advantage of special offers ie summer memebrship
+   - Take advantage of special offers ie summer membership
 
 ## User Stories - Theme | Sorting and Searching
 ### User Story  No. 1
 As a Temple Lean Website User
 - I want to be able to
-   - Sort list of available products
+   - sort a list of available products
 - So that I can
-   - identify best price memebrship or best rated fitness class
+   - identify best price membership or best price fitness class
 
 ### User Story  No. 2
 As a Temple Lean Website User
 - I want to be able to
-   - Sort categories ie Fitness class types
+   - sort categories ie Fitness class types
 - So that I can
    - sort products in category name
 
@@ -442,7 +437,7 @@ As a Temple Lean Website User
 - I want to be able to
    - Search for a specific product ie public membership
 - So that I can
-   - without knowing anything about Temple or doing nothing but find the landing type into the search engine and see if they have a class I'm looking for
+   - without knowing anything about Temple or doing nothing but find the landing page type into the search engine and see if they have a class I'm looking for
 
 ### User Story  No. 4
 As a Temple Lean Website User
@@ -476,7 +471,7 @@ As a Temple Lean Website User
 ### User Story No. 4
 As a Temple Lean Website User
 - I want to be able to
-   - Adjust quantity of items in bag
+   - Adjust the quantity of items in bag
 - So that I can
   - easily change items before completing purchase
 
@@ -519,8 +514,6 @@ As a Temple Lean Website Owner
    - remove items that are no longer for sale
 
  
-
-
 ## Structure Plane
 In development we set out to make sure that our site would be consistent. We used the categories below to describe our efforts
  - Predictable
